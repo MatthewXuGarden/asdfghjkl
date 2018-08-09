@@ -1,0 +1,13 @@
+<html>
+<body>
+    Wrapper performs cache level synchronization.
+    This is used internally by the cache policy factories.
+
+    For many of the wrapper cache factories this locking policy is too general,
+    however for a memory cache I think this is a good approach.
+
+    Memory cache operations are very quick, and the cost of performing a cache-global lock
+    is much less significant that the cost of getting a false negative response from a get.
+
+    </body>
+</html>

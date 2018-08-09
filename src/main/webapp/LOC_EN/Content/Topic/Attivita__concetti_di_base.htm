@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="PlantVisor PRO basic concepts">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Activities: basic concepts</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Attivita__concetti_di_base.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">PlantVisor PRO basic concepts</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Activities: basic concepts</span>
+        </div>
+        <h1>Activities: basic concepts</h1>
+        <h2 data-mc-conditions="Primary.Locale">Activity</h2>
+        <p data-mc-conditions="Primary.Locale">PlantVisorPRO Locale can run activities and signal faults such as:</p>
+        <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">On alarms and events</span>:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>Send a text message (SMS) to Service when a certain alarm triggers.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Send an e-mail to Service when absorbed power exceeds a set value.</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">Periodic frequency rules</span>:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>Send an operating signal to remote to confirm that the phone line is working.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Start defrost.</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">For situations not managed and detected by guardianPRO</span>:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>There are alarms that were not signaled within a certain time band.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Free hard disk space is diminishing and this could jeopardize log data recording.</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale">Every initiative must be programmed to indicate:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>the type of action (text message (SMS), relay start, etc.)</p>
+            </li>
+            <li class="p" value="2">
+                <p>the action recipients (i.e.: phone number, relay, etc.)</p>
+            </li>
+            <li class="p" value="3">
+                <p>In what conditions is the activity valid (i.e.: on alarm, at expiry, etc.)</p>
+            </li>
+            <li class="p" value="4">
+                <p>In what band is the activity valid (i.e.: weekdays or holidays, from what time to what time, etc.)</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale">All this indications (action, condition, time band) is called the <span style="font-weight: bold;">rule</span>. The rule sets the <span style="font-weight: bold;">activity</span>.</p>
+        <h2 data-mc-conditions="Primary.Locale">Alarm and event activities</h2>
+        <p class="Image" data-mc-conditions="Primary.Locale">
+            <img src="../Resources/Images/Schema_AlarmEventActivities.png" style="border: none;float: none;width: 449px;height: 549px;border-style: none;border-style: none;" width="449" height="549" border="0" />
+        </p>
+        <p>Alarm and event activities are used to prompt immediate intervention in the event of temperature rises or refrigeration unit faults. They are used to immediately and directly communicate with site maintenance personnel.</p>
+        <p>In this case, the <span style="font-weight: bold;">notification</span><span style="font-weight: bold;"> action</span> (i.e.: send a text message (SMS)), the <span style="font-weight: bold;">field action</span> (relay and variable settings) or alarm action (print alarm row, show alarm window) is only run if certain <span style="font-weight: bold;">alarm conditions</span>  (i.e.: Probe 3 alarm, IR33 device) or <span style="font-weight: bold;">event condition</span>s (i.e.: Regulation temperature &gt; Work setpoint) are met. 
+ </p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>An event condition can include any log variable, even logical.</p>
+                    <p>For maintenance problems, alarm and event activities from a certain device can be temporarily by-passed. To do this, go to the <span style="font-weight: bold;"><a href="Config-dispositivo__principale.htm">Main device setup page</a></span>.</p>
+                </td>
+            </tr>
+        </table>
+        <p>The user can vary the action if the conditions occur within certain <span style="font-weight: bold;">time bands</span> (i.e.: if alarm and afternoon time band, call remote, if alarm and night time band, send text message (SMS) to Service). Action delays can also be set.&#160;</p>
+        <h3>Alarm activities</h3>
+        <p>The system checks for alarms every 30 seconds. </p>
+        <p>If the alarm is linked to an activity with zero delay, the associated action is immediately run.</p>
+        <p>If a delay was set, every 30 seconds the system checks whether the delay was exceed to run the action.</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAwarning.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>An alarm action can be run + or - 30 seconds from the set delay. But if the alarm is clear at the next check (after 30 seconds) the action is not run. Thus only actions or persistent alarms are run.</p>
+                </td>
+            </tr>
+        </table>
+        <h3>Event activities</h3>
+        <p>Condition variables are log variables whose values are sampled at the frequency indicated in the device <span style="font-weight: bold;"><a href="Config-dispositivo__storici.htm">Log setup</a></span> page. The system checks whether the condition is true at the end of the smallest sample period. 
+ </p>
+        <p>If the condition is true and the rule has zero delay time, the associated action is immediately run.</p>
+        <p>If a delay was set, the system check whether the condition is true at the next sample to run the action.</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAwarning.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>An event action can be run + or - 30 seconds from sampling according to the set delay. If the condition is no longer true at the next sample, the action is not run. Thus only actions whose conditions are still true are run.</p>
+                    <p>To guarantee correct event management, condition variable sampling times must be correctly set.</p>
+                </td>
+            </tr>
+        </table>
+        <h2 data-mc-conditions="Primary.Locale">Scheduled activities</h2>
+        <p class="Image" data-mc-conditions="Primary.Locale">
+            <img src="../Resources/Images/Schema_scheduledActivities.png" style="border: none;float: none;width: 446px;height: 552px;border-style: none;border-style: none;" width="446" height="552" border="0" />
+        </p>
+        <p data-mc-conditions="Primary.Locale">Time scheduled activities are often used to test the communications channel (i.e.: phone line) and thus make sure it is fully efficient in the event it is needed for an alarm. Or they are used to print operating reports.</p>
+        <p data-mc-conditions="Primary.Locale">The <span style="font-weight: bold;">notification </span><span style="font-weight: bold;">action</span> (i.e.: send a text message (SMS)), the <span style="font-weight: bold;">field action</span> (relay and variable settings) or <span style="font-weight: bold;">print action</span> (HACCP or log report) will only be triggered during certain <span style="font-weight: bold;">time bands</span> (i.e.: Monday at 8 am each month). Time bands are based on recurring calendars (daily, weekly, monthly, yearly) or special calendars (i.e.: at dd/mm/yyy at time xx).</p>
+        <h2>Activity elements</h2>
+        <h3>Action</h3>
+        <p>Possible actions for all activities are:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>send a fax</p>
+            </li>
+            <li class="p" value="2">
+                <p>send a text message</p>
+            </li>
+            <li class="p" value="3">
+                <p>send an e-mail</p>
+            </li>
+            <li class="p" value="4" data-mc-conditions="Primary.Locale">
+                <p>call one or more remote supervisors</p>
+            </li>
+            <li class="p" value="5" data-mc-conditions="Primary.Locale">
+                <p>set a variable value</p>
+            </li>
+            <li class="p" value="6" data-mc-conditions="Primary.Locale">
+                <p>turn a relay on/off</p>
+            </li>
+        </ul>
+        <p>Other possible actions only for alarm activities:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li style="color: #000000;" class="p" value="1">
+                <p style="color: #000000;">print the alarm</p>
+            </li>
+            <li style="color: #000000;" class="p" value="2">
+                <p style="color: #000000;">Display the alarm window with/without sound</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale">Other possible actions only for scheduled activities:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1" data-mc-conditions="Primary.Locale">
+                <p>print a HACCP or log report</p>
+            </li>
+        </ul>
+        <h3>Default actions</h3>
+        <p>In the notification channel setup phase (fax, text message (SMS), e-mail), the user can instantly create a <span style="font-weight: bold;">default action</span> for all address book contacts on the channel being set up, valid <span style="font-weight: bold;">only for alarm and event activities</span>. </p>
+        <p>This operation causes the following to be created in <span style="font-weight: bold;">Alarm and event activity management</span>:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>in <span style="font-weight: bold;">Actions</span><span>,</span> standard action (<span style="font-weight: bold;">SMSACTIONTECH</span>, <span style="font-weight: bold;">FAXACTIONTECH</span>, <span style="font-weight: bold;">MAILACTIONTECH</span>)</p>
+            </li>
+            <li class="p" value="2">
+                <p>in <span style="font-weight: bold;">time bands</span>, an always valid band (Always/Sempre/Toujours/Immer)</p>
+            </li>
+            <li class="p" value="3" data-mc-conditions="Primary.Locale">
+                <p>in <span style="font-weight: bold;">Condition</span>, a generic alarm condition for all devices </p>
+            </li>
+            <li class="p" value="4">
+                <p>in <span style="font-weight: bold;">Rules</span>, an enabled rule that include previous elements</p>
+            </li>
+        </ul>
+        <p>The default action can be edited, for example, to reduce the number of recipients. The consequent rule can be disabled.</p>
+        <h3 data-mc-conditions="Primary.Locale">Conditions</h3>
+        <p data-mc-conditions="Primary.Locale">Conditions set when intervention is required:</p>
+        <ol data-mc-conditions="Primary.Locale">
+            <li style="list-style: decimal;" type="1" class="p" value="1">
+                <p>following one or more alarms (<span style="font-weight: bold;">alarm condition</span>). An action can be triggered when:</p>
+            </li>
+        </ol>
+        <ol style="list-style: disc;list-style-type: decimal;" data-mc-conditions="Primary.Locale">
+            <ul style="list-style: disc;" type="disc">
+                <li class="p" value="1">
+                    <p>any alarm is triggered on any device</p>
+                </li>
+                <li class="p" value="2">
+                    <p>one or more alarms are triggered on one or more devices</p>
+                </li>
+            </ul>
+        </ol>
+        <ol data-mc-conditions="Primary.Locale">
+            <li style="list-style: decimal;" type="1" class="p" value="1">
+                <p>following a condition calculated on log variables (<span style="font-weight: bold;">event condition</span>). An action can be triggered when the values of two variables on one or two devices meet the following conditions:</p>
+            </li>
+        </ol>
+        <ol style="list-style: disc;list-style-type: decimal;">
+            <ul style="list-style: disc;" type="disc">
+                <li class="p" value="1" data-mc-conditions="Primary.Locale">
+                    <p>logic AND (between Boolean variables)</p>
+                </li>
+                <li class="p" value="2" data-mc-conditions="Primary.Locale">
+                    <p>logic OR (between Boolean variables)</p>
+                </li>
+                <li class="p" value="3" data-mc-conditions="Primary.Locale">
+                    <p>equality (between two values or between the first value and a constant)</p>
+                </li>
+            </ul>
+        </ol>
+        <h3>Time bands</h3>
+        <p>The time band sets when the activity is considered and can be:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>combined with an alarm or event condition (i.e.: "If Alarm=TRUE and the time band is morning, send a text message", "if Alarm=TRUE and the time band is night, make a call").</p>
+            </li>
+            <li class="p" value="2" data-mc-conditions="Primary.Locale">
+                <p>used for scheduled activities</p>
+            </li>
+        </ul>
+        <p>Time periods can be:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p><span style="font-weight: bold;">daily</span> recurring (every day at from time xx to time yy)</p>
+            </li>
+            <li class="p" value="2">
+                <p><span style="font-weight: bold;">weekly</span> recurring (every week, on days x, y from time xx to time yy)</p>
+            </li>
+            <li class="p" value="3">
+                <p><span style="font-weight: bold;">monthly</span> recurring (every month, on days x, y from time xx to time yy)</p>
+            </li>
+            <li class="p" value="4">
+                <p><span style="font-weight: bold;">yearly</span> recurring (every year, in month z, on days x, y from time xx to time yy)</p>
+            </li>
+            <li class="p" value="5">
+                <p><span style="font-weight: bold;">special</span> (non recurring, in year jj, month z, days x,y, from time xx to time yy)</p>
+            </li>
+        </ul>
+        <h2><a name="Notifiche_fronte_segnalazioni_guardianPRO"></a>guardianPRO notifications</h2>
+        <p><span data-mc-conditions="Primary.Locale">This warnings are independently sent by guardianPRO, on both channels used for alarm notifications (i.e.: Remoto call) and channels deemed "dedicated" (i.e.: text message -SMS).  </span>
+        </p>
+        <p style="font-weight: normal;">Channels dedicated to guardianPRO notifications can guarantee notification reception even in the event of standard channel malfunctions (i.e.: if the phone line used by PlantVisorPRO  is down, guardianPRO signals the fault with a text message -SMS- via GSM line).</p>
+        <p style="font-weight: normal;">guardianPRO and faults to be controlled must be enabled (see chapter <a href="Pagine_di_sistema__guardianPRO.htm">guardianPRO setup</a>) and notification recipients must be defined (see chapter <a href="Pagine_di_sistema__guardianPRO.htm">guardianPRO system pages</a>). For further information, see chapter <a href="guardianPRO__concetti_di_base.htm">guardianPRO: basic concepts</a>. For the complete procedure, see chapter <a href="Procedure_configurazione_standard.htm">Site setup procedures</a>.</p>
+        <h3>Notification content</h3>
+        <p>The fax, text message - SMS-, e-mail and call message will be the <span style="font-weight: bold;">description of the rule</span> triggered (see chapter <a href="Attivita__regole_di_attivazione.htm">Activities: activation rules</a>).</p>
+        <p>If guardianPRO sends a notification, the text will be the event text (see chapter <a href="Eventi__introduzione.htm">Events</a>).</p>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p><a href="Pagine_di_sistema__guardianPRO.htm">System pages: guardianPRO</a>
+        </p>
+        <p><a href="Procedure_creazione_attivita-locale.htm">Activity creation procedures</a>
+        </p>
+        <p><a href="Config-canali__introduzione.htm">Notification channels: introduction</a>
+        </p>
+        <p><a href="Attivita_allarmi_e_eventi__introduzione.htm">Alarm and event activities: introduction</a>
+        </p>
+        <p data-mc-conditions="Primary.Locale"><a href="Attivita_schedulate__introduzione.htm" data-mc-conditions="Primary.Locale">Scheduled activities: introduction</a>
+        </p>
+        <p><a href="Azioni__introduzione.htm">Actions: introduction</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

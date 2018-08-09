@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>License</title>
+</head>
+<body>
+<div id="winclose" title="Close" style="position:absolute;top:16px;right:16px;cursor:pointer" onclick="javascript:window.close();">
+	<img src="exit.png" border="0" />
+</div>
+
+<div style="position:absolute;top:165px;left:25px;"> 
+	<p> 
+Contains Adobe&reg; [Flash&reg; Player] or [AIR&reg;] technology by Adobe Systems Incorporated <br>
+This [Licensee Product] contains [Adobe&reg; Flash&reg; Player] [Adobe&reg; AIR&reg;] software under <br>
+license from Adobe Systems Incorporated, Copyright &copy; 1995-2009 Adobe Macromedia Software <br>
+LLC. All rights reserved. Adobe, Flash and AIR are trademarks of Adobe Systems Incorporated <br>
+
+	</p> 
+
+
+</div> 
+
+</body>
+</html>

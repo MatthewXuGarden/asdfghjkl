@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Guida per l'installatore (configurazione)|Eco HVAC|HVAC Smart Start">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>HVAC Smart Start: configurazione </title>
+        <link href="../Resources/TableStyles/Tab_Due_grigi.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/HVAC_Smart_Configurazione.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Guida per l'installatore (configurazione)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Eco HVAC</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">HVAC Smart Start</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Configurazione</span>
+        </div>
+        <h1>HVAC Smart Start: configurazione </h1>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 13.699%;" />
+            <col style="width: 86.301%;" />
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;" valign="bottom" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">Percorso:<img src="../Resources/Images/ico_white23x22.jpg" style="border: none;width: 23px;height: 22px;float: none;border-style: none;border-style: none;" width="23" height="22" border="0" /></p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;" valign="bottom" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella"><span style="font-weight: normal;"><img src="../Resources/Images/menusx/new/icona_optimum3_32x31.png" style="border: none;float: none;width: 32;height: 31;" border="0" />, <a href="HVAC_Smart_Introduzione.htm">HVAC Smart Start</a>, pagina 
+ </span>Configurazione</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">&#160;</p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: None;" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 15.979%;" />
+            <col style="width: 84.021%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Scopo</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Questa pagina permette di impostare i parametri di HVAC Smart Start.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Descrizione</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>-</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Cosa fare prima</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>-</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Cosa fare dopo</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Avviare Smart Night Purge nella pagina <a href="HVAC_Smart_Sinottico.htm">Sinottico</a></p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 72px;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC">
+                    <p>È possibile modificare i parametri anche quando HVAC Smart Startè in funzione.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="TitoloInterno">Descrizione parametri</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');margin-left: 0;margin-right: auto;" class="TableStyle-Tab_Due_grigi" cellspacing="3">
+            <col class="Column-Column1" />
+            <col class="Column-Column2" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Parametro</th>
+                    <th class="HeadD-Column2-Header1">Descrizione</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>MASTER - Stato Unità </p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Variabile che gestisce lo stato di accensione e spegnimento del condizionatore Master</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>MASTER - Comando ON/OFF Unità&#160; </p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Variabile che gestisce il comando di accensione e spegnimento del condizionatore Master</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Numero di Slave</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Numero di condizionatori Slave (da 1 a 3)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>SLAVE 1//2/3 – Stato Unità </p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Variabile che gestisce lo stato di accensione e spegnimento del condizionatore Slave 1, 2, 3.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>SLAVE 1/2/3 - Comando ON/OFF Unità&#160;</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Variabile che gestisce il comando di accensione e spegnimento del condizionatore Slave 1, 2, 3.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Temperatura interna</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Variabile che rileva la temperatura interna </p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Temperatura esterna</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Variabile che rileva la temperatura esterna</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Setpoint di temperatura</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Setpoint della temperatura interna (inserimento manuale o scelta della variabile)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Differenziale Setpoint Temperatura START</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Margine di tolleranza (in difetto e in eccesso) rispetto al valore di setpoint durante il calcolo del pre-start (deadband).</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Differenziale Setpoint Temperatura STOP</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Margine di tolleranza (in difetto e in eccesso) rispetto al valore di setpoint durante il calcolo del pre-stop (deadband).</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tempo minimo di pre-start&#160;</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Anticipo minimo (min) nell’accensione dell’impianto di climatizzazione rispetto all’orario di apertura dell’edificio (es.: se si vuole che il sistema di climatizzazione si accenda minimo dieci minuti prima, inserire 10).</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tempo massimo di pre-start&#160;</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Anticipo massimo (min) nell’accensione dell’impianto di climatizzazione rispetto all’orario di apertura dell’edificio (es: se si vuole che il sistema di climatizzazione si accenda al massimo due ore prima, inserire 120).</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tempo minimo di pre-stop&#160;</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Anticipo minimo (min) nello spegnimento dell’impianto di climatizzazione rispetto all’orario di chiusura dell’edificio (es.: se si vuole che il sistema di climatizzazione si spenga minimo dieci minuti prima, inserire 10).</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>Tempo massimo di pre-stop&#160;</p>
+                    </td>
+                    <td class="BodyA-Column2-Body1">
+                        <p>Anticipo massimo (min) nello spegnimento dell’impianto di climatizzazione rispetto all’orario di chiusura dell’edificio (es: se si vuole che il sistema di climatizzazione si spenga massimo due ore prima, inserire 120).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Azioni</p>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Personalizzare l'ottimizzazione del condizionamento per aree dell'edificio                  </a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li value="1">Fare clic su <b>Aggiungi</b>: i campi si impostano sui valori di default per la nuova personalizzazione</li>
+                        <li value="2">Nella casella di testo <b>Nome algoritmo</b> inserire il nome da assegnare alla personalizzazione</li>
+                        <li value="3">Configurare l'ottimizzazione del condizionamento</li>
+                        <li value="4">Fare clic su <b>Salva</b>: <b></b>il nome del nuovo algoritmo compare nella casella di riepilogo <b>Elenco algoritmi</b></li>
+                    </ul>
+                    <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+                        <col style="width: 72px;" />
+                        <col style="width: 93.145%;" />
+                        <tr valign="top">
+                            <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle">
+                                <p class="Note">
+                                    <img src="../Resources/Images/AAwarning.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                                </p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC">
+                                <p class="Note">Attenzione: le personalizzazioni non salvate sono automaticamente rimosse alla chiusura della funzione.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Configurare l'ottimizzazione del condizionamento   <![CDATA[                  ]]></a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li value="1">Fare clic su <b>Seleziona</b>: compare la sezione <b>Elenco variabili</b></li>
+                        <li value="2">Selezionare <b>Dispositivi</b> per ottenere l’elenco di tutti i dispositivi,</li>
+                        <li value="3">oppure selezionare <b>Modelli di dispositivi</b> per ottenere l’elenco dei modelli: compare l’elenco delle variabili del dispositivo selezionato</li>
+                        <li value="4">Selezionare la variabile associata ai comandi desiderati</li>
+                        <li value="5">Fare clic su <b>Imposta</b></li>
+                        <li value="6">Fare clic su <b>Salva</b></li>
+                        <li value="7">Aprire la pagina <a href="HVAC_Smart_Sinottico.htm">Sinottico</a> per avviare HVAC Smart Start</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Altre azioni</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 15.979%;" />
+            <col style="width: 84.021%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="15.979%">
+                    <p>
+                        <img src="../Resources/Images/actions/add_button.png" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Aggiunge una nuova personalizzazione dell'algoritmo.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p>
+                        <img src="../Resources/Images/actions/remove2_on.png" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Rimuove la personalizzazione selezionata.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p class="Link"><a href="HVAC_Smart_Introduzione.htm">HVAC Smart Start: introduzione</a>
+        </p>
+        <p class="Link"><a href="HVAC_Smart_Schedulazione.htm">HVAC Smart Start: schedulazione</a>
+        </p>
+        <p class="Link"><a href="HVAC_Smart_Grafico.htm">HVAC Smart Start: grafico</a>
+        </p>
+        <p class="Link"><a href="HVAC_Smart_Sinottico.htm">HVAC Smart Start: sinottico</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Standard setup|Setting up activities|Alarm and event activities">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Alarm or event activities</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Attivita_allarmi_e_eventi__introduzione.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Standard setup</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Setting up activities</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Introduction</span>
+        </div>
+        <h1>Alarm or event activities</h1>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 13.699%;" />
+            <col style="width: 86.301%;" />
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;border-top-style: None;" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">Path:</p>
+                    <p class="PercorsoIntroduzioneTabella">
+                        <img src="../Resources/Images/menusx/new/calendar2.png" style="border: none;float: none;border-style: none;border-style: none;width: 58px;height: 74px;" width="58" height="74" border="0" />
+                    </p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;" valign="middle" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella"><span style="font-weight: normal;">C<img src="../Resources/Images/menusx/new/calendar3.png" style="border: none;float: none;border-style: none;border-style: none;width: 32px;height: 31px;" width="32" height="31" border="0" />lick  </span>and select Alarm and event management</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">Access:</p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: None;" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella">Installers</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 15.979%;" />
+            <col style="width: 84.021%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Purpose</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p style="color: #000000;">Runs the following actions when certain conditions occur on alarm or event, in certain time bands:</p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li style="color: #000000;" class="p" value="1">
+                            <p><span style="font-weight: bold;">notification actions</span> to remote peripherals (send fax, text message -SMS-, e-mail; <span data-mc-conditions="Primary.Locale">remote supervisor call</span>)</p>
+                        </li>
+                        <li style="color: #000000;" class="p" value="2">
+                            <p style="color: #000000;"><span style="font-weight: bold;">alarm actions</span><span> (</span>print alarm, open alarm window) </p>
+                        </li>
+                        <li style="color: #ff0000;" class="p" value="3" data-mc-conditions="Primary.Locale">
+                            <p><span style="font-weight: bold;">field actions</span> (activating relays, setting variables) </p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Description</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p style="color: #000000;">-</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Linked pages</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Click on the link to open the explanation on the relevant pages:</p>
+                    <p><a href="Attivita__sinottico.htm">Dashboard</a>: displays all alarm/event activities.</p>
+                    <p><a href="Attivita__regole_di_attivazione.htm">Rules</a>: setting/enabling the rule that triggers a certain activity.</p>
+                    <p data-mc-conditions="Primary.Locale"><a href="Attivita__condizioni_su_allarme.htm" data-mc-conditions="Primary.Locale">Alarm conditions</a>: set which alarm variables are to be checked.</p>
+                    <p data-mc-conditions="Primary.Locale"><a href="Attivita__condizioni_su_evento.htm" data-mc-conditions="Primary.Locale">Event conditions</a>: set which log variable conditions are to be checked.</p>
+                    <p><a href="Attivita__fasce_orarie.htm">Time bands</a>: set when the action must be triggered.</p>
+                    <p><a href="Attivita__azioni.htm">Actions</a>: creating actions for certain addressees</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p><a href="Attivita__concetti_di_base.htm">Activities: basic concepts</a>
+        </p>
+        <p><a href="Config-canali__introduzione.htm">Notification channels: introduction</a>
+        </p>
+        <p data-mc-conditions="Primary.Locale"><a href="Attivita_schedulate__introduzione.htm" data-mc-conditions="Primary.Locale">Scheduled activities: introduction</a>
+        </p>
+        <p><a href="Azioni__introduzione.htm">Actions: introduction</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

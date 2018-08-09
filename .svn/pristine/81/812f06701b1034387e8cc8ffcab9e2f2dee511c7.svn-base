@@ -1,0 +1,12 @@
+#####################################################
+# File generale di configurazione di PLANT VISOR
+#####################################################
+
+com.carel.supervisor.debug=false
+arch-file=SuperVisorConfig.xml
+arch-messages=arch-messages.properties
+plantId=firstPV
+dbdisk=C:
+
+#in seconds
+livetime=900

@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>License</title>
+</head>
+<body>
+<div id="winclose" title="Close" style="position:absolute;top:16px;right:16px;cursor:pointer" onclick="javascript:window.close();">
+	<img src="exit.png" border="0" />
+</div>
+<div style="position:absolute;top:85px;left:25px;font-family:Tahoma;font-weight:bold;">
+License contents:</br>
+</div>
+<div style="position:absolute;top:165px;left:25px;"><br/>License Agreement<br/>iText is published under 2 different licenses: MPL and LGPL.<br/><br/>If you are a new user of iText, MPL is recommended (without the LGPL). MPL is less strict than LGPL. Please read the MPL license agreement before downloading and/or using iText.<br/>LGPL is maintained for backward compatibility only. If you choose the LGPL, you need to mention the MPL as an alternative license. Please read the LGPL license agreement for more info.<br/><br/>This library is free and I want it to stay free: you can use it without paying a fee; you don't need to register anywhere. Only keep in mind that agreeing with the license is crucial to protect the software, its developers and its users. This library is distributed in the hope that it will be useful, but WITHOUT any warranty. If you don't like free software, don't (ab)use it! <br/><br/>
+</div>
+</body>

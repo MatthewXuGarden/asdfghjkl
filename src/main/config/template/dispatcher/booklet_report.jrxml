@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="booklet_report" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="30" rightMargin="30" topMargin="20" bottomMargin="20">
+	<property name="ireport.scriptlethandling" value="0"/>
+	<property name="ireport.encoding" value="UTF-8"/>
+	<import value="java.util.*"/>
+	<import value="net.sf.jasperreports.engine.*"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<style name="Heading 5" isDefault="false" fontSize="14" isBold="true" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF"/>
+	<parameter name="report.title" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["title"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String">
+		<defaultValueExpression><![CDATA[".\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="MyDatasource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource" isForPrompting="false"/>
+	<parameter name="site.name" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["site.name"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="site.ident" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["site.ident"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="site.phone" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["site.phone"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="site.password" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["site.password"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="report.image.logo" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="report.user" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="report.datetime" class="java.lang.String" isForPrompting="false"/>
+	<field name="beanName" class="java.lang.String"/>
+	<field name="devparamList" class="java.lang.Object">
+		<property name="devDesc" value="&quot;empty&quot;"/>
+		<property name="varDesc" value="&quot;empty&quot;"/>
+	</field>
+	<field name="field1" class="java.lang.String"/>
+	<field name="field2" class="java.lang.String"/>
+	<field name="field3" class="java.lang.String"/>
+	<field name="field4" class="java.lang.String"/>
+	<field name="siteinfoList" class="java.lang.Object"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="23">
+			<image hAlign="Center">
+				<reportElement key="image-1" x="0" y="0" width="164" height="22"/>
+				<imageExpression class="java.lang.String"><![CDATA[$P{report.image.logo}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="39">
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement key="textField" mode="Opaque" x="0" y="4" width="535" height="30" forecolor="#333333"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None" lineSpacing="Single">
+					<font fontName="Arial" size="18" isBold="true" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{report.title}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement key="line-6" x="0" y="36" width="535" height="1"/>
+				<graphicElement>
+					<pen lineWidth="4.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement key="line-7" x="0" y="4" width="535" height="1"/>
+				<graphicElement>
+					<pen lineWidth="4.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band/>
+	</columnHeader>
+	<detail>
+		<band height="41">
+			<rectangle>
+				<reportElement key="rectangle-3" mode="Opaque" x="0" y="18" width="535" height="17" forecolor="#CCCCCC" backcolor="#CCCCCC"/>
+			</rectangle>
+			<rectangle>
+				<reportElement key="rectangle-2" mode="Opaque" x="0" y="0" width="535" height="18" forecolor="#000000" backcolor="#000000"/>
+			</rectangle>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement key="textField" mode="Transparent" x="0" y="0" width="100" height="18" forecolor="#FFFFFF"/>
+				<textElement>
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{beanName}]]></textFieldExpression>
+			</textField>
+			<subreport isUsingCache="true">
+				<reportElement key="subreport-1" x="0" y="37" width="535" height="2"/>
+				<dataSourceExpression><![CDATA[$F{devparamList}]]></dataSourceExpression>
+				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "booklet_devparam.jasper"]]></subreportExpression>
+			</subreport>
+			<line>
+				<reportElement key="line-5" x="0" y="35" width="535" height="1"/>
+			</line>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="15" y="18" width="100" height="17"/>
+				<textElement>
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{field1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="209" y="18" width="100" height="17"/>
+				<textElement>
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{field2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="145" y="18" width="54" height="17"/>
+				<textElement>
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{field3}]]></textFieldExpression>
+			</textField>
+			<subreport isUsingCache="true">
+				<reportElement key="subreport-2" x="0" y="37" width="535" height="2"/>
+				<dataSourceExpression><![CDATA[$F{siteinfoList}]]></dataSourceExpression>
+				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "booklet_siteinfo.jasper"]]></subreportExpression>
+			</subreport>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="473" y="18" width="62" height="18"/>
+				<textElement>
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{field4}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="10">
+			<line>
+				<reportElement key="line-1" x="0" y="9" width="535" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="34">
+			<line>
+				<reportElement key="line-2" x="0" y="6" width="535" height="1"/>
+			</line>
+			<staticText>
+				<reportElement key="staticText-1" x="447" y="13" width="70" height="13"/>
+				<textElement textAlignment="Left">
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[Page:    ]]></text>
+			</staticText>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField-1" x="476" y="13" width="18" height="13"/>
+				<textElement>
+					<font fontName="Arial" isBold="false" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="228" y="11" width="100" height="18"/>
+				<textElement>
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{report.user}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="14" y="12" width="100" height="18"/>
+				<textElement>
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{report.datetime}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="19"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,53 @@
+<menu>
+	<config id="conf1">
+		<section id="section5" img="new/map1.png">
+			<entry id="deviceview"><![CDATA[nop&folder=deviceview&bo=BDeviceView&type=menu]]></entry>
+			<entry id="mstrmaps"><![CDATA[nop&folder=mstrmaps&bo=BMasterMaps&type=menu]]></entry>
+	  	</section>
+		<section id="section2" img="new/allarm-event1.png">
+			<entry id="alrglb"><![CDATA[nop&folder=alrglb&bo=BAlrGlb&type=menu]]></entry>
+			<entry id="evnview"><![CDATA[nop&folder=evnview&bo=BEvnView&type=menu]]></entry>
+			<entry id="alrevnsearch"><![CDATA[nop&folder=alrevnsearch&bo=BAlrEvnSearch&type=menu]]></entry>
+			<entry id="relaymgr"><![CDATA[nop&folder=relaymgr&bo=BRelayMgr&type=menu]]></entry>
+		</section>
+		<section id="section3" img="new/report1.png">
+			<entry id="report"><![CDATA[nop&folder=report&bo=BReport&type=menu]]></entry>
+			<entry id="hsreport"><![CDATA[nop&folder=hsreport&bo=BHsreport&type=menu]]></entry>
+			<entry id="hsprint"><![CDATA[nop&folder=hsprint&bo=BHsprint&type=menu]]></entry>
+			<entry id="booklet"><![CDATA[nop&folder=booklet&bo=BBooklet&type=menu]]></entry>
+			<!--<entry id="sitebooklet_cat"><![CDATA[nop&folder=sitebooklet_cat&bo=BSiteBookletCat&type=menu]]></entry>-->
+		</section>
+		<section id="section4" img="new/configuration1.png">
+			<entry id="mgr"><![CDATA[nop&folder=mgr&bo=BSystem&type=menu]]></entry>
+			<entry id="wizard"><![CDATA[nop&folder=wizard&bo=BWizard&type=menu]]></entry>
+			<entry id="siteview"><![CDATA[nop&folder=siteview&bo=BSiteView&type=menu]]></entry>
+			<entry id="debug"><![CDATA[nop&folder=debug&bo=BDebug&type=menu]]></entry>
+			<entry id="setldap"><![CDATA[nop&folder=setldap&bo=BUserProfile&type=menu]]></entry>
+			<entry id="setio"><![CDATA[nop&folder=setio&bo=BSetIo&type=menu]]></entry>
+			<entry id="testio"><![CDATA[nop&folder=testio&bo=BTestIo&type=menu]]></entry>
+			<entry id="logicdevice"><![CDATA[nop&folder=logicdevice&bo=BLogicDevice&type=menu]]></entry>
+			<entry id="groupview"><![CDATA[nop&folder=groupview&bo=BGroupView&type=menu]]></entry>
+	  	</section>
+	  	<section id="section7" img="new/calendar1.png">
+	  		<entry id="vs"><![CDATA[nop&folder=vs&bo=BVisualScheduler&type=menu]]></entry>
+			<entry id="alrsched"><![CDATA[nop&folder=alrsched&bo=BAlrSched&type=menu]]></entry>
+			<entry id="actsched"><![CDATA[nop&folder=actsched&bo=BActSched&type=menu]]></entry>
+			<entry id="datatransfer"><![CDATA[nop&folder=datatransfer&bo=BDataTransfer&type=menu]]></entry>
+			<entry id="algopro"><![CDATA[nop&folder=algopro&bo=BAlgoPro&type=menu]]></entry>
+	 	 </section>
+	  	<section id="section8" img="new/function1.png">
+	  		<entry id="kpi"><![CDATA[nop&folder=kpi&bo=BKpi&type=menu]]></entry>
+	  		<entry id="energy"><![CDATA[nop&folder=energy&bo=BEnergy&type=menu]]></entry>
+	  		<entry id="parameters"><![CDATA[nop&folder=parameters&bo=BParameters&type=menu]]></entry>
+	  		<entry id="fs"><![CDATA[nop&folder=fs&bo=BFSuction&type=menu]]></entry>
+	  		<entry id="co2"><![CDATA[nop&folder=co2&bo=BCO2Saving&type=menu]]></entry>
+	  		<entry id="ac"><![CDATA[nop&folder=ac&bo=BAC&type=menu]]></entry>
+	  		<entry id="switch"><![CDATA[nop&folder=switch&bo=BSwitch&type=menu]]></entry>
+	  	</section>
+	  	<section id="section9" img="new/eco-hvac1.png">
+	  		<entry id="opt_startstop"><![CDATA[nop&folder=opt_startstop&bo=BOptStartStop&type=menu]]></entry>
+	  		<entry id="opt_nightfreecooling"><![CDATA[nop&folder=opt_nightfreecooling&bo=BOptNightFreeCooling&type=menu]]></entry>
+	  		<entry id="opt_lights"><![CDATA[nop&folder=opt_lights&bo=BOptLights&type=menu]]></entry>
+	  	</section>			
+	</config>
+</menu>

@@ -1,0 +1,1192 @@
+<tabmenu>
+	<transaction name="grpview" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp?bo=BSiteView]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../dtlview/SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../dtlview/SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab7tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../../arch/note/note.jsp&notetable=cfgroup]]>
+			</prop>
+		</tab>
+
+	</transaction>
+
+	<transaction name="dtlview" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab7tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../../arch/note/note.jsp&notetable=cfdevice]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="alrview" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../../arch/note/note.jsp&notetable=hsalarm]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="alrglb" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="evndtl" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../../arch/note/note.jsp&notetable=hsevent]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="evnview" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="groupview" lock="false" canlock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="setgroup" lock="false" canlock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp&cmd=clean]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../../arch/note/note.jsp&notetable=cfgroup]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="setldap" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="setio" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab7tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab7.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="alrevnsearch" lock="true">
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="r_alrevnsearch" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="searchal" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="searchalev" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="searchev" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="wizard" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../siteview/SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../mgr/SubTab5.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="siteview" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../../arch/note/note.jsp&notetable=cfsite]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab7tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="devdetail" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../../arch/note/note.jsp&notetable=cfdevice]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="alrsched" lock="false">
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp&sched=false]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="actsched" lock="false">
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../alrsched/SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../alrsched/SubTab4.jsp&sched=true]]>
+			</prop>
+		</tab>
+	</transaction>
+	
+	<transaction name="clock" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="setaction" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab7tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab7.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="setaction2" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../setaction/SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab7tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab7.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="mstrmaps" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="mgr" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[../wizard/SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="testio" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="logicdevice" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="devloglist" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="report" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="r_siteaccess" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="heartbeat" lock="false">
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="r_sitelist" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="deviceview" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="relaymgr" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="hsreport" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="hsprint" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="booklet" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="sitebooklet_cat" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="sitebooklet" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="datatransfer" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="plugin" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="debug" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="r_datatransfer" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="rodtlview" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+	<transaction name="ac" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="energy" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab7name">
+			<prop name="tooltip">tab7tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab7.jsp]]>
+			</prop>
+		</tab>
+
+	</transaction>
+
+	<transaction name="acdtlview" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="kpi" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="kpiresult" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="lucinotte" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab4.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab5.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab6.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="lcnt_grpdtl" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="vs" lock="false">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab1.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab2.jsp]]>
+			</prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource">
+				<![CDATA[SubTab3.jsp]]>
+			</prop>
+		</tab>
+	</transaction>
+
+	<transaction name="switch" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab3.jsp]]></prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab4.jsp]]></prop>
+		</tab>
+	</transaction>
+
+	<transaction name="parameters" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+		<!--		<tab name="tab3name">-->
+		<!--			<prop name="tooltip">tab3tooltip</prop>-->
+		<!--			<prop name="resource"><![CDATA[SubTab3.jsp]]></prop>-->
+		<!--		</tab>-->
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab4.jsp]]></prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab5.jsp]]></prop>
+		</tab>
+	</transaction>
+
+	<transaction name="fs" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab3.jsp]]></prop>
+		</tab>
+	</transaction>
+	<transaction name="fsdetail" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+	</transaction>
+	<transaction name="algopro" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+	</transaction>
+	<transaction name="co2" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab3.jsp]]></prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab4.jsp]]></prop>
+		</tab>
+		<tab name="tab5name">
+			<prop name="tooltip">tab5tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab5.jsp]]></prop>
+		</tab>
+		<tab name="tab6name">
+			<prop name="tooltip">tab6tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab6.jsp]]></prop>
+		</tab>
+	</transaction>
+	<transaction name="opt_startstop" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+		<tab name="tab4name">
+			<prop name="tooltip">tab4tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab4.jsp]]></prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab3.jsp]]></prop>
+		</tab>
+	</transaction>
+	<transaction name="opt_nightfreecooling" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+		<tab name="tab3name">
+			<prop name="tooltip">tab3tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab3.jsp]]></prop>
+		</tab>
+	</transaction>
+	<transaction name="opt_lights" lock="true">
+		<tab name="tab1name">
+			<prop name="tooltip">tab1tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab1.jsp]]></prop>
+		</tab>
+		<tab name="tab2name">
+			<prop name="tooltip">tab2tooltip</prop>
+			<prop name="resource"><![CDATA[SubTab2.jsp]]></prop>
+		</tab>
+	</transaction>
+</tabmenu>

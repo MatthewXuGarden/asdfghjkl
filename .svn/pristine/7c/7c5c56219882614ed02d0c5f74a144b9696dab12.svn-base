@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="I concetti alla base di PlantVisor PRO">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>guardianPRO: concetti di base</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/guardianPRO__concetti_di_base.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">I concetti alla base di PlantVisor PRO</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">guardianPRO: concetti di base</span>
+        </div>
+        <h1>guardianPRO: concetti di base</h1>
+        <h2>Lo scopo di guardianPRO</h2>
+        <p>guardianPRO è completamente indipendente da PlantVisorPRO e serve ad 
+ aumentare l’affidabilità complessiva del sistema. Sempre attivo, controlla 
+ il funzionamento dei componenti dell'architettura di sistema, segnalando 
+ le anomalie attraverso notifiche (es.: SMS, e-mail).</p>
+        <p class="Image">
+            <img src="../Resources/Images/guardianPRO_architettura_locale.png" style="border: none;width: 538px;height: 548px;float: none;border-style: none;border-style: none;" width="538" height="548" border="0" />
+        </p>
+        <h2>I componenti del sistema controllati</h2>
+        <p data-mc-conditions="Primary.Locale">guardianPRO controlla costantemente i seguenti 
+ aspetti tecnici fondamentali del funzionamento di PlantVisorPRO Locale:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p><span style="font-weight: bold;">Eventi di errore</span>: 
+ a fronte di azioni del PlantVisorPRO, possono verificarsi degli errori 
+ <span data-mc-conditions="Primary.Locale">(da non confondere con gli allarmi 
+ dal campo)</span>. Tali errori, intercettati dal guardianPRO, 
+ consentono di scatenare delle azioni di emergenza.</p>
+            </li>
+            <li class="p" value="2">
+                <p><span style="font-weight: bold;">Supervisore attivo</span>: 
+ controlla che PlantVisorPRO risponda simulando la richiesta di consultazione 
+ da parte di un utente.</p>
+            </li>
+            <li class="p" value="3">
+                <p><span style="font-weight: bold;">Database attivo</span>: 
+ <span data-mc-conditions="Primary.Locale">controlla che il database stia funzionando 
+ per garantire il salvataggio di tutti i dati, compresi quelli delle variabili 
+ storiche. </span></p>
+            </li>
+            <li class="p" value="4">
+                <p><span style="font-weight: bold;">Utilizzo CPU</span>: 
+ controlla che l’utilizzo della CPU non superi una soglia prefissata al 
+ fine di evitare rallentamenti del sistema.</p>
+            </li>
+            <li class="p" value="5">
+                <p><span style="font-weight: bold;">Utilizzo RAM</span>: 
+ controlla che l’utilizzo della memoria RAM non superi una soglia prefissata 
+ per un certo tempo al fine di evitare rallentamenti del sistema.</p>
+            </li>
+            <li class="p" value="6">
+                <p><span style="font-weight: bold;">Utilizzo Disco</span>: 
+ controlla che l’utilizzo dello spazio su disco fisso non superi una soglia 
+ prefissata al fine di garantire il salvataggio dei dati.</p>
+            </li>
+            <li class="p" value="7" data-mc-conditions="Primary.Locale">
+                <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">Funzionamento modem</span>: controlla regolarmente 
+ la risposta del modem</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale"><span data-mc-conditions="Primary.Locale">Solo 
+ su abilitazione dell'utente, guardianPRO controlla due aspetti importanti 
+ del funzionamento del PlantVisorPRO:</span>
+        </p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1" data-mc-conditions="Primary.Locale">
+                <p style="font-weight: bold;" data-mc-conditions="Primary.Locale">Allarmi 
+ attivi:<span style="font-weight: normal;"> segnala gli allarmi che permangono 
+ attivi oltre un certo periodo di tempo, ovvero quegli allarmi non ancora 
+ riconosciuti dall'utente oppure non ancora rientrati autonomamente. Il 
+ periodo di tempo massimo deve essere definito a livello di priorità di 
+ allarme. Vedi capitolo <a href="Config-sito__configurazione_priorita_allarmi.htm" style="font-weight: normal;" data-mc-conditions="Primary.Locale">Configurazione sito: 
+ priorità degli allarmi</a>. </span></p>
+            </li>
+            <li class="p" value="2" data-mc-conditions="Primary.Locale">
+                <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">Variazione sonde</span>: verifica la naturale 
+ variazione delle variabili in campo. Segnala quindi variabili il cui valore 
+ permane fisso per oltre un certo periodo di tempo. L'elenco delle variabili 
+ da tenere sotto controllo è configurabile (vedi capitolo <a href="Pagine_di_sistema__guardianPRO.htm" data-mc-conditions="Primary.Locale">Sistema: destinatari guardianPRO</a>)</p>
+            </li>
+        </ul>
+        <h2>Le modalità di controllo</h2>
+        <p>guardianPRO è sempre attivo e controlla lo stato del sistema costantemente:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>se il primo controllo di una sonda è negativo, guardianPRO 
+ lo ripete più volte, dopo un certo periodo di tempo. Se il totale dei 
+ controlli è risultato negativo viene emessa una segnalazione <span data-mc-conditions="Primary.Locale">(es.: 
+ variabile X non è variata negli ultimi y minuti)</span></p>
+            </li>
+            <li class="p" value="2">
+                <p>per certe condizioni critiche, guardianPRO ripete un 
+ secondo ciclo di test. Se questo è ancora negativo, viene emessa una seconda 
+ segnalazione <span data-mc-conditions="Primary.Locale">(es.: variabile X continua 
+ a non variare per n volte)</span></p>
+            </li>
+        </ul>
+        <h2>Gli effetti dei controlli</h2>
+        <p><span data-mc-conditions="Primary.Locale">Le 
+ irregolarità di funzionamento rilevate da guardianPRO vengono segnalate 
+ attraverso </span><span style="font-weight: bold;" data-mc-conditions="Primary.Locale">eventi, 
+ notifiche e il riavvio del computer</span><span data-mc-conditions="Primary.Locale">. 
+ Queste azioni possono essere combinate tra loro, per esempio se PlantVisorPRO 
+ non esegue un'azione, guardianPRO crea un nuovo evento, invia un messaggio 
+ SMS e riavvia il computer.</span>
+        </p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAwarning.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Per garantire la massima affidabilità occorre predisporre le notifiche 
+ su canali ridondanti privilegiati Fare riferimento al capitolo <a href="Attivita__concetti_di_base.htm#Notifiche_fronte_segnalazioni_guardianPRO">Attività: 
+ concetti di base</a>, per i suggerimenti di configurazione.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAtips.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>È possibile anche configurare guardianPRO per un funzionamento parziale. 
+ Basta disabilitare le notifiche e i controlli opzionali nella pagina <span style="font-weight: bold;">guardianPRO</span> di <span style="font-weight: bold;">Pagine 
+ di sistema</span>. <span data-mc-conditions="Primary.Locale">guardianPRO continuerà 
+ comunque la sua attività di controllo per gli aspetti tecnici fondamentali 
+ di funzionamento, generando eventi o riavviando il computer in caso di 
+ instabilità del sistema. </span></p>
+                </td>
+            </tr>
+        </table>
+        <h2>Configurare guardianPRO</h2>
+        <p data-mc-conditions="Primary.Locale">Seguire la procedura completa nel capitolo 
+ <a href="Procedure_configurazione_standard.htm#ConfigurareguardianPRO" data-mc-conditions="Primary.Locale">Procedure di configurazione dell'impianto</a>.</p>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Pagine_di_sistema__introduzione.htm">Pagine di sistema</a>
+        </p>
+        <p><a href="Pagine_di_sistema__guardianPRO.htm">Configurare guardianPRO</a>
+        </p>
+        <p><a href="Pagine_di_sistema__informazioni.htm">Informazioni di sistema</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

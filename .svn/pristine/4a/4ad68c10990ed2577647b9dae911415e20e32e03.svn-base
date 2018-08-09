@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Controlling energy consumption|Floating Suction Pressure Control">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="PVPRO_PPSTDFS0D0_IT_d02.doc" /><title>FSP: operating details</title>
+        <link href="../Resources/TableStyles/Tab_Due_grigi.css" rel="stylesheet" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Floating_suction__DettaglioFunzionamento.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controlling energy consumption</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Floating Suction Pressure Control</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Operating details</span>
+        </div>
+        <h1>FSP: operating details</h1>
+        <p>From the <b>Main</b> page, click on the rack <b>[1]</b> to view details or edit algorithm parameters.</p>
+        <p class="Figu">
+            <img src="../Resources/Images/Floating_suction_file/main setpoint.png" style="border-style: none;width: 520px;height: 226px;float: none;" width="520" height="226" border="0" />
+        </p>
+        <h2>Floating Suction algorithm details</h2>
+        <p>Floating Suction details help to understand which showcase is running a regulation request. </p>
+        <p>For example, if all rack showcases have duty cycles under the maximum duty cycle set for the showcase (or are in regulation request conditions for less than the set maximum), the algorithm lowers the rack set point value.</p>
+        <p>If at least one showcase has a duty cycle over the set maximum, on the other hand, the algorithm increases the rack set point value.</p>
+        <p>The page displays the list of parameters used and duty cycle values for each showcase:</p>
+        <p class="Figu">
+            <img src="../Resources/Images/Floating_suction_file/DettaglioFloating.png" style="border-style: none;width: 546px;height: 244px;float: none;" width="546" height="244" border="0" />
+        </p>
+        <table style="width: 100.0%;border: none;border-spacing: 0px;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%" class="TableStyle-Tab_Due_grigi">
+            <col style="width: 41px;" class="Column-Column1">
+            </col>
+            <col class="Column-Column2">
+            </col>
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Area</th>
+                    <th class="HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">1</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p>Viewed rack details.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">2</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p>Parameter list: some have the current value, others the set value.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">3</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p>Showcase duty cycle values.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">4</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p><b>Reset</b>: resets duty cycles on all showcases calculated until that point.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyB-Column1-Body1">
+                        <p style="font-weight: bold;">5</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyA-Column2-Body1">
+                        <p><b>RST</b>: resets the duty cycle on a showcase calculated until that point.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;background-color: #cccccc;">
+            <tr>
+                <td>
+                    <p>
+                        <img src="../Resources/Images/AAinfo.gif" style="width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td>
+                    <p style="font-weight: normal;"><b><span style="font-size: 8.0pt;font-weight: normal;"> 		&#160;Fo</span></b>r a description of rack parameters, see <a href="Floating_suction__parametriAlgoritmi.htm"><a href="Floating_suction__parametriAlgoritmi.htm" style="font-weight: bold;">Algorithm parameters</a></a><a href="Floating_suction__parametriAlgoritmi.htm" style="font-weight: bold;">.</a></p>
+                </td>
+            </tr>
+        </table>
+        <h3>Possible actions</h3>
+        <p style="font-style: normal;"><i><span style="font-style: normal;">Press <b style="font-style: normal;">RST</b> to reset the duty cycle for a showcase calculated to that point, for example, if the set duty cycle maximum changed (see Customizing parameters<a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm"><span style="font-style: normal;">i</span></a></span></i><span style="font-style: normal;">).</span>
+        </p>
+        <p style="font-style: normal;"><i><span style="font-style: normal;">Press <b style="font-style: normal;">RESET  </b>to reset all duty cycles on showcases calculated to that point, for example, if rack parameters changed <span style="font-style: normal;">(see <a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm"><span style="font-style: normal;">Customizing parameters</span></a></span><span style="font-style: normal;">).</span></span></i>
+        </p>
+        <h2>Smooth lines algorithm details</h2>
+        <p>The page displays the values and status of the rack and linked showcases in the various set sampling periods:</p>
+        <p class="Figu">
+            <img src="../Resources/Images/Floating_suction_file/DettaglioSmooth_546x300.png" style="border-style: none;float: none;width: 546;height: 300;" border="0" />
+        </p>
+        <table style="width: 100.0%;border: none;border-spacing: 0px;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%" class="TableStyle-Tab_Due_grigi">
+            <col style="width: 41px;" class="Column-Column1">
+            </col>
+            <col class="Column-Column2" style="width: 436px;">
+            </col>
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Area</th>
+                    <th class="HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">1</p>
+                    </td>
+                    <td valign="top" class="BodyD-Column2-Body1">
+                        <p>Viewed rack details.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">2</p>
+                    </td>
+                    <td valign="top" class="BodyD-Column2-Body1">
+                        <p>Parameter list: some have the current value, others the set value.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">3</p>
+                    </td>
+                    <td valign="top" class="BodyD-Column2-Body1">
+                        <p>Rack set point values in the various set sampling periods.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">4</p>
+                    </td>
+                    <td valign="top" class="BodyD-Column2-Body1">
+                        <p>Showcase status in the various set sampling periods.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">5</p>
+                    </td>
+                    <td valign="top" class="BodyD-Column2-Body1">
+                        <p>Number of showcases that block Smooth lines and total number of yellow, orange and red leds in the last sampling period ("T" column).</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">6</p>
+                    </td>
+                    <td valign="top" class="BodyD-Column2-Body1">
+                        <p>
+                            <img src="../Resources/Images/actions/Show.png" style="vertical-align: sub;" />: shows/hides from the fourth to the tenth samplings before the last one.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="1" class="BodyB-Column1-Body1">
+                        <p style="font-weight: bold;">7</p>
+                    </td>
+                    <td valign="top" class="BodyA-Column2-Body1">
+                        <p><b>RST</b>: deletes completed sampling.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Operating principle</h3>
+        <p>The algorithm compares the amount of samples acquired in a certain status (i.e..: yellow led = warning) with set parameters (i.e.: maximum three yellow leds in a sample). Based on the comparison, it changes the rack set point as follows:</p>
+        <table style="width: 100.0%;border: none;border-spacing: 0px;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%" class="TableStyle-Tab_Due_grigi">
+            <col class="Column-Column1" />
+            <col class="Column-Column2" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">When at last sample [T]…</th>
+                    <th class="HeadD-Column2-Header1">The rack set point it…</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>All leds are green
+						</p>
+                    </td>
+                    <td rowspan="2" class="BodyD-Column2-Body1">
+                        <p>reduced</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Number of yellow or orange leds &lt; Maximum set number</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Number of yellow or orange leds &gt;= Maximum set number</p>
+                    </td>
+                    <td rowspan="2" class="BodyD-Column2-Body1">
+                        <p>maintained</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p> 							Number of red leds &lt; Maximum set number
+						</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Number of red leds &gt;= Maximum set number</p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>increased</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>At least one led N/A</p>
+                    </td>
+                    <td class="BodyA-Column2-Body1">
+                        <p>reduced</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Possible actions</h3>
+        <p style="font-style: normal;"><i><span style="font-style: normal;">Press <b style="font-style: normal;"><img src="../Resources/Images/actions/Show.png" style="vertical-align: sub;" /></b> to show/hide samples prior to the last three.</span></i>
+        </p>
+        <p style="font-style: normal;"><i><span style="font-style: normal;">Press <b style="font-style: normal;">RST</b> to delete completed sample: all leds turn black.</span></i>
+        </p>
+        <p class="ActionDetail"><span><i style="font-style: normal;"><img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /></i></span>See also</p>
+        <p><a href="Floating_suction__introduzione.htm">Floating suction: introduction</a>
+        </p>
+        <p><a href="Floating_suction__parametriAlgoritmi.htm">Floating Suction: algorithm parameters</a>
+        </p>
+        <p><b><a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">Floating Suction: customizing parameters</a></b>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

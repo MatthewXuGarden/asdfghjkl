@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.EnergyMeter" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Guida per l'installatore (configurazione)|Controllare i consumi energetici|Energy">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Energy: concetti di base</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Energy__concetti_di_base.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Guida per l'installatore (configurazione)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controllare i consumi energetici</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Energy</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Concetti di base</span>
+        </div>
+        <h1>Energy: concetti di base</h1>
+        <h2>Modelli di misuratori e variabili</h2>
+        <p>Il plugin <b>Energy</b> supporta diversi  modelli di misuratori di energia. È possibile aggiungere nuovi misuratori e definire le relative variabili di potenza ed energia.</p>
+        <p>Alla data di emissione di questo documento Energy supporta i misuratori di energia standard: </p>
+        <ul style="list-style: disc;margin-top: 0cm;" type="disc">
+            <li class="p" value="1">
+                <p>CAREL emeter1</p>
+            </li>
+            <li class="p" value="2">
+                <p>CAREL emeter3</p>
+            </li>
+            <li class="p" value="3">
+                <p>Ducati energia smart più</p>
+            </li>
+            <li class="p" value="4">
+                <p>Gavazzi CPT-DIN Basic - WM14-DIN Basic - WM14-96 Basic</p>
+            </li>
+            <li class="p" value="5">
+                <p>IME ContoD4</p>
+            </li>
+            <li class="p" value="6">
+                <p>IME Nemo96HD</p>
+            </li>
+            <li class="p" value="7">
+                <p>IME Nemod4</p>
+            </li>
+        </ul>
+        <p>e tutti i misuratori programmabili che abbiano variabili di output 
+ con valori in Kw e Kwh (es.: pLoads).</p>
+        <h2>Gruppi di misuratori</h2>
+        <p>Per rendere l’analisi più precisa e evidenziare eventuali aree di ottimizzazione 
+ dei consumi, si creano <i>gruppi</i> di misuratori che possono rappresentare 
+ utenze omogenee per tipo (es.: dei banchi frigo) oppure utenze dislocate 
+ in una certa area dell’impianto (es.: magazzini).</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 72px;" />
+            <col />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC">
+                    <p class="Not">In un impianto possono essere 
+ definiti fino a 10 gruppi e in un gruppo possono essere raggruppati fino 
+ a 10 misuratori. Il tutto per un totale di 40 misuratori. Quindi si potrà 
+ avere, al massimo quattro gruppi di 10 misuratori l’uno,  oppure 10 gruppi di quattro misuratori l’uno.</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Consumi utenze non collegate a misuratori</h2>
+        <p>Per calcolare il consumo delle utenze non collegate a misuratori, è necessario installare un misuratore di posto a monte di tutto l'impianto. Questo misuratore deve essere associato al gruppo <i>Global.</i> Energy calcolerà il consumo delle utenze non collegate a misuratori, sottraendo al consumo 
+ dell’impianto (gruppo Global), il totale dei consumi dei gruppi. </p>
+        <h2>Costo fisso/fasce orarie</h2>
+        <p>È possibile monitorare i consumi energetici relativamente a un costo fisso (configurazione <b>Costo fisso</b>) o a una categoria di costo per fasce orarie (configurazione <b>Time Slot</b>).</p>
+        <p>Nel passaggio dal monitoraggio a costi fissi a quello per fasce orarie e viceversa vengono mantenuti tutti i dati raccolti fino a quel momento, ma sono consultabili e vengono aggiornati solo i dati della configurazione attiva.</p>
+        <p>Per il monitoraggio a fasce orarie è possibile configurare un massimo di:
+        <ul><li value="1">
+			otto categorie di costo per kWh</li><li value="2"> 12 periodi con indicato le categorie di costo associate a ciascuna ora della giornata ed eventuali eccezioni di giorni, orari o date</li></ul></p>
+        <h2>Monitoraggio dei consumi: valori in evidenza</h2>
+        <p>Nella pagina <b>Sinottico</b> sono messi in evidenza:</p>
+        <ul>
+            <li value="1">
+                <p>i consumi del mese corrente e di quello precedente (kWh)</p>
+            </li>
+            <li value="2">
+                <p>i consumi della settimana attuale e di quella precedente (kWh)</p>
+            </li>
+            <li value="3">
+                <p>la categoria di costo e il relativo costo attivi (se il monitoraggio è stato configurato per fasce orarie)</p>
+            </li>
+            <li value="4">
+                <p>la quantità di CO<sub>2</sub> emessa nel mese e nella settimana correnti (Kg per kWh)</p>
+            </li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Energy_file/Sinottico_506x300.png" style="border: none;float: none;border-style: none;border-style: none;width: 506;height: 300;" border="0" />
+        </p>
+        <h2>Programmazione accensione/spegnimento utenze</h2>
+        <p>Dall’analisi dei consumi è possibile rilevare quei consumi che possono 
+ essere ridotti togliendo alimentazione a utenze non utilizzate (es.: luci 
+ magazzino).</p>
+        <p>Per farlo occorre collegare a monte di ogni gruppo un misuratore di 
+ comando che possa interrompere l'alimentazione.</p>
+        <p>La programmazione delle accensioni/spegnimenti avviene nella funzione 
+ <span style="font-weight: bold;"><a href="Calendario_impianto__introduzione.htm">Calendario 
+ impianto</a></span>.</p>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Energy__configurare_i_misuratori.htm">Energy: configurare i misuratori</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

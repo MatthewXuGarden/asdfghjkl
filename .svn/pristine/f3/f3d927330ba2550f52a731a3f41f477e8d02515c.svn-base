@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.Locale" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Standard setup|Setting up activities|Plant calendar">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Site calendar: setting weekly rules</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Calendario_impianto__sinottico_schedulazione.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Standard setup</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Setting up activities</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Setting weekly rules</span>
+        </div>
+        <h1>Site calendar: setting weekly rules</h1>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 13.699%;" />
+            <col style="width: 86.301%;" />
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;" valign="bottom" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">Path:<img src="../Resources/Images/ico_white23x22.jpg" style="border: none;width: 23px;height: 22px;float: none;border-style: none;border-style: none;" width="23" height="22" border="0" /></p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;" valign="bottom" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella">
+                        <img src="../Resources/Images/menusx/new/calendar3.png" style="border: none;width: 32px;height: 31px;float: none;border-style: none;border-style: none;" width="32" height="31" border="0" />, <a href="Calendario_impianto__introduzione.htm">Plant calendar</a>, Main <span style="font-weight: normal;">page </span></p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">&#160;</p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: None;" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 8.683%;" />
+            <col style="width: 90.659%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 8.683%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="8.683%">
+                    <p style="font-weight: bold;">Purpose</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 90.659%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="90.659%">
+                    <p style="color: #000000;">Set real-time rules (i.e.: set points) or long-term rules (i.e.: start/stop) in a weekly calendar. These rules are applied in the same way on all variables in a category (i.e.: lighting) while hey can be differentiated for different device groups (i.e.: showcase-lighting, closet-lighting).</p>
+                    <p style="color: #000000;"><span style="color: #000000;">Manually set digital, integer and analog values on variables in the same group.</span>
+                    </p>
+                    <p style="color: #000000;">Enable/disable group scheduling.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 8.683%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="8.683%">
+                    <p style="font-weight: bold;">Description</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 90.659%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="90.659%">
+                    <p>Use this function to assign values to analog and integer variables at a certain time of the day. </p>
+                    <p>Rules are repeated for all the weeks in the year. Exceptions can be created and repeated with priority over the standard calendar.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p class="Image">
+            <img src="../Resources/Images/VisualScheduler.png" style="border: none;float: none;width: 800px;height: 429px;border-style: none;border-style: none;" width="800" height="429" border="0" />
+        </p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 8.683%;" />
+            <col style="width: 90.659%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 8.683%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="8.683%">
+                    <p style="font-weight: bold;">1</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 90.659%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="90.659%">
+                    <p style="color: #000000;">A tab for each variable category.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 8.683%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="8.683%">
+                    <p style="font-weight: bold;">2</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 90.659%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="90.659%">
+                    <p>Keys to copy/paste periods of the day on another day for groups in the same category.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 8.683%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="8.683%">
+                    <p style="font-weight: bold;">3</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 90.659%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="90.659%">
+                    <p>Example of overlapping intervals or intervals copied from another group that require checks..</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 8.683%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="8.683%">
+                    <p style="font-weight: bold;">4</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 90.659%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="90.659%">
+                    <p>Standard and exception calendars and list of time intervals for each group.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAwarning.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Day intervals can be copied to different categories but these are shown in red. You must view the detail of each interval and confirm.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Up to 10 intervals can be set for each group in one day.</p>
+                    <p>Red intervals mean there are potential inconsistencies and interval overlaps. Resolve the problem before saving.</p>
+                    <p>In the event of two consecutive time intervals (i.e.: change set point in a mixed category) or overlapping intervals in the day, start/stop will not be run and only the integer/analog value will be changed. 
+ </p>
+                </td>
+            </tr>
+        </table>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Standard calendar setup actions</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p" value="1">
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Open a standard calendar for a category</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>Click on <span style="font-weight: bold;">Scheduling [1]</span> tab and on a category <span style="font-weight: bold;">[2]</span>:</p>
+                                </li>
+                            </ul>
+                            <p class="Image">
+                                <img src="../Resources/Images/Calendar_schedula_categoria.png" style="border: none;width: 415px;height: 337px;float: none;border-style: none;border-style: none;" width="415" height="337" border="0" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="p" value="2">
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Schedule a new rule</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>On the day where the rule is to be added, click  <img src="../Resources/Images/scheduler/skin/add_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />: a window will appear where you can set the interval and value</p>
+                                </li>
+                            </ul>
+                            <p class="Image">
+                                <img src="../Resources/Images/Calendar_schedula_categoria 2.png" style="border: none;width: 692px;height: 402px;float: none;border-style: none;border-style: none;" width="692" height="402" border="0" />
+                            </p>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>Click <span style="font-weight: bold;">Ok</span>: the interval appears in the synoptic.</p>
+                                </li>
+                            </ul>
+                            <p class="Image">
+                                <img src="../Resources/Images/Calendar_schedula_categoria 3.png" style="border: none;width: 353px;height: 244px;float: none;border-style: none;border-style: none;" width="353" height="244" border="0" />
+                            </p>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>Click <img src="../Resources/Images/actions/save_button.png" style="border: none;width: 24px;height: 28px;float: none;border-style: none;border-style: none;" width="24" height="28" border="0" /></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Special day setup actions</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p" value="1">
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Create a special day for a category</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>Click on a category <span style="font-weight: bold;">[1]</span> and on the<span style="font-weight: bold;"> Exceptions [2]</span> tab: the window appears where you can set the event date, annual repetition and enable. Other days with scheduled exceptions are displayed.</p>
+                                </li>
+                            </ul>
+                            <p class="Image">
+                                <img src="../Resources/Images/Calendar_eccezioni.png" style="border: none;float: none;width: 690px;height: 481px;border-style: none;border-style: none;" width="690" height="481" border="0" />
+                            </p>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>Click <span style="font-weight: bold;">Ok</span>: the time axis appears for each group.</p>
+                                </li>
+                            </ul>
+                            <p class="Image">
+                                <img src="../Resources/Images/Calendar_eccezioni1.png" style="border: none;width: 572px;height: 431px;float: none;border-style: none;border-style: none;" width="572" height="431" border="0" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="p" value="2">
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Schedule a new rule
+                                                                                                 </a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>On the day where the rule is to be added, click  <img src="../Resources/Images/scheduler/skin/add_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />: a window will appear where you can set the interval and value</p>
+                                </li>
+                            </ul>
+                            <p class="Image">
+                                <img src="../Resources/Images/Calendar_schedula_categoria 2.png" style="border: none;width: 692px;height: 402px;float: none;border-style: none;border-style: none;" width="692" height="402" border="0" />
+                            </p>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>Click <span style="font-weight: bold;">Ok</span>: the interval appears in the synoptic.</p>
+                                </li>
+                            </ul>
+                            <p class="Image">
+                                <img src="../Resources/Images/Calendar_schedula_categoria 3.png" style="border: none;width: 353px;height: 244px;float: none;border-style: none;border-style: none;" width="353" height="244" border="0" />
+                            </p>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>Click <img src="../Resources/Images/actions/save_button.png" style="border: none;width: 24px;height: 28px;float: none;border-style: none;border-style: none;" width="24" height="28" border="0" /></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Actions shared by all calendars</p>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Copy rules in a day
+                                                                                                 </a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Click  <span style="font-weight: bold;"><img src="../Resources/Images/scheduler/skin/copy_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" /></span>on the day where rules are to be copied.</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Keys <img src="../Resources/Images/scheduler/skin/paste_disabled.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" /> for days where they can be copied are enabled. </p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>Click  <span style="font-weight: bold;"><img src="../Resources/Images/scheduler/skin/paste_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" /></span>on the day where the rules are to be copied.</p>
+                        </li>
+                        <li class="p" value="4">
+                            <p>Click <img src="../Resources/Images/actions/save_button.png" style="border: none;width: 24px;height: 28px;float: none;border-style: none;border-style: none;" width="24" height="28" border="0" /></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Edit or delete a rule
+                                                                                                 </a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Expand <span style="font-weight: bold;">[1]  </span>any consecutive intervals:</p>
+                        </li>
+                    </ul>
+                    <p class="Image">
+                        <img src="../Resources/Images/Calendar_modifica1.png" style="border: none;width: 357px;height: 214px;float: none;border-style: none;border-style: none;" width="357" height="214" border="0" />
+                    </p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Click on the visible interval<span style="font-weight: bold;">[1]</span><span>:</span></p>
+                        </li>
+                    </ul>
+                    <p class="Image">
+                        <img src="../Resources/Images/Calendar_modifica2.png" style="border: none;width: 389px;height: 212px;float: none;border-style: none;border-style: none;" width="389" height="212" border="0" />
+                    </p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Edit the value in the popup window and click <span style="font-weight: bold;">Ok.</span></p>
+                        </li>
+                        <li class="p" value="2">
+                            <p style="font-weight: normal;">Or click <span style="font-weight: bold;">Delete</span></p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>Click <img src="../Resources/Images/actions/save_button.png" style="border: none;width: 24px;height: 28px;float: none;border-style: none;border-style: none;" width="24" height="28" border="0" /></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Other actions</p>
+        <p>Common used buttons</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 15.979%;" />
+            <col style="width: 84.021%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="15.979%">
+                    <p>
+                        <img src="../Resources/Images/scheduler/skin/add_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Create a new rule interval</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">
+                        <img src="../Resources/Images/scheduler/skin/copy_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Copy the intervals in a day</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">
+                        <img src="../Resources/Images/scheduler/skin/paste_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Paste copied intervals to another day.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also
+                                                                                                 </p>
+        <p>-</p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

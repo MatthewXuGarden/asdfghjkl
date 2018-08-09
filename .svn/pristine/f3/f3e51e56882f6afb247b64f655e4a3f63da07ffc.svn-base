@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Introduzione alla guida|Le convenzioni della guida in linea">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Guida in linea: azioni</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Guida_in_linea_azioni.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Introduzione alla guida</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Le convenzioni della guida in linea</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Le possibili azioni di una funzione</span>
+        </div>
+        <h1>Guida in linea: azioni</h1>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 65.491%;" />
+            <col style="width: 34.509%;" />
+            <tr valign="top">
+                <td style="width: 65.491%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-left-style: none;border-top-style: none;border-bottom-style: none;" width="65.491%">
+                    <p class="TitoloInterno">
+                        <img src="../Resources/Images/AAaction.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />Azioni</p>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Creare un calendario giornaliero 
+ (valido tutti i giorni)
+                                </a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <div>
+                                <ul style="list-style: disc;" type="disc">
+                                    <li class="p" value="1">
+                                        <p>Scegliere il tipo di calendario <span style="font-weight: bold;">Giornaliero</span></p>
+                                    </li>
+                                    <li class="p" value="2">
+                                        <p>Impostare il periodo (ora inizio&lt;ora fine) nel quale 
+ deve essere attivo</p>
+                                    </li>
+                                    <li class="p" value="3">
+                                        <p>Fare clic su <img src="../Resources/Images/dbllistbox/arrowdx_on.png" style="border: none;float: none;border-style: none;width: 54px;height: 19px;" width="54" height="19" border="0" /> 
+ per aggiungere la fascia oraria</p>
+                                    </li>
+                                    <li class="p" value="4">
+                                        <p>Ripetere per aggiungere tante fasce orarie quante ne 
+ servono</p>
+                                    </li>
+                                    <li class="p" value="5">
+                                        <p>Fare clic su <img src="../Resources/Images/actions/add_on.png" style="border: none;float: none;border-style: none;width: 24px;height: 24px;" width="24" height="24" border="0" /> 
+ per aggiungere il calendario</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Creare un calendario settimanale 
+ (valido tutte le settimane)
+                                </a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <div>
+                                <ul style="list-style: disc;" type="disc">
+                                    <li class="p" value="1">
+                                        <p>Scegliere il tipo di calendario <span style="font-weight: bold;">Settimanale</span></p>
+                                    </li>
+                                    <li class="p" value="2">
+                                        <p>Scegliere i giorni della settimana e il periodo (ora 
+ inizio&lt;ora fine) nel quale deve essere attivo</p>
+                                    </li>
+                                    <li class="p" value="3">
+                                        <p>Fare clic su <img src="../Resources/Images/dbllistbox/arrowdx_on.png" style="border: none;float: none;border-style: none;width: 54px;height: 19px;" width="54" height="19" border="0" /> 
+ per aggiungere la fascia oraria</p>
+                                    </li>
+                                    <li class="p" value="4">
+                                        <p>Ripetere per aggiungere tante fasce orarie quante ne 
+ servono</p>
+                                    </li>
+                                    <li class="p" value="5">
+                                        <p>Fare clic su <img src="../Resources/Images/actions/add_on.png" style="border: none;float: none;border-style: none;width: 24px;height: 24px;" width="24" height="24" border="0" /> 
+ per aggiungere il calendario</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width: 34.509%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-top-style: none;border-bottom-style: none;" width="34.509%">
+                    <p>Questa sezione è più operativa: qui sono elencate tutte le azioni possibili 
+ sulla finestra dell'applicazione che si sta descrivendo.</p>
+                    <p>Le frasi in blu sono <span style="font-weight: bold;">collegamenti a 
+ discesa</span>. </p>
+                    <p><span style="font-weight: bold;">Fare clic sopra una frase</span> per 
+ espandere la pagina e mostrare le informazioni nascoste.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Guida__convenzioni.htm">Le convenzioni</a>
+        </p>
+        <p><a href="Guida_in_linea_percorso.htm">Il percorso</a>
+        </p>
+        <p><a href="Guida_in_linea_warning_info_tips.htm">Avvertenze, note e suggerimenti</a>
+        </p>
+        <p><a href="Guida_in_linea_vedi_anche.htm">Vedi anche</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

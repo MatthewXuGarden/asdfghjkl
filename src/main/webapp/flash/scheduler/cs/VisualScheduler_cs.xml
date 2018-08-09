@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="cs">
+
+  <file datatype="plaintext" original="VisualScheduler.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADD_EXCEPTION">
+        <source>Pridat vyjimku</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ANALOG">
+        <source>Analogova hodnota</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APRIL">
+        <source>Duben</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_AUGUST">
+        <source>Srpen</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CANCEL">
+        <source>Zrusit</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CHECK_INTERVALS">
+        <source>Prosim zkontrolujte cervene oznacene intervaly. Data rozvrhu nejsou ulozena</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CLEAR">
+        <source>Vymazat</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_COMMAND">
+        <source>Povel</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_COPY">
+        <source>Kopirovat</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_DASHBOARD">
+        <source>Panel</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DECEMBER">
+        <source>Prosinec</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DIGITAL">
+        <source>Digitalni hodnota</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DISABLE">
+        <source>Vyradit rozvrh</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DISABLED">
+        <source>Vyrazeno</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ENABLED">
+        <source>Povoleno</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EXCEPTION_DATE">
+        <source>Datum vyjimky</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_EXCEPTION_NOTE">
+        <source>Poznamka: datum vyjimky nastaveno pro vsechny kategorie.</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_EXCEPTIONS">
+        <source>Vyjimky</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FEBRUARY">
+        <source>Unor</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FRIDAY">
+        <source>Patek</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROUP_NAME">
+        <source>Jmeno skupiny</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INTERVAL_NO_ALERT">
+        <source>Pro den je povoleno pouze 10 akci</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_JANUARY">
+        <source>Leden</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_JULY">
+        <source>Cervenec</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_JUNE">
+        <source>Cerven</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LOADING">
+        <source>Nahravam data...</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MARCH">
+        <source>Brezen</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_MAY">
+        <source>Kveten</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MONDAY">
+        <source>Pondeli</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEXT">
+        <source>Nasledujici</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NO_CAT_DEF">
+        <source>Neni definovana kategorie</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NO_GROUP_DEF">
+        <source>Neni definovana skupina</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NOVEMBER">
+        <source>Listopad</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_OCTOBER">
+        <source>Rijen</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_OK">
+        <source>OK</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_PARAMETER">
+        <source>Nastaveni parametru</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_PASTE">
+        <source>Vlozit</source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_PREVIOUS">
+        <source>Predchozi</source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_REMOVE">
+        <source>Odstranit</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_REPETITIVE">
+        <source>Opakovany</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_RUN_ONCE">
+        <source>Spustit jednou</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SATURDAY">
+        <source>Sobota</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_SAVING">
+        <source>Ukladam data...</source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_SCHEDULE">
+        <source>Rozvrh</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_SENDING">
+        <source>Posilam povely...</source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_SEPTEMBER">
+        <source>Zari</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_STANDARD">
+        <source>Standard</source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_START">
+        <source>Start</source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_STOP">
+        <source>Stop</source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_SUNDAY">
+        <source>Nedele</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_THURSDAY">
+        <source>Ctvrtek</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_TUESDAY">
+        <source>Utery</source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_WEDNESDAY">
+        <source>Streda</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en">
+
+  <file datatype="plaintext" original="VisualScheduler.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADD_EXCEPTION">
+        <source>Add Exception</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ANALOG">
+        <source>Analog Value</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APRIL">
+        <source>April</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_AUGUST">
+        <source>August</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CANCEL">
+        <source>Cancel</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CHECK_INTERVALS">
+        <source>Please check the intervals marked in red. Scheduler data not saved</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CLEAR">
+        <source>Clear</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_COMMAND">
+        <source>Command</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_COPY">
+        <source>Copy</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_DASHBOARD">
+        <source>Dashboard</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DECEMBER">
+        <source>December</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DIGITAL">
+        <source>Digital Value</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DISABLE">
+        <source>Disable Scheduler</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DISABLED">
+        <source>Disabled</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ENABLED">
+        <source>Enabled</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EXCEPTION_DATE">
+        <source>Exception Date</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_EXCEPTION_NOTE">
+        <source>Note: Exception date it is set for all categories.</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_EXCEPTIONS">
+        <source>Exceptions</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FEBRUARY">
+        <source>February</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FRIDAY">
+        <source>Friday</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROUP_NAME">
+        <source>Group Name</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INTERVAL_NO_ALERT">
+        <source>Only 10 actions per day are allowed</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_JANUARY">
+        <source>January</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_JULY">
+        <source>July</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_JUNE">
+        <source>June</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LOADING">
+        <source>Loading data ...</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MARCH">
+        <source>March</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_MAY">
+        <source>May</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MONDAY">
+        <source>Monday</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEXT">
+        <source>Next</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NO_CAT_DEF">
+        <source>No categories defined</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NO_GROUP_DEF">
+        <source>No groups defined</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NOVEMBER">
+        <source>November</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_OCTOBER">
+        <source>October</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_OK">
+        <source>OK</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_PARAMETER">
+        <source>Parameter Setting</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_PASTE">
+        <source>Paste</source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_PREVIOUS">
+        <source>Previous</source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_REMOVE">
+        <source>Remove</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_REPETITIVE">
+        <source>Repetitive</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_RUN_ONCE">
+        <source>Run Once</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SATURDAY">
+        <source>Saturday</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_SAVING">
+        <source>Saving data...</source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_SCHEDULE">
+        <source>Schedule</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_SENDING">
+        <source>Sending commands...</source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_SEPTEMBER">
+        <source>September</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_STANDARD">
+        <source>Standard</source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_START">
+        <source>Start</source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_STOP">
+        <source>Stop</source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_SUNDAY">
+        <source>Sunday</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_THURSDAY">
+        <source>Thursday</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_TUESDAY">
+        <source>Tuesday</source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_WEDNESDAY">
+        <source>Wednesday</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

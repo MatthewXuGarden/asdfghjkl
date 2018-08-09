@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.Locale,Primary.Pco,Primary.NascondereFinoOK" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>PVPRO loc: caratteristiche</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/PVPRO_loc__caratteristiche.htm">Aperto di navigazione</a>
+        </p>
+        <h1>PlantVisorPRO Locale: caratteristiche e benefici</h1>
+        <p>PlantVisorPRO è un sistema di supervisione Web orientato al mercato 
+ HVAC/R per il monitoraggio e la supervisione degli impianti.</p>
+        <p>L'insieme delle funzioni di PlantVisorPRO Locale permette la completa 
+ gestione degli allarmi, la configurazione dell'impianto, operazione normalmente 
+ eseguita da installatori, ed il monitoraggio (locale e remoto) dello stato 
+ dell’impianto. L'interfaccia semplice ed efficace ne facilita l'uso da 
+ parte di gestori e manutentori.</p>
+        <h2>Configurazione</h2>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>PlantVisorPRO Locale può essere facilmente configurato 
+ per la messa in servizio di un impianto. Una <span style="font-weight: bold;">libreria 
+ di modelli di dispositivi</span> (standard o personalizzati) è a disposizione 
+ dell’utente per ottenere rapidamente la configurazione dei dispositivi 
+ installati in campo, la gestione immediata degli allarmi e la storicizzazione 
+ dei dati. Al termine della configurazione PlantVisorPRO Locale può già 
+ monitorare lo stato dell'impianto.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Le funzioni speciali di <span style="font-weight: bold;">propagazione 
+ mirata della configurazione</span> da un qualsiasi dispositivo a tutti 
+ i suoi simili, o da un profilo utente a altri profili, azzerano le operazioni 
+ tipicamente ripetitive della configurazione. Le politiche di <span style="font-weight: bold;">gestione 
+ degli allarmi e delle variabili storiche</span> sono alla base del monitoraggio 
+ degli allarmi stessi, della stampa report, della visualizzazione dei grafici 
+ e di tutte le attività di notifica. Le politiche di gestione dei <span style="font-weight: bold;">relé ausiliari</span> (temporizzati e non) 
+ unificano gli interventi sul campo.</p>
+            </li>
+            <li class="p" value="3">
+                <p>La possibilità di creare <span style="font-weight: bold;">accorpamenti 
+ logici</span> facilita l'accesso, la gestione e la manutenzione dei numerosi 
+ dispositivi tipici di un impianto di refrigerazione (es.: banchi temperatura 
+ normale, banchi bassa temperatura, isole surgelati, banchi latticini). 
+ La suddivisione in <span style="font-weight: bold;">gruppi</span> assegna 
+ al personale il controllo di dispositivi con analogie fisiche o logiche, 
+ permettendo di impostare, con la pressione di un solo pulsante, lo stesso 
+ valore su più parametri di dispositivi diversi. I dispositivi <span style="font-weight: bold;">logici</span> 
+ permettono di tenere sotto controllo, analogamente a un dispositivo fisico, 
+ variabili di diversi dispositivi fisici e variabili logiche, frutto di 
+ calcoli e algoritmi.</p>
+            </li>
+            <li class="p" value="4">
+                <p>La versatilità delle <span style="font-weight: bold;">funzioni 
+ di personalizzazione</span> rende il risultato finale assolutamente adeguato 
+ alle esigenze degli utenti. Le <span style="font-weight: bold;">profilature 
+ degli utenti</span> consentono non solo di assegnare privilegi diversi, 
+ ma anche assegnare gruppi di dispositivi. In questo modo si possono attribuire 
+ privilegi speciali a personale specializzato (es.: Service impianto di 
+ condizionamento) senza correre il rischio di involontari manomissioni 
+ alla configurazione originale. L'<span style="font-weight: bold;">aspetto 
+ dei grafici e delle curve</span> può essere modificato in base al livello 
+ di visibilità dei dati (globale, gruppo di dispositivi o un unico dispositivo) 
+ e può essere assegnato ai profili utenti che lo utilizzeranno. Il <span style="font-weight: bold;">logo e l'immagine di sfondo</span> della pagina 
+ di logon possono essere modificati. Allo stesso modo il <span style="font-weight: bold;">contenuto 
+ dei report</span>, che viene predisposto preventivamente dall'installatore 
+ per poi essere richiamato a scadenze fisse, senza nessun intervento da 
+ parte dell'utente. La <span style="font-weight: bold;">pagina principale 
+ di monitoraggio del dispositivo</span> può essere organizzata in base 
+ a quali variabili si desidera dare maggiore visibilità e peso. </p>
+            </li>
+            <li class="p" value="5">
+                <p>Se alla versatilità delle funzioni di personalizzazione 
+ si aggiunge la potenza di sviluppo di <span style="font-weight: bold;">Layout 
+ Editor</span> e <span style="font-weight: bold;">PlantVisorPRO SDK</span> 
+ si potranno costruire mappe sinottiche ad hoc e pagine personalizzate.</p>
+            </li>
+        </ul>
+        <h2>Monitoraggio e supervisione</h2>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>Il monitoraggio dell'impianto può essere fatto a più 
+ livelli di dettaglio (a livello globale, di gruppo e di singolo dispositivo) 
+ e in più modalità (con mappe sinottiche, con una sintesi dei dispositivi, 
+ con un elenco completo dei dispositivi) e ogni "punto di vista" 
+ può essere abilitato a utenti con esigenze diverse.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Le segnalazioni di <span style="font-weight: bold;">allarme</span> 
+ sono facilmente consultabili e permettono al Service di intervenire per 
+ il riconoscimento, il blocco delle azioni che ne sono derivate o per forzare 
+ il rientro dell'allarme.</p>
+            </li>
+            <li class="p" value="3">
+                <p>Altre <span style="font-weight: bold;">segnalazioni 
+ verso dispositivi esterni</span> (es.: SMS, fax, e-mail) o azioni verso 
+ il campo garantiscono l'immediato intervento in autonomia del sistema, 
+ a fronte di situazioni di campo anomale e garantiscono notifiche tempestive 
+ al personale preposto alla manutenzione.</p>
+            </li>
+            <li class="p" value="4">
+                <p>L'analisi dei comportamenti del campo è facilitata dai 
+ grafici e dai report (HACCP e storici). I <span style="font-weight: bold;">grafici</span> 
+ vengono dinamicamente composti in base alle esigenze dell'utente con una 
+ estrema eterogeneità di dati (es.: temperature e stati dei relé), di scale 
+ (ogni grandezza viene visualizzata con la sua scale) e di colori. Oltre 
+ ai <span style="font-weight: bold;">report</span> preimpostati e stampati 
+ a scadenze regolari, in qualsiasi momento è possibile richiedere sia un'istantanea 
+ dei valori, sia un report dettagliato nel periodo richiesto.</p>
+            </li>
+        </ul>
+        <h2>Sicurezza e stabilità</h2>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>Il funzionamento di PlantVisorPRO Locale e di PlantVisorPRO 
+ Embedded viene controllato da un componente esterno: <span style="font-weight: bold;">guardianPRO</span>. 
+ Estende le notifiche tipiche della supervisione del campo, aggiungendo 
+ notifiche legate a possibili anomalie del software e dell'hardware, a 
+ mancate gestioni di allarmi e a improvvisi "congelamenti" di 
+ valori di variabili del campo.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Per permettere la ricostruzione degli interventi sulla 
+ configurazione e sui dati dell'impianto, è prevista la possibilità di 
+ inserire delle <span style="font-weight: bold;">note</span> personali 
+ che vengono regolarmente inviate a RemotePRO. Ogni <span style="font-weight: bold;">nota</span> 
+ è di proprietà del suo autore che è l'unico con il diritto di modificarla. 
+ </p>
+            </li>
+        </ul>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Interfaccia-locale__homepage.htm">PlantVisorPRO Locale: la 
+ pagina iniziale</a>
+        </p>
+        <p><a href="Utente__obiettivi_e_procedure_consigliate.htm">Procedure tipiche: 
+ guida alla scelta</a>
+        </p>
+        <p><a href="PVPRO_loc__differenze_con_PlantVisor_Enhanced.htm">Differenze 
+ con PlantVisor Enhanced</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

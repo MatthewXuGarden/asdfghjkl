@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Guida per l'installatore (configurazione)|Controllare i consumi energetici|Floating Suction Pressure Control">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="PVPRO_PPSTDFS0D0_IT_d02.doc" /><title>Floating suction: elenco dei parametri di centrale</title>
+        <link href="../Resources/TableStyles/Tab_Due_grigi.css" rel="stylesheet" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Floating_suction__parametriAlgoritmi.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Guida per l'installatore (configurazione)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controllare i consumi energetici</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Floating Suction Pressure Control</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Parametri degli algoritmi</span>
+        </div>
+        <h1>FSP: parametri degli algoritmi</h1>
+        <h2>Parametri dell'algoritmo Floating Suction</h2>
+        <p>Di seguito i parametri più significativi:</p>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 100%;border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%">
+            <col style="width: 160px;" class="Column-Column1" />
+            <col style="width: 410px;" class="Column-Column2" />
+            <col class="Column-Column2" />
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Parametro</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Descrizione</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Default</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Setpoint corrente</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Valore corrente della variabile setpoint della centrale</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Setpoint minimo</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Valore minimo che la variabile setpoint può assumere. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Setpoint massimo</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Valore massimo che la variabile setpoint può assumere. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Gradiente</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Stabilisce di quanto il valore della variabile setpoint sarà incrementato o 
+ diminuito in seguito al calcolo del duty cycle fatto sui banchi.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Finestra temporale per 
+ il calcolo DC</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Indica per quanto tempo storicizzare in memoria i dati 
+ relativi al solenoide di ogni singolo banco. Il calcolo del duty cycle 
+ verrà effettuato su questi dati; una volta riempita la finestra ogni nuovo 
+ valore sovrascriverà il valore più vecchio.</p>
+                    <p class="testoit">Il valore può variare da 10 a 180 minuti.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">12 minuti</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Frequenza calcolo DC</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Indica ogni quanto tempo calcolare il duty cycle per i 
+ banchi di una centrale e, quindi, variare eventualmente il valore della variabile setpoint della 
+ centrale.</p>
+                    <p class="testoit">Il valore può variare da 10 a 180 minuti.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">30 minuti</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Tempo massimo di mancata connessione</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Percentuale massima di acquisizioni fallite per ogni banco 
+ della centrale. Se questa viene superata il banco viene considerato disconnesso.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">30%</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Massimo numero di banchi 
+ non connessi</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Se al momento del calcolo del duty cycle i banchi disconnessi
+ superano questo numero, non viene eseguito il set sulla centrale. </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">3</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Parametri dell'algoritmo Smooth lines</h2>
+        <p>Di seguito i parametri più significativi:</p>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 100%;border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%">
+            <col class="Column-Column1" style="width: 160px;" />
+            <col style="width: 410px;" class="Column-Column2" />
+            <col class="Column-Column2" />
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Parametro</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Descrizione</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Default</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Ultimo campionamento
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Orario dell'ultimo campionamento effettuato.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-
+					</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Setpoint corrente</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Valore corrente della variabile setpoint della centrale.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Setpoint minimo</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Valore minimo che la variabile setpoint può assumere. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Setpoint massimo</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Valore massimo che la variabile setpoint può assumere. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Gradiente</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Stabilisce di quanto il valore della variabile setpoint sarà incrementato o 
+ diminuito in base alla configurazione.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Numero di utenze configurato
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Numero di banchi collegato alla centrale.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Numero campioni</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Numero di campionamenti minimo necessario per mostrare il trend dello stato dei banchi e della centrale.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">3</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Intervallo tra campionamenti</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Intervallo di tempo fra due campionamenti.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">10 minuti</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Finestra temporale
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Periodo temporale minimo per mostrare il trend  dello stato dei banchi e della centrale.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">30 minuti</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Yellow
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Numero di led gialli ammessi in un campionamento.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Orange
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Numero di led arancioni ammessi in un campionamento.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Red
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Numero di led rossi ammessi in un campionamento.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Stati della centrale
+e dei banchi collegati        </h2>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 100%;border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%">
+            <col style="width: 160px;" class="Column-Column1" />
+            <col style="width: 491px;" class="Column-Column2" />
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Colore del led</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Descrizione dello stato della centrale o del banco</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p valign="top">
+                        <img src="../Resources/Images/led/L1.gif" />(verde)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1" style="font-style: italic;">
+                    <p style="font-style: normal;">Banco <i>OK</i>. Il banco sta funzionando correttamente dal punto di vista dell’algoritmo Smooth lines:  il setpoint della centrale può essere aumentato.</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1" style="height: 16px;">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p style="font-weight: bold;">
+                        <img src="../Resources/Images/led/Giallo_10x10.png" style="border: none;float: left;float: none;border-style: none;border-style: none;width: 10;height: 10;" border="0" />
+                     (giallo)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p>Primo avvertimento: il banco è passato da uno stato <i>OK</i> (led verde) a uno stato <i>NON OK</i>.</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">
+                        <img src="../Resources/Images/led/Arancione_10x10.png" style="border: none;float: left;float: none;border-style: none;border-style: none;width: 10;height: 10;" border="0" />
+                     (arancione)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">Secondo avvertimento: il banco permane in uno stato <i>NON OK</i> per 2 campioni consecutivi (al campione precedente il led era giallo).</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">
+                        <img src="../Resources/Images/led/L2.gif" />(rosso)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">Terzo avvertimento: il banco permane in uno stato <i>NON OK</i> per 3 campioni consecutivi (al campione precedente il led era arancione).</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">
+                        <img src="../Resources/Images/led/L0.gif" />(nero)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">Stato di mancata connessione: il plugin non riesce a rilevare il valore della variabile setpoint del banco o della centrale.</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">N/A</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">Il banco non supporta l'algoritmo Smooth lines: il plugin non riesce a rilevare il valore della variabile setpoint del banco.</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 72px;" />
+            <col style="width: 579px;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC">
+                    <p>Se per un banco persiste lo stato N/A è preferibile eliminarlo dal gruppo. Non supportando l'algoritmo Smooth lines, infatti, costringe la centrale a lavorare costantemente in sicurezza, al setpoint minimo</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: left;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p>&#160;</p>
+        <p><a href="Floating_suction__introduzione.htm">Floating suction: introduzione</a>
+        </p>
+        <p><a href="Floating_suction__DettaglioFunzionamento.htm">Floating suction: dettaglio del funzionamento</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

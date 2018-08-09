@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.EnergyMeter" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Controlling energy consumption|Energy">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Energy: basic concepts</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Energy__concetti_di_base.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controlling energy consumption</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Energy</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Basic concepts</span>
+        </div>
+        <h1>Energy: basic concepts</h1>
+        <h2>Meter models and variables.</h2>
+        <p>The <b>Energy</b> plugin supports various energy meter models. New meters can be added and their relevant power and energy variables defined.</p>
+        <p>As of the date of this document, Energy supports standard meters: </p>
+        <ul style="list-style: disc;margin-top: 0cm;" type="disc">
+            <li class="p" value="1">
+                <p>CAREL emeter1</p>
+            </li>
+            <li class="p" value="2">
+                <p>CAREL emeter3</p>
+            </li>
+            <li class="p" value="3">
+                <p>Ducati energia smart più</p>
+            </li>
+            <li class="p" value="4">
+                <p>Gavazzi CPT-DIN Basic - WM14-DIN Basic - WM14-96 Basic</p>
+            </li>
+            <li class="p" value="5">
+                <p>IME ContoD4</p>
+            </li>
+            <li class="p" value="6">
+                <p>IME Nemo96HD</p>
+            </li>
+            <li class="p" value="7">
+                <p>IME Nemod4</p>
+            </li>
+        </ul>
+        <p>and all programmable devices that have output variables expressed in Kw and Kwh (i.e.: pLoads).</p>
+        <h2>Meter groups</h2>
+        <p>To make the analysis more precise and to indicate any areas where consumption is optimized,  <i>groups</i> of meters that can represent homogeneous utilities (i.e.: refrigerator counters) or utilities found in a certain site area (i.e.: warehouses) can be created.</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 72px;" />
+            <col />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC">
+                    <p class="Not">Up to 10 groups can be set in a site and each group can include up to 10 meters. This for up to a total of 40 meters. Thus a maximum of four groups of 10 meters each or ten groups of four meters each can be had.</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Consumption by utilities not connected to meters</h2>
+        <p>A site meter must be connected upstream of the entire plant to calculate the consumption by utilities not connected to meters. This meter must be linked to the<i>Global group.</i> Energy will calculate the consumption by utilities not connected to the plant by subtracting all groups' consumption from plant consumption (Global group). </p>
+        <h2>Fixed cost/time slots</h2>
+        <p>Energy consumption can be monitored for a fixed cost (<b>Fixed cost</b> settings) or for a cost category by time slot (<b>Time Slot</b> settings).</p>
+        <p>When switching from fixed cost to time slot settings and vice versa, all data collected until that time is saved but only current settings data can be viewed and updated.</p>
+        <p>For time slot monitoring, the maximum settings are:
+        <ul><li value="1"> 			eight cost categories per kWh</li><li value="2"> 12 slots with cost categories linked to each hour of the day and day, time or date exceptions</li></ul></p>
+        <h2>Consumption monitoring: indicated values</h2>
+        <p>The following are indicated in the <b>Dashboard</b> page:</p>
+        <ul>
+            <li value="1">
+                <p>current and previous months' consumption (kWh)</p>
+            </li>
+            <li value="2">
+                <p>current and previous weeks' consumption (kWh)</p>
+            </li>
+            <li value="3">
+                <p>the cost category and relevant active costs (if monitoring is set for time slots)</p>
+            </li>
+            <li value="4">
+                <p>The amount of CO<sub>2</sub> emitted in the current month and week (Kg per kWh)</p>
+            </li>
+        </ul>
+        <p class="Image">
+            <img src="../Resources/Images/Energy_file/Sinottico_506x300.png" style="border: none;float: none;border-style: none;border-style: none;width: 506;height: 300;" border="0" />
+        </p>
+        <h2>Programming utility start/stop</h2>
+        <p>The consumption analysis will let the user find consumption that can be reduced by turning off unused utilities (i.e.: warehouse lights).</p>
+        <p>To do this, connect a control meter upstream of each group that can turn off power.</p>
+        <p>Start/stop is programmed in the <span style="font-weight: bold;"><a href="Calendario_impianto__introduzione.htm">Plant calendar function.</a></span> <![CDATA[ ]]></p>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p><a href="Energy__configurare_i_misuratori.htm">Energy: Setting up meters</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

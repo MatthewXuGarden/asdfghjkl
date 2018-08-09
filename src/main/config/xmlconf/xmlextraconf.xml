@@ -1,0 +1,46 @@
+<configuration>
+	<pvidentifier>P1</pvidentifier>
+	<bms>
+		<server>
+			<host>
+				http://10.0.2.254:8080/SBWebTest/bmssrvl
+			</host>
+			<commtype>
+				http
+			</commtype>
+		</server>
+		<actions>
+			<bs>alarmslist,eventslist</bs>
+		</actions>
+		<language>
+			EN_en
+		</language>
+	</bms>
+	
+	<!-- variable set in case of communication failure with the BMS	-->
+	<comm_failure>
+		<var uuid='P1:1.001:F1' value='0.5' />
+	</comm_failure>
+	<xmls>
+		<alarmslist>
+			<![CDATA[
+				<request><login userName='admin' password='admin' /><rq t='AL2' /></request>
+			]]>
+		</alarmslist>
+		<eventslist>
+			<![CDATA[
+				<request><login userName='admin' password='admin' /><rq t='EL2' /></request>
+			]]>
+		</eventslist>
+		<deviceslist>
+			<![CDATA[
+				<request><login userName='admin' password='admin' /><rq t='DL2' /></request>
+			]]>
+		</deviceslist>
+		<variableslist>
+			<![CDATA[
+				<request><login userName='admin' password='admin' /><rq t='VL2' /></request>
+			]]>
+		</variableslist>		
+	</xmls>
+</configuration>

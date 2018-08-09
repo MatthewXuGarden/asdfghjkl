@@ -1,0 +1,5 @@
+<siteconfiguration>
+	<subset id='subset1'>
+       	<device did='1.001' />
+	</subset>
+</siteconfiguration>

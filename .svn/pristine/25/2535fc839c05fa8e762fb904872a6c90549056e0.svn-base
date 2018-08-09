@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="I concetti alla base di PlantVisor PRO">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Attività: concetti di base</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Attivita__concetti_di_base.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">I concetti alla base di PlantVisor PRO</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Attività&#160;: concetti di base</span>
+        </div>
+        <h1>Attività: concetti di base</h1>
+        <h2 data-mc-conditions="Primary.Locale">Attività</h2>
+        <p data-mc-conditions="Primary.Locale">PlantVisorPRO Locale può eseguire delle 
+ attività e segnalare situazioni anomale, per esempio:</p>
+        <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">Su allarmi 
+ e eventi</span>:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>Inviare un SMS al Service in occasione di un determinato 
+ allarme.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Inviare una e-mail al Service quando la potenza assorbita 
+ supera un valore fisso.</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">Su base 
+ periodica</span>:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>Inviare un segnale di vita al remoto per confermare 
+ il funzionamento della linea telefonica.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Comandare l'inizio dello sbrinamento.</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale"><span style="font-weight: bold;">In caso 
+ di situazioni non gestite e rilevate da guardianPRO</span>:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>Ci sono allarmi che non sono stati segnalati entro un 
+ certo intervallo di tempo.</p>
+            </li>
+            <li class="p" value="2">
+                <p>Lo spazio libero su disco si sta esaurendo e questo 
+ può compromettere la registrazione dei dati storici.</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale">Ogni iniziativa deve essere programmata 
+ per indicare:</p>
+        <ul style="list-style: disc;" type="disc" data-mc-conditions="Primary.Locale">
+            <li class="p" value="1">
+                <p>il tipo di azione (SMS, comandare relé, ecc..)</p>
+            </li>
+            <li class="p" value="2">
+                <p>il destinatario dell'azione (es.: numero telefonico, 
+ relé, ecc..)</p>
+            </li>
+            <li class="p" value="3">
+                <p>in quali condizioni l'attività è valida (es.: su allarme, 
+ a scadenza, ecc..)</p>
+            </li>
+            <li class="p" value="4">
+                <p>in quale periodo l'attività è valida (es.: feriali o 
+ festivi, dalle ore alle ore, ecc...)</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale">L'insieme di queste indicazioni (azione, 
+ condizione, fascia oraria) viene chiamata <span style="font-weight: bold;">regola</span>. 
+ La regola determina <span style="font-weight: bold;">l'attività</span>.</p>
+        <h2 data-mc-conditions="Primary.Locale">Attività a fronte di allarmi e eventi</h2>
+        <p class="Image" data-mc-conditions="Primary.Locale">
+            <img src="../Resources/Images/Schema_AlarmEventActivities.png" style="border: none;float: none;width: 449px;height: 549px;border-style: none;border-style: none;" width="449" height="549" border="0" />
+        </p>
+        <p>Le attività a fronte di allarmi e eventi servono per un pronto intervento 
+ in caso di innalzamento delle temperature o guasti alle unità di refrigerazione. 
+ Servono a comunicare immediatamente e direttamente con il personale preposto 
+ alla manutenzione dell'impianto.</p>
+        <p>In questo caso l'<span style="font-weight: bold;">azione</span><span style="font-weight: bold;">di notifica</span> (es.:inviare un SMS), l'<span style="font-weight: bold;">azione verso il campo</span> (impostazione 
+ relé e variabili) o l'azione di allarme (stampa riga allarme, mostra finestra 
+ allarme) verrà compiuta solo al verificarsi di determinate <span style="font-weight: bold;">condizioni 
+ di allarme</span> (es.: Allarme sonda 3, dispositivo IR33) o <span style="font-weight: bold;">condizioni 
+ di evento</span> (es.: Temperatura regolazione &gt; Setpoint di lavoro). 
+ </p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Una condizione di evento può essere costruita con qualsiasi variabile 
+ storica, anche logiche.</p>
+                    <p>Per problemi di manutenzione è possibile disabilitare temporaneamente 
+ le attività su allarmi e eventi provenienti da un certo dispositivo. Per 
+ farlo andare in <span style="font-weight: bold;"><a href="Config-dispositivo__principale.htm">Pagina 
+ principale</a></span> della configurazione del dispositivo.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Sarà possibile differenziare l'azione se le condizioni si verificano 
+ all'interno di determinate <span style="font-weight: bold;">fasce orarie</span> 
+ (es.: se allarme e fascia oraria pomeridiana, chiama il remoto, se allarme 
+ e fascia oraria serale, invia SMS al Service). Sarà 
+ inoltre possibile impostare un ritardo sull'azione.&#160;</p>
+        <h3>Attività a fronte di allarmi</h3>
+        <p>Il sistema controlla la presenza di allarmi ogni 30 secondi. </p>
+        <p>Se l'allarme è associato a un'attività con ritardo nullo, l'azione associata 
+ viene eseguita immediatamente. </p>
+        <p>Se è stato impostato un ritardo, ogni 30 secondi il sistema ne controlla 
+ il superamento per poter eseguire l'azione. </p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAwarning.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>L'esecuzione di un'azione a fronte di un allarme può avvenire con una 
+ variazione di + o - 30 secondi rispetto al ritardo impostato. Ma se al 
+ successivo controllo (dopo 30 secondi) l'allarme è rientrato l'azione 
+ non viene eseguita. Quindi vengono eseguite solo azioni a fronte di allarmi 
+ che permangono.</p>
+                </td>
+            </tr>
+        </table>
+        <h3>Attività a fronte di eventi</h3>
+        <p>Le variabili che compongono la condizione sono variabili storiche, i 
+ cui valori vengono campionati alla frequenza indicata nella pagina <span style="font-weight: bold;"><a href="Config-dispositivo__storici.htm">Config 
+ storici</a></span> del dispositivo. Il sistema controlla il verificarsi 
+ della condizione allo scadere del periodo di campionamento inferiore. 
+ </p>
+        <p>Se la condizione è vera, e la regola ha un ritardo nullo, l'azione associata 
+ viene eseguita immediatamente. </p>
+        <p>Se è stato impostato un ritardo, al successivo campionamento il sistema 
+ verifica nuovamente la condizione per poter eseguire l'azione. </p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAwarning.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>L'esecuzione di un'azione a fronte di un evento può avvenire con una 
+ variazione di + o - il tempo di campionamento rispetto al ritardo impostato. 
+ Ma se ad un successivo campionamento la condizione non è più vera, l'azione 
+ non viene eseguita. Quindi vengono eseguite solo azioni le cui condizioni 
+ permangono vere.</p>
+                    <p>Per garantire la gestione corretta degli eventi, occorre quindi impostare 
+ correttamente i tempi di campionamento delle variabili che determinano 
+ la condizione.</p>
+                </td>
+            </tr>
+        </table>
+        <h2 data-mc-conditions="Primary.Locale">Attività schedulate</h2>
+        <p class="Image" data-mc-conditions="Primary.Locale">
+            <img src="../Resources/Images/Schema_scheduledActivities.png" style="border: none;float: none;width: 446px;height: 552px;border-style: none;border-style: none;" width="446" height="552" border="0" />
+        </p>
+        <p data-mc-conditions="Primary.Locale">Le attività schedulate su base oraria spesso 
+ servono per fare un test del canale di comunicazione (es.: linea telefonica) 
+ e assicurarsi così che sia in piena efficienza per quando ce ne potrebbe 
+ essere bisogno in caso di allarme. Oppure vengono usate per stampare regolarmente 
+ dei report di funzionamento.</p>
+        <p data-mc-conditions="Primary.Locale">L'<span style="font-weight: bold;">azione</span><span style="font-weight: bold;">di notifica</span> (es.:inviare un SMS), 
+ l'<span style="font-weight: bold;">azione verso il campo</span> (impostazione 
+ relé e variabili) o l'<span style="font-weight: bold;">azione di stampa</span> 
+ (report HACCP o storico) verrà compiuta solo al verificarsi di una <span style="font-weight: bold;">fascia oraria</span> (es.: alle ore 8.00 di 
+ Lunedi di ogni mese). Le fasce orarie si basano su calendari ricorrenti 
+ (giornalieri, settimanali, mensili, annuali) o su calendari speciali (es.: 
+ alla data gg/mm/aaaa alle ore xx).</p>
+        <h2>Elementi di un'attività</h2>
+        <h3>Azioni</h3>
+        <p>Le azioni possibili per tutte le attività sono:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>spedire fax</p>
+            </li>
+            <li class="p" value="2">
+                <p>spedire SMS</p>
+            </li>
+            <li class="p" value="3">
+                <p>inviare e-mail</p>
+            </li>
+            <li class="p" value="4" data-mc-conditions="Primary.Locale">
+                <p>chiamare uno o più supervisori 
+ remoti</p>
+            </li>
+            <li class="p" value="5" data-mc-conditions="Primary.Locale">
+                <p>impostare il valore di 
+ variabili</p>
+            </li>
+            <li class="p" value="6" data-mc-conditions="Primary.Locale">
+                <p>attivare/disattivare relè</p>
+            </li>
+        </ul>
+        <p>Ulteriori azioni possibili solo per le attività a fronte di allarmi:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li style="color: #000000;" class="p" value="1">
+                <p style="color: #000000;">stampare 
+ l'allarme</p>
+            </li>
+            <li style="color: #000000;" class="p" value="2">
+                <p style="color: #000000;">mostrare 
+ la finestra di allarme con/senza suono</p>
+            </li>
+        </ul>
+        <p data-mc-conditions="Primary.Locale">Ulteriori azioni possibili solo per le 
+ attività schedulate:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1" data-mc-conditions="Primary.Locale">
+                <p>stampare un report HACCP 
+ o storico</p>
+            </li>
+        </ul>
+        <h3>Azioni di default</h3>
+        <p>In fase di configurazione dei canali di notifica (fax, SMS, e-mail) 
+ è possibile creare istantaneamente un'<span style="font-weight: bold;">azione 
+ di default</span> diretta a tutti i destinatari della rubrica sul canale 
+ che si sta configurando, valida <span style="font-weight: bold;">solo 
+ per le attività su allarme e evento</span>. </p>
+        <p>Questa operazione provoca in <span style="font-weight: bold;">Gestione 
+ attività su allarme e evento</span> la creazione di:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>in <span style="font-weight: bold;">Azioni</span><span>,</span> 
+ l'azione standard (<span style="font-weight: bold;">SMSACTIONTECH</span>, 
+ <span style="font-weight: bold;">FAXACTIONTECH</span>, <span style="font-weight: bold;">MAILACTIONTECH</span>)</p>
+            </li>
+            <li class="p" value="2">
+                <p>in <span style="font-weight: bold;">Fasce orarie</span>, 
+ una fascia (Always/Sempre/Toujours/Immer) sempre valida</p>
+            </li>
+            <li class="p" value="3" data-mc-conditions="Primary.Locale">
+                <p>in <span style="font-weight: bold;">Condizione</span>, 
+ allarme una condizione generica per tutti i dispositivi </p>
+            </li>
+            <li class="p" value="4">
+                <p>in <span style="font-weight: bold;">Regole</span>, una 
+ regola già abilitata che include gli elementi precedenti</p>
+            </li>
+        </ul>
+        <p>L'azione di default può comunque essere modificata, per esempio per 
+ ridurre il numero dei destinatari. La regola che ne è derivata può essere 
+ disabilitata.</p>
+        <h3 data-mc-conditions="Primary.Locale">Condizioni</h3>
+        <p data-mc-conditions="Primary.Locale">Le condizioni determinano in quali casi 
+ occorre intervenire:</p>
+        <ol data-mc-conditions="Primary.Locale">
+            <li style="list-style: decimal;" type="1" class="p" value="1">
+                <p>a seguito di uno 
+ o più allarmi (<span style="font-weight: bold;">condizione di allarme</span>). 
+ È possibile scatenare un'azione al verificarsi di:</p>
+            </li>
+        </ol>
+        <ol style="list-style: disc;list-style-type: decimal;" data-mc-conditions="Primary.Locale">
+            <ul style="list-style: disc;" type="disc">
+                <li class="p" value="1">
+                    <p>un qualsiasi allarme su un qualsiasi dispositivo</p>
+                </li>
+                <li class="p" value="2">
+                    <p>uno o più allarmi su uno o più dispositivi</p>
+                </li>
+            </ul>
+        </ol>
+        <ol data-mc-conditions="Primary.Locale">
+            <li style="list-style: decimal;" type="1" class="p" value="1">
+                <p>a seguito di una 
+ condizione calcolata su variabili storiche (<span style="font-weight: bold;">condizione 
+ di evento</span>). È possibile scatenare un'azione quando i valori di 
+ due variabili di uno o due dispositivi soddisfano le seguenti condizioni:</p>
+            </li>
+        </ol>
+        <ol style="list-style: disc;list-style-type: decimal;">
+            <ul style="list-style: disc;" type="disc">
+                <li class="p" value="1" data-mc-conditions="Primary.Locale">
+                    <p>AND logico (tra variabili 
+ Boolean)</p>
+                </li>
+                <li class="p" value="2" data-mc-conditions="Primary.Locale">
+                    <p>OR logico (tra variabili 
+ Boolean)</p>
+                </li>
+                <li class="p" value="3" data-mc-conditions="Primary.Locale">
+                    <p>uguaglianza (tra i 
+ due valori o tra il primo valore e un valore costante)</p>
+                </li>
+            </ul>
+        </ol>
+        <h3>Fasce orarie</h3>
+        <p>La fascia oraria determina quando considerare l'attività e può essere:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>combinata con la condizione di allarme o evento (es.: 
+ "se Allarme=TRUE e fascia oraria mattino, invia un SMS", "se 
+ Allarme=TRUE e fascia oraria sera, esegue una chiamata")</p>
+            </li>
+            <li class="p" value="2" data-mc-conditions="Primary.Locale">
+                <p>usata per le attività schedulate</p>
+            </li>
+        </ul>
+        <p>Le fasce orarie possono essere:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p><span style="font-weight: bold;">giornaliere</span> 
+ ricorrenti (ogni giorno dalle ore xx alle ore yy)</p>
+            </li>
+            <li class="p" value="2">
+                <p><span style="font-weight: bold;">settimanali</span> 
+ ricorrenti (ogni settimana, nei giorni x, y dalle ore xx alle ore yy)</p>
+            </li>
+            <li class="p" value="3">
+                <p><span style="font-weight: bold;">mensili</span> ricorrenti 
+ (ogni mese, nei giorni x, y dalle ore xx alle ore yy)</p>
+            </li>
+            <li class="p" value="4">
+                <p><span style="font-weight: bold;">annuali</span> ricorrenti 
+ (ogni anno, nel mese z, nei giorni x, y dalle ore xx alle ore yy)</p>
+            </li>
+            <li class="p" value="5">
+                <p><span style="font-weight: bold;">speciali</span> (non 
+ ricorrenti, nell'anno jj, mese z, giorni x,y, dalle ore xx alle ore yy)</p>
+            </li>
+        </ul>
+        <h2><a name="Notifiche_fronte_segnalazioni_guardianPRO"></a>Notifiche a fronte 
+ di segnalazioni di guardianPRO</h2>
+        <p><span data-mc-conditions="Primary.Locale">Queste segnalazioni sono inviate 
+ autonomamente da guardianPRO, sia sugli stessi canali usati per le notifiche 
+ di allarme (es.: chiamata a remoto), sia su canali ritenuti "dedicati" 
+ (es.: messaggi SMS). </span>
+        </p>
+        <p style="font-weight: normal;">I canali dedicati alle notifiche di guardianPRO 
+ possono garantire la ricezione delle notifiche anche in caso di malfunzionamento 
+ dei canali standard (es.: se la linea telefonica usata da PlantVisorPRO 
+ si guasta, guardianPRO segnala l'anomalia con un SMS via linea GSM).</p>
+        <p style="font-weight: normal;">guardianPRO e le anomalie da controllare 
+ devono essere abilitati (vedi capitolo <a href="Pagine_di_sistema__guardianPRO.htm">Configurazione 
+ di guardianPRO</a>) e devono essere definiti i destinatari delle notifiche 
+ (vedi capitolo <a href="Pagine_di_sistema__guardianPRO.htm">Pagine di 
+ sistema: guardianPRO</a>). Per ulteriori approfondimenti vedi capitolo 
+ <a href="guardianPRO__concetti_di_base.htm">guardianPRO: concetti di base</a>. 
+ Per la procedura completa vedi capitolo <a href="Procedure_configurazione_standard.htm">Procedure 
+ di configurazione dell'impianto</a>.</p>
+        <h3>Contenuti delle notifiche</h3>
+        <p>Il testo di fax, SMS, e-mail e chiamata sarà la <span style="font-weight: bold;">descrizione 
+ della regola</span> che è stata attivata (vedi capitolo <a href="Attivita__regole_di_attivazione.htm">Attività: 
+ regole di attivazione</a>).</p>
+        <p>In caso di notifica da parte di guardianPRO, il testo sarà quello dell'evento 
+ (vedi capitolo <a href="Eventi__introduzione.htm">Eventi</a>).</p>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Pagine_di_sistema__guardianPRO.htm">Pagine di sistema: guardianPRO</a>
+        </p>
+        <p><a href="Procedure_creazione_attivita-locale.htm">Procedure di creazione 
+ delle attività</a>
+        </p>
+        <p><a href="Config-canali__introduzione.htm">Canali di notifica: introduzione</a>
+        </p>
+        <p><a href="Attivita_allarmi_e_eventi__introduzione.htm">Attività su allarmi 
+ e eventi: introduzione</a>
+        </p>
+        <p data-mc-conditions="Primary.Locale"><a href="Attivita_schedulate__introduzione.htm" data-mc-conditions="Primary.Locale">Attività schedulate: introduzionee</a>
+        </p>
+        <p><a href="Azioni__introduzione.htm">Azioni: introduzione</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

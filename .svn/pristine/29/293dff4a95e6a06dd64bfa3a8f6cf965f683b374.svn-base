@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Help introduction|How to use Help topics">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Help: text search</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Guida_in_linea_ricerca_testuale.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Help introduction</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">How to use Help topics</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Text search</span>
+        </div>
+        <h1>Help: text search</h1>
+        <p>&#160;</p>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 38.113%;" />
+            <col style="width: 61.887%;" />
+            <tr valign="top">
+                <td style="width: 38.113%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-left-style: None;border-top-style: None;border-bottom-style: None;" width="38.113%">
+                    <p data-mc-conditions="Primary.Attachment_ENG">
+                        <img src="../Resources/Images/guidaricerca_EN.jpg" style="border: none;width: 219px;height: 281px;float: none;border-style: none;border-style: none;" width="219" height="281" border="0" />
+                    </p>
+                </td>
+                <td style="width: 61.887%;padding-right: 10px;padding-left: 10px;border-top-style: None;border-bottom-style: None;border-right-style: None;" width="61.887%">
+                    <p>The <span style="font-weight: bold;">text search</span> is used to find all pages that contain one or more entered keywords. 
+ </p>
+                    <p>Please remember the following rules:</p>
+                    <ul>
+                        <li class="p-ListaAttaccata" value="1">
+                            <p class="ListaAttaccata">punctuation marks are ignored <span style="font-style: italic;">(i.e.: "open a project, new" is the same as "open a project new")</span>;</p>
+                        </li>
+                        <li class="p-ListaAttaccata" value="2">
+                            <p class="ListaAttaccata">searches are not case sensitive <span style="font-style: italic;">(i.e.: "fan coil", "Fan coil" or "FAN COIL" are all the same)</span>;</p>
+                        </li>
+                        <li class="p-ListaAttaccata" value="3">
+                            <p class="ListaAttaccata" style="margin-bottom: 0;">if one or more words are entered, the search results will include a list of all topics that contain those words in the text although not necessarily adjacent <span style="font-style: italic;">(i.e.: "project estimate" results in all topics that include the words "estimate" and "project")</span></p>
+                        </li>
+                        <li class="p-ListaAttaccata" value="4">
+                            <p class="ListaAttaccata"><span style="font-style: italic;">T</span>o expand a search, use operators: * (asterisk) and ? (question mark) (i.e.: enter "print*" returns all topics that contain the words "print", "printing", "printer", etc...; "sele?t" returns all topics that contain the words "select", "selected")</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p><a href="Guida_in_linea_sommario.htm">Topics or index</a>
+        </p>
+        <p><a href="Guida_in_linea__glossario.htm">Glossary</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

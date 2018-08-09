@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.Locale" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Controlling energy consumption|Dew point broadcast">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Dew point broadcast: basic concepts</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Propagazione_punto_rugiada__concetti_di_base.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controlling energy consumption</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Dew point broadcast</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Basic concepts</span>
+        </div>
+        <h1>Dew point broadcast: basic concepts</h1>
+        <p>The module lets you update the values of between three and six variables in Slave devices with values coming from a Master device. The Master and Slave set is called a "group". A Master may be included in only one group.</p>
+        <h2>Variables preset for broadcast.</h2>
+        <p>The module is preset for up to three default variables for all CAREL templates with Master-Slave architecture.:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p style="font-weight: normal;"><span style="font-weight: bold;">Tamb</span> (Room temperature)</p>
+            </li>
+            <li class="p" value="2">
+                <p style="font-weight: normal;"><span style="font-weight: bold;">rH%</span> (percent humidity)</p>
+            </li>
+            <li class="p" value="3">
+                <p style="font-weight: normal;"><span style="font-weight: bold;">Tdew</span> (dew point)</p>
+            </li>
+        </ul>
+        <p>Variables appear set in page<a href="Propagazione_punto_rugiada__configura_modelli.htm"><span style="font-weight: bold;"> template config</span></a>  and their limits and safety values can be edited.</p>
+        <p>Default configuration already differentiates between:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>templates only used as Masters (for which only source variables are indicated)</p>
+            </li>
+            <li class="p" value="2">
+                <p>models only used as Slaves (for which only target variables are indicated)</p>
+            </li>
+            <li class="p" value="3">
+                <p>templates used as both Master and Slave (for which source and target variables are indicated)</p>
+            </li>
+        </ul>
+        <h2>New template configuration</h2>
+        <p>To radically change a template configuration, for example, changing variables or using extra variables (i.e.: to be used for special applications), you must indicate:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>source variables (if the template is only used as a Master or as Master and Slave)</p>
+            </li>
+            <li class="p" value="2">
+                <p>target variables (if the template is only used as a Slave or as Master and Slave)</p>
+            </li>
+            <li class="p" value="3">
+                <p>any additional variables to be monitored</p>
+            </li>
+            <li class="p" value="4">
+                <p>any variables supporting those devices that do not recognize repeated writes of the same value and, therefore, could signal an erroneous off line alarm (see following paragraph <span style="font-weight: bold;">Heartbeat management</span>)</p>
+            </li>
+            <li class="p" value="5">
+                <p>extra variable (optional)</p>
+            </li>
+        </ul>
+        <p>Module data must reflect the modes in which that template's devices are used in the system:  if all that template's devices are used as Masters only, data must only be specified in the Master section.</p>
+        <p>If all that template's devices are used as Slaves only, data must only be specified in the Slave section. </p>
+        <p>If that template's devices are both Master and Slave, all data must be set. Data settings divide system devices into their relevant <a href="Propagazione_punto_rugiada__seleziona_i_Master.htm" style="font-weight: bold;">Master</a> and <span style="font-weight: bold;"><a href="Propagazione_punto_rugiada__seleziona_Slave_e_avvia.htm">Slave</a></span> tabs.</p>
+        <h2>Selecting Master and Slave devices</h2>
+        <p>After setting up the template, divide devices between Master and Slave. To do this, use the <span style="font-weight: bold;">Master</span> and <span style="font-weight: bold;">Slave</span> pages that let you:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p><span style="font-weight: bold;">Master</span>: exclude devices that are not Masters (and are therefore Slaves)</p>
+            </li>
+            <li class="p" value="2">
+                <p><span style="font-weight: bold;">Slave</span>: exclude certain Slave devices from updating</p>
+            </li>
+        </ul>
+        <h2>Data broadcast management</h2>
+        <p style="font-weight: normal;">After setting which devices are Masters and Slaves, manually run broadcast (see page <span style="font-weight: bold;"><a href="Propagazione_punto_rugiada__seleziona_Slave_e_avvia.htm">Slave</a></span>). The source variable value is only cyclically propagated if each source variable:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p style="font-weight: normal;">has a value in the indicated range</p>
+            </li>
+            <li class="p" value="2">
+                <p style="font-weight: normal;">has valid values (i.e.: the Master device is online and on)</p>
+            </li>
+            <li class="p" value="3">
+                <p style="font-weight: normal;">has no active alarm</p>
+            </li>
+        </ul>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p style="font-weight: normal;"><span style="font-weight: normal;">If the source value exceeds the set limits, the safety value is sent to the target variables.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2>Heartbeat management</h2>
+        <p>Some programmable devices base their "online device" status on status changes of variables dedicated to the supervisor. If the supervisor repeatedly writes the same value in the variable, the device does not intercept writing and erroneously signals an off line status.</p>
+        <p>With heartbeat on a digital variable and, upon request, even on an analog variable, writing from Master to its Slaves is at regular intervals to indicate that the supervisor is on.</p>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p><a href="Propagazione_punto_rugiada__introduzione.htm">Dew point broadcast: introduction</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

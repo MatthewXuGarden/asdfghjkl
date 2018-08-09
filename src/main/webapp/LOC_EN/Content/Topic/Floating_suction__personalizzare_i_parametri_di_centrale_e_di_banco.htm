@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Controlling energy consumption|Floating Suction Pressure Control">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="PVPRO_PPSTDFS0D0_IT_d02.doc" /><title>Floating suction: customizing rack and showcase parameters</title>
+        <link href="../Resources/TableStyles/Tab_Due_grigi.css" rel="stylesheet" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controlling energy consumption</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Floating Suction Pressure Control</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Customizing system and showcase parameters</span>
+        </div>
+        <h1>FSP: customizing rack and showcase parameters</h1>
+        <p class="InlineNormal">Floating Suction Pressure Control is supplied with standard parameters that manage plug-in operations. Nonetheless, some of the compressor rack parameters or the maximum duty cycle of a showcase can be changed, for example to adjust the algorithm to the specific installation.</p>
+        <p class="InlineNormal">If the Smooth lines algorithm is enabled, the following can be set and edited at any time: time interval between samples and number of altered states (Yellow, Orange, Red) when the plug-in intervenes.</p>
+        <p class="InlineNormal">The custom parameters are always saved in the database, even after disabling the compressor rack (see <i><a href="Floating_suction__configurarePlugin.htm"><span style="font-family: 'Zurich LtCn BT', sans-serif;">Configuring Floating Suction Pressure Control</span></a></i>). </p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 72px;" />
+            <col />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC">
+                    <p><b><span style="font-size: 8.0pt;font-weight: normal;">A</span></b>fter having modified the rack or showcase parameters, always re-start the plug-in</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Floating Suction algorithm parameters</h2>
+        <p class="InlineNormal">In some cases, rack parameters must be changed if, for example, there are several showcases in a rack and the maximum number of offline showcases needs to be increased. Alternatively, if the installation has network problems, the maximum offline time may need to be increased. </p>
+        <p class="InlineNormal">If, looking at the data in the <b>Details  </b>page and the recorded duty cycle values are higher than the set duty cycle maximum, single showcase operations must be checked and the set duty cycle maximum may need to be increased.</p>
+        <p class="InlineNormal">Following is what the<b> Parameters </b>page looks like:</p>
+        <p class="Figu">
+            <img src="../Resources/Images/Floating_suction_file/parameters.png" style="border-style: none;width: 546px;height: 251px;float: none;" width="546" height="251" border="0" />
+        </p>
+        <p class="InlineNormal">&#160;</p>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 81.2%;border: none;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');margin-left: 0;margin-right: auto;" cellspacing="3" width="81.2%">
+            <col class="Column-Column1" style="width: 39px;" />
+            <col class="Column-Column2" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Area</th>
+                    <th class="HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td valign="top" class="BodyE-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">1</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p class="testoit">Rack whose parameters are to be edited.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td valign="top" class="BodyE-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">2</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p class="testoit">Rack parameters used by the plug-in.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td valign="top" class="BodyE-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">3</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p class="testoit">Maximum duty cycle admitted on all showcases.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td valign="top" class="BodyB-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">4</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyA-Column2-Body1">
+                        <p class="testoit">Maximum duty cycle admitted on a single showcase.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Possible actions</h3>
+        <ol>
+            <li value="1">Modify the parameters and click<img src="../Resources/Images/actions/save_button.png" style="border-style: none;width: 24px;height: 28px;float: none;" width="24" height="28" border="0" /> to save the changes. </li>
+            <li value="2">Stop and restart the control to make the changes effective.</li>
+        </ol>
+        <h2>Smooth lines algorithm parameters</h2>
+        <p class="InlineNormal">Following is what the <b>Parameters </b> page looks like when the Smooth lines algorithm is enabled:</p>
+        <p class="Figu">
+            <img src="../Resources/Images/Floating_suction_file/ParametriSmooth_625x343.png" style="border-style: none;float: none;width: 625;height: 343;" border="0" />
+        </p>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 81.2%;border: none;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');margin-left: 0;margin-right: auto;" cellspacing="3" width="81.2%">
+            <col class="Column-Column1" />
+            <col class="Column-Column2" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Area</th>
+                    <th class="HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td valign="top" width="32.4pt" class="BodyE-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">1</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p class="testoit">Rack whose parameters are to be edited.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td valign="top" width="32.4pt" class="BodyE-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">2</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p class="testoit">Rack parameters used by the plug-in.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td valign="top" width="32.4pt" class="BodyE-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">3</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p class="testoit">Overheating threshold for all showcases.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td valign="top" width="32.4pt" class="BodyB-Column1-Body1">
+                        <p class="Inlinetestoit" style="font-weight: bold;">4</p>
+                    </td>
+                    <td valign="top" width="395.3pt" class="BodyA-Column2-Body1">
+                        <p class="testoit">Overheating threshold for a single showcase.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Possible actions</h3>
+        <ol>
+            <li value="1">Modify the parameters and click<img src="../Resources/Images/actions/save_button.png" style="border-style: none;width: 24px;height: 28px;float: none;" width="24" height="28" border="0" /> to save the changes.</li>
+            <li value="2">Stop and restart the control to make the changes effective.</li>
+        </ol>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p><a href="Floating_suction__introduzione.htm">Floating suction: introduction</a>
+        </p>
+        <p><a href="Floating_suction__parametriAlgoritmi.htm">Floating suction: algorithm parameters</a>
+        </p>
+        <p><a href="Floating_suction__DettaglioFunzionamento.htm">Floating suction: operating details</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

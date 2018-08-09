@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.Locale" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Guida per l'installatore (configurazione)">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Procedure manutenzione impianto</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Procedure_manutenzione_impianto.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Guida per l'installatore (configurazione)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Procedure per la manutenzione dell'impianto</span>
+        </div>
+        <h1>Procedure per la manutenzione dell'impianto</h1>
+        <h3>Verificare gli allarmi dell'impianto</h3>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail"><a href="#AprireSessioneinternet">Controllare 
+ PlantVisorPRO Locale tramite Internet</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail"><a href="#RisalireCauseDelGuasto">Dalla 
+ notifica ricevuta, risalire alle cause del guasto</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail"><a href="#TacitareSegnalazioni">Tacitare 
+ eventuali segnalazioni</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail"><a href="#AnalizzareStatoDispositiviUnita">Analizzare 
+ lo stato dei dispositivi e delle unità</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="5">
+                <p class="ActionDetail"><a href="#IntervernireSuDispositiviUnita">Intervenire 
+ sui dispositivi e sulle unità</a>
+                </p>
+            </li>
+        </ol>
+        <h3>Retrofit di impianto</h3>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail"><a href="#AggiugereNuoviDispositivi">Aggiungere 
+ nuovi dispositivi</a>
+                </p>
+            </li>
+        </ul>
+        <h3>Migliorare le prestazioni dell'impianto</h3>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail"><a href="#ControllareIndiciPrestazione">Controllare 
+ gli indici di prestazione</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail"><a href="#IntervernireSuDispositiviUnita">Intervenire 
+ sui dispositivi e sulle unità</a>
+                </p>
+            </li>
+        </ol>
+        <hr style="color: #808080;height: 1px;float: alignleft;" color="#808080" size="0" align="center" width="100%" />
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="AprireSessioneinternet"></a>Controllare PlantVisorPRO 
+ Locale tramite Internet</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Collegarsi 
+ al sito via Internet
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Dal proprio computer collegato a Internet, eseguire 
+ Internet Explorer</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Nella barra indirizzo digitare l'IP statico assegnato 
+ al PlantVisorPRO (vedi capitolo <a href="PVPRO_loc__modalita_di_connessione.htm">Modalità 
+ di connessione</a>): si apre la pagina di logon</p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>Accedere a PlantVisorPRO Locale come se si fosse sull'impianto</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="PVPRO_loc__modalita_di_connessione.htm">PVPRO 
+ loc: modalità di connessione</a></p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="RisalireCauseDelGuasto"></a>Dalla notifica ricevuta, 
+ risalire alle cause del guasto</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Controllare 
+ globalmente gli allarmi
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Il testo della notifica dovrebbe essere sufficientemente 
+ descrittivo per segnalare l'anomalia.</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>In <span style="font-weight: bold;">Allarmi</span>, 
+ pagina <span style="font-weight: bold;">Allarmi attivi</span> controllare 
+ in corrispondenza dell'orario della notifica, quali sono i primissimi 
+ allarmi generati (vedi capitolo <a href="Allarmi__allarmi_attivi.htm">Allarmi 
+ attivi</a>) </p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>Fare doppio clic su un allarme per entrare nel dettaglio 
+ e controllare eventuali azioni da parte degli utenti dell'impianto (vedi 
+ capitolo <a href="Allarmi__dettaglio_allarme.htm">Dettaglio di un allarme</a>)</p>
+                        </li>
+                        <li class="p" value="4">
+                            <p>In <span style="font-weight: bold;">Allarmi</span>, 
+ pagina <span style="font-weight: bold;">Allarmi rientrati</span> fare 
+ doppio clic per entrare nel dettaglio dell'allarme rientrato (vedi capitolo 
+ <a href="Allarmi__allarmi_rientrati.htm">Allarmi rientrati</a>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Forzare 
+ il rientro degli allarmi minori
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Allarmi</span><span>, 
+ doppio clic su un allarme minore e forzarne il rientro </span>(vedi capitolo 
+ <a href="Allarmi__dettaglio_allarme.htm">Dettaglio di un allarme</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail">Controllare 
+ globalmente gli eventi
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Eventi</span> controllare 
+ la sequenza degli eventi, partendo dall'evento più recente (probabilmente 
+ vicino alla data-ora del primo allarme) fino a giungere all'evento che 
+ può avere causato l'allarme (vedi capitolo <a href="Eventi__introduzione.htm">Eventi</a>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail">Se necessario 
+ fare una ricerca mirata
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Ricerca</span>ottenere e stampare allarmi e eventi che rispondono ai criteri 
+ di ricerca (vedi capitolo <a href="Ricerca__allarmi.htm">Ricerca allarmi</a> 
+ e <a href="Ricerca__eventi.htm">Ricerca eventi</a>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="5">
+                <p class="ActionDetail">Analizzare 
+ il comportamento del dispositivo in allarme
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Fare clic su <img src="../Resources/Images/AllarmiLink.png" style="border: none;width: 20px;height: 20px;float: none;border-style: none;border-style: none;" width="20" height="20" border="0" /> nella riga dell'allarme per entrare direttamente 
+ nella pagina di dettaglio del dispositivo in allarme.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="Allarmi_e_eventi__concetti_di_base.htm">Allarmi 
+ e eventi: concetti di base</a></p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="TacitareSegnalazioni"></a>Tacitare eventuali segnalazioni</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Bloccare 
+ le azioni del supervisore
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Allarmi</span><span>, 
+ doppio clic su un allarme per entrare nel suo dettaglio e bloccare eventuali 
+ azioni pendenti programmate dal </span>supervisore (vedi capitolo <a href="Allarmi__dettaglio_allarme.htm">Dettaglio 
+ allarme</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">(opzionale) Disabilitare un dispositivo</p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ doppio clic su una linea, <span style="font-weight: bold;">Modifica linea</span><span>,</span> 
+ disabilitare quei dispositivi da cui non si vogliono ricevere allarmi 
+ (tranne quello di fuori linea) (vedi capitolo <a href="Config-sito__dettaglio_linea.htm">Dettaglio 
+ di una linea</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail">(opzionale) Disabilitare le attività su allarmi e eventi provenienti da un 
+ dispositivo</p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ doppio clic sulla linea, doppio clic sul dispositivo, pagina <span style="font-weight: bold;">Principale</span><span> 
+ per </span>disabilitare le attvità su allarmi e eventi (vedi capitolo 
+ <a href="Config-dispositivo__principale.htm">Configurazione dispositivo: 
+ pagina principale</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail">Mettere 
+ a riposo i relé ausiliari
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Se necessario, in <span style="font-weight: bold;">Gestione 
+ relé</span> mettere a riposo i relé attivati da qualche azione del supervisore, 
+ legata allo stato di allarme (vedi capitolo <a href="Rele__introduzione.htm">Disattivazione 
+ dei relé</a>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="Attivita__concetti_di_base.htm">Attività: 
+ concetti di base</a></p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="AnalizzareStatoDispositiviUnita"></a>Analizzare 
+ lo stato dei dispositivi e delle unità</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Analizzare 
+ l'andamento di certe variabili di un gruppo di dispositivi
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">IMPIANTO, Globale,</span><span style="font-weight: bold;">&lt;nomeGruppo&gt;</span>, <span style="font-weight: bold;">Grafico 
+ storico</span>: richiamare le variabili dei dispositivi interessati e 
+ controllarne l'andamento nel periodo interessato dall'evento che ha generato 
+ l'allarme (vedi capitolo <a href="Monitoraggio__grafico_HACCP_e_storico.htm">Monitoraggio: 
+ grafico HACCP e storico</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Confrontare 
+ l'andamento di certe variabili di diversi gruppi di dispositivi
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">IMPIANTO, Globale</span>, 
+ <span style="font-weight: bold;">Grafico storico</span>: richiamare le 
+ variabili dei dispositivi interessati e confrontarne l'andamento nel periodo 
+ interessato dall'evento che ha generato l'allarme (vedi capitolo <a href="Monitoraggio__grafico_HACCP_e_storico.htm">Monitoraggio: 
+ grafico HACCP e storico</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="Grafici__concetti_di_base.htm">Grafici: 
+ concetti di base</a></p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="IntervernireSuDispositiviUnita"></a>Intervenire 
+ sui dispositivi e sulle unità</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Controllare 
+ lo stato di un dispositivo e comandare l'unità controllata
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">IMPIANTO, Globale</span>, 
+ doppio clic su un dispositivo, pagina <span style="font-weight: bold;">Principale</span> 
+ per:</p>
+                        </li>
+                        <ul style="list-style: disc;" type="disc">
+                            <li class="p" value="1">
+                                <p>controllare gli stati del dispositivo, </p>
+                            </li>
+                            <li class="p" value="2">
+                                <p>controllare i valori delle sonde,</p>
+                            </li>
+                            <li class="p" value="3">
+                                <p>impostare i parametri principali,</p>
+                            </li>
+                            <li class="p" value="4">
+                                <p>comandare il dispositivo (es.: fare il reset dei 
+ suoi allarmi)</p>
+                            </li>
+                            <li class="p" value="5">
+                                <p>comandare l'unità (es.: spegnere/accendere)</p>
+                            </li>
+                        </ul>
+                        <li class="p" value="2">
+                            <p>(vedi capitolo <a href="Monitoraggio-dispositivo__pagina_principale.htm">Monitoraggio-dispositivo: 
+ pagina principale</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Modificare 
+ i parametri (es.: setpoint) di un dispositivo
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">IMPIANTO, Globale</span>, 
+ doppio clic su un dispositivo, pagina <span style="font-weight: bold;">Parametri</span> 
+ per impostare tutti i parametri (vedi capitolo <a href="Monitoraggio-dispositivo__parametri.htm">Monitoraggio-dispositivo: 
+ parametri</a>)</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Se necessario propagare lo stesso tipo di settaggio 
+ sugli stessi parametri di tutti i dispositivi simili</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail">Modificare 
+ i parametri (es.: setpoint) di un gruppo di dispositivi
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">IMPIANTO, Globale</span>, 
+ <span style="font-weight: bold;">&lt;nomeGruppo&gt;</span>, pagina <span style="font-weight: bold;">Parametri</span>, impostare un valore contemporaneamente 
+ su più parametri (vedi capitolo <a href="Monitoraggio__parametri.htm">Monitoraggio: 
+ parametri</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="Dispositivo__concetti_di_base.htm">Dispositivo: 
+ concetti di base</a></p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="ControllareIndiciPrestazione"></a>Controllare gli 
+ indici di prestazione</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Controllare 
+ il tempo di permanenza sopra/sotto soglia di un determinato valore
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">ENERGIA, KPI -</span><span style="font-weight: bold;">Indicatori di performance, </span>fare 
+ clic sul pulsante relativo alle variabili da controllare per chiedere 
+ il report e controllare gli indici (vedi capitolo <a href="Indicatori_di_performance__introduzione.htm">Mappe: 
+ indici di prestazione</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="AggiugereNuoviDispositivi"></a>Aggiungere nuovi 
+ dispositivi</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Fermare 
+ il motore
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p style="color: #000000;">In <span style="font-weight: bold;">Pagine 
+ di sistema</span>, <span style="font-weight: bold;">Sistema</span>, fermare 
+ il motore</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Aggiungere 
+ il dispositivo alla linea
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ selezionare la linea, fare clic su <img src="../Resources/Images/actions/Edit_button.png" style="border: none;float: none;width: 24px;height: 24px;border-style: none;border-style: none;" width="24" height="24" border="0" />, scegliere il tipo di dispositivo, assegnare 
+ l'indirizzo, modificare la descrizione del dispositivo, fare clic su <img src="../Resources/Images/dbllistbox/arrowdx_on.png" style="border: none;width: 54px;height: 19px;float: none;border-style: none;border-style: none;" width="54" height="19" border="0" /></p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Vedi capitolo <a href="Config-sito__dettaglio_linea.htm">Dettaglio 
+ di una linea</a>.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail">Configurare 
+ il dispositivo
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Se necessario personalizzare la configurazione del dispositivo 
+ fare clic su <img src="../Resources/Images/actions/maintenance_on_black.png" style="border: none;border-style: none;width: 24px;height: 24px;float: none;" width="24" height="24" border="0" />: si aprono 
+ le pagine di <span style="font-weight: bold;">Configurazione dispositivo</span>.</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Vedi capitolo <a href="Config-dispositivo__introduzione.htm">Configurazione 
+ dispositivo</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail">Collegare 
+ il dispositivo
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="kadov-p" value="1">Collegare fisicamente il dispositivo alla linea seriale</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="5">
+                <p class="ActionDetail">Riavviare 
+ il motore
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p style="color: #000000;">In <span style="font-weight: bold;">Pagine 
+ di sistema</span>, <span style="font-weight: bold;">Sistema</span>, riavviare 
+ il motore</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="6">
+                <p class="ActionDetail">Provare 
+ la comunicazione con il campo
+                                                                                                </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Dopo avere riavviato il motore, in <span style="font-weight: bold;">Globale</span> 
+ compare il nuovo dispositivo (vedi capitolo <a href="Monitoraggio__pagina_principale.htm">Monitoraggio: 
+ pagina principale</a> )</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>La procedura permette di aggiungere dispositivi accettando la loro configurazione 
+ di fabbrica. Per ulteriori personalizzazioni vedi procedura <a href="Procedure_configurazione_standard.htm#ProgrammareDispositivi">Personalizzare 
+ la configurazione standard di un dispositivo</a>.</p>
+                </td>
+            </tr>
+        </table>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

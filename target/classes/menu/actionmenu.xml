@@ -1,0 +1,3783 @@
+<actionmenu>
+	<transaction name="actsched">
+		<tab name="tab1name">
+			<button name="Add">
+				<action>new_rule()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_rule()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>set_rule()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyRule(lineSelected)</action>
+				<tooltip>icon16tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Add">
+				<action>timeBandsAction('add');</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>timeBandsAction('del');</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>timeBandsAction('mod');</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>loadTimeBands(selectArgMasterTable)</action>
+				<tooltip>icon18tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Add">
+				<action>new_action()</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_action()</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>set_description()</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyAction(true, lineSelected)</action>
+				<tooltip>icon19tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="alrglb">
+		<tab name="tab1name">
+			<button name="ackall">
+				<action>ackallalarms();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/ack_on.png</iconStanby>
+				<iconOver>images/actions/ack_on.png</iconOver>
+				<iconClick>images/actions/ack_on.png</iconClick>
+				<iconDisable>images/actions/ack_off.png</iconDisable>
+				<description>ackall</description>
+			</button>
+			<button name="delete_all">
+				<action>delete_allarms();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/delactions_on.png</iconStanby>
+				<iconOver>images/actions/delactions_on.png</iconOver>
+				<iconClick>images/actions/delactions_on.png</iconClick>
+				<iconDisable>images/actions/delactions_off.png</iconDisable>
+				<description>delete_all</description>
+			</button>
+			<button name="reset_all">
+				<action>reset_allarms();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/reset_on.png</iconStanby>
+				<iconOver>images/actions/reset_on.png</iconOver>
+				<iconClick>images/actions/reset_on.png</iconClick>
+				<iconDisable>images/actions/reset_off.png</iconDisable>
+				<description>reset_all</description>
+			</button>
+			<button name="subtab1name">
+				<action>printTable(1,'alarm');</action>
+				<tooltip>subtab1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+
+		</tab>
+		<tab name="tab2name">
+			<button name="subtab2name">
+				<action>printTable(2,'alarmcall');</action>
+				<tooltip>subtab2tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+		</tab>
+
+	</transaction>
+	<transaction name="clock">
+		<tab name="tab1name">
+			<button name="Add">
+				<action>clock.addModel()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Modify">
+				<action>clock.modifyModel()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Rem">
+				<action>clock.removeModel()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="save">
+				<action>clock.saveModel();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="searchalev">
+		<tab name="tab1name">
+			<button name="subtab1name">
+				<action>exportResultSel('pdf');</action>
+				<tooltip>subtab1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="subtab2name">
+				<action>searchalev_csv_fdSaveFile()</action>
+				<tooltip>subtab2tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export_csv</description>
+			</button>
+			<button name="subtab3name">
+				<action>searchalev_pdf_fdSaveFile();</action>
+				<tooltip>subtab3tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export_pdf</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="searchal">
+		<tab name="tab1name">
+			<button name="subtab1name">
+				<action>exportResult('pdf');</action>
+				<tooltip>subtab1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="subtab3name">
+				<action>searchal_fdSaveFile();</action>
+				<tooltip>subtab3tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export_pdf</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="searchev">
+		<tab name="tab1name">
+			<button name="subtab1name">
+				<action>exportResult('pdf');</action>
+				<tooltip>subtab1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="subtab3name">
+				<action>searchev_fdSaveFile();</action>
+				<tooltip>subtab3tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export_pdf</description>
+			</button>
+		</tab>
+	</transaction>
+
+
+	<transaction name="evnview">
+		<tab name="tab1name">
+			<button name="subtab1name">
+				<action>printTable(0,'event');</action>
+				<tooltip>subtab1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="grpview">
+		<tab name="tab1name">
+			<button name="subtab1name">
+				<action>printTable(9,'device');</action>
+				<tooltip>subtab1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>printd</description>
+			</button>
+			<button name="subtab2name">
+				<action>printTable(1,'alarm');</action>
+				<tooltip>subtab2tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>printa</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="save">
+				<action>var_group_save();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/params_on.png</iconStanby>
+				<iconOver>images/actions/params_on.png</iconOver>
+				<iconClick>images/actions/params_on.png</iconClick>
+				<iconDisable>images/actions/params_off.png</iconDisable>
+				<description>params</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="subtab1name">
+				<action>printTable(1,'alarm');</action>
+				<tooltip>subtab3tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>printa1</description>
+			</button>
+			<button name="subtab2name">
+				<action>printTable(2,'alarmcall');</action>
+				<tooltip>subtab4tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>printa2</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Plot">
+				<action>saveAndPlot();</action>
+				<tooltip>plot</tooltip>
+				<iconStanby>images/actions/graph_on.png</iconStanby>
+				<iconOver>images/actions/graph_on.png</iconOver>
+				<iconClick>images/actions/graph_on.png</iconClick>
+				<iconDisable>images/actions/graph_off.png</iconDisable>
+				<description>graph</description>
+			</button>
+			<button name="Print">
+				<action>printGraphFlash();</action>
+				<tooltip>print</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+		</tab>
+
+		<tab name="tab5name">
+			<button name="Plot">
+				<action>saveAndPlot();</action>
+				<tooltip>plot</tooltip>
+				<iconStanby>images/actions/graph_on.png</iconStanby>
+				<iconOver>images/actions/graph_on.png</iconOver>
+				<iconClick>images/actions/graph_on.png</iconClick>
+				<iconDisable>images/actions/graph_off.png</iconDisable>
+				<description>graph</description>
+			</button>
+			<button name="Print">
+				<action>printGraphFlash();</action>
+				<tooltip>print</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+		</tab>
+
+		<tab name="tab7name">
+			<button name="Add">
+				<action>addNote();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeNote();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyNote();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyNote(idSelectedNote)</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="dtlview">
+		<tab name="tab1name">
+			<button name="changeview">
+				<action>change_dtl_view()</action>
+				<tooltip>icon16tooltip</tooltip>
+				<iconStanby>images/actions/layout_on.png</iconStanby>
+				<iconOver>images/actions/layout_on.png</iconOver>
+				<iconClick>images/actions/layout_on.png</iconClick>
+				<iconDisable>images/actions/layout_on.png</iconDisable>
+				<description>layout</description>
+			</button>
+			<button name="subtab3name">
+				<action>go_to_device()</action>
+				<tooltip>icon15tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_on.png</iconDisable>
+				<description>refresha</description>
+			</button>
+			<button name="subtab1name">
+				<action>printTable(1,'alarmdtl');</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/printA_on.png</iconStanby>
+				<iconOver>images/actions/printA_on.png</iconOver>
+				<iconClick>images/actions/printA_on.png</iconClick>
+				<iconDisable>images/actions/printA_off.png</iconDisable>
+				<description>printa</description>
+			</button>
+			<button name="subtab2name">
+				<action>dtlSetVars();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/params_on.png</iconStanby>
+				<iconOver>images/actions/params_on.png</iconOver>
+				<iconClick>images/actions/params_on.png</iconClick>
+				<iconDisable>images/actions/params_off.png</iconDisable>
+				<description>params</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="button1">
+				<action>go_to_device()</action>
+				<tooltip>icon15tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_on.png</iconDisable>
+				<description>refresha</description>
+			</button>
+			<button name="button2">
+				<action>dtlviewSetVars();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/params_on.png</iconStanby>
+				<iconOver>images/actions/params_on.png</iconOver>
+				<iconClick>images/actions/params_on.png</iconClick>
+				<iconDisable>images/actions/params_off.png</iconDisable>
+				<description>params</description>
+			</button>
+			<button name="button3">
+				<action>copy_values()</action>
+				<tooltip></tooltip>
+				<iconStanby>images/actions/copy_on.png</iconStanby>
+				<iconOver>images/actions/copy_on.png</iconOver>
+				<iconClick>images/actions/copy_on.png</iconClick>
+				<iconDisable>images/actions/copy_off.png</iconDisable>
+				<description>paramscopy</description>
+			</button>
+			<button name="button4">
+				<action>exp_device_setting()</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/paramssave_on.png</iconStanby>
+				<iconOver>images/actions/paramssave_on.png</iconOver>
+				<iconClick>images/actions/paramssave_on.png</iconClick>
+				<iconDisable>images/actions/paramssave_off.png</iconDisable>
+				<description>paramssave</description>
+			</button>
+			<button name="button5">
+				<action>imp_device_setting()</action>
+				<tooltip>icon10tooltip</tooltip>
+				<iconStanby>images/actions/paramsload_on.png</iconStanby>
+				<iconOver>images/actions/paramsload_on.png</iconOver>
+				<iconClick>images/actions/paramsload_on.png</iconClick>
+				<iconDisable>images/actions/paramsload_off.png</iconDisable>
+				<description>paramsload</description>
+			</button>
+			<button name="button6">
+				<action>copy_all_setting()</action>
+				<tooltip>icon11tooltip</tooltip>
+				<iconStanby>images/actions/paramscopy_on.png</iconStanby>
+				<iconOver>images/actions/paramscopy_on.png</iconOver>
+				<iconClick>images/actions/paramscopy_on.png</iconClick>
+				<iconDisable>images/actions/paramscopy_off.png</iconDisable>
+				<description>params2</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="subtab1name">
+				<action>printTable(1,'alarm');</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>printa1</description>
+			</button>
+			<button name="subtab2name">
+				<action>printTable(2,'alarmcall');</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>printa2</description>
+			</button>
+		</tab>
+
+		<tab name="tab4name">
+			<button name="Plot">
+				<action>saveAndPlot();</action>
+				<tooltip>plot</tooltip>
+				<iconStanby>images/actions/graph_on.png</iconStanby>
+				<iconOver>images/actions/graph_on.png</iconOver>
+				<iconClick>images/actions/graph_on.png</iconClick>
+				<iconDisable>images/actions/graph_off.png</iconDisable>
+				<description>graph</description>
+			</button>
+			<button name="Print">
+				<action>printGraphFlash();</action>
+				<tooltip>print</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+		</tab>
+
+		<tab name="tab5name">
+			<button name="Plot">
+				<action>saveAndPlot();</action>
+				<tooltip>plot</tooltip>
+				<iconStanby>images/actions/graph_on.png</iconStanby>
+				<iconOver>images/actions/graph_on.png</iconOver>
+				<iconClick>images/actions/graph_on.png</iconClick>
+				<iconDisable>images/actions/graph_off.png</iconDisable>
+				<description>graph</description>
+			</button>
+			<button name="Print">
+				<action>printGraphFlash();</action>
+				<tooltip>print</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+		</tab>
+		<tab name="tab7name">
+			<button name="Add">
+				<action>addNote();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeNote();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyNote();</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyNote(idSelectedNote)</action>
+				<tooltip>icon12tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="rodtlview">
+		<tab name="tab1name">
+			<button name="Refresh">
+				<action>refresh_ro_vars()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_on.png</iconDisable>
+				<description>refresha</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="alrview">
+		<tab name="tab1name">
+			<button name="Add">
+				<action>alr_ack()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/ack_on.png</iconStanby>
+				<iconOver>images/actions/ack_on.png</iconOver>
+				<iconClick>images/actions/ack_on.png</iconClick>
+				<iconDisable>images/actions/ack_off.png</iconDisable>
+				<description>ack</description>
+			</button>
+			<button name="Rem">
+				<action>alr_del()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/delactions_on.png</iconStanby>
+				<iconOver>images/actions/delactions_on.png</iconOver>
+				<iconClick>images/actions/delactions_on.png</iconClick>
+				<iconDisable>images/actions/delactions_off.png</iconDisable>
+				<description>del</description>
+			</button>
+			<button name="Save">
+				<action>alr_res()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/reset_on.png</iconStanby>
+				<iconOver>images/actions/reset_on.png</iconOver>
+				<iconClick>images/actions/reset_on.png</iconClick>
+				<iconDisable>images/actions/reset_off.png</iconDisable>
+				<description>resetalr</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Add">
+				<action>addNote();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeNote();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyNote();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyNote(idSelectedNote)</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="evndtl">
+		<tab name="tab2name">
+			<button name="Add">
+				<action>addNote();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeNote();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyNote();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyNote(idSelectedNote)</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="alrevnsearch">
+		<tab name="tab1name">
+			<button name="SearchAl">
+				<action>ASAlSearch();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/search_on.png</iconStanby>
+				<iconOver>images/actions/search_on.png</iconOver>
+				<iconClick>images/actions/search_on.png</iconClick>
+				<iconDisable>images/actions/search_off.png</iconDisable>
+				<description>search</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="SearchEv">
+				<action>ESEvSearch();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/search_on.png</iconStanby>
+				<iconOver>images/actions/search_on.png</iconOver>
+				<iconClick>images/actions/search_on.png</iconClick>
+				<iconDisable>images/actions/search_off.png</iconDisable>
+				<description>search</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="SearchAlEv">
+				<action>AlEvSearch();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/search_on.png</iconStanby>
+				<iconOver>images/actions/search_on.png</iconOver>
+				<iconClick>images/actions/search_on.png</iconClick>
+				<iconDisable>images/actions/search_off.png</iconDisable>
+				<description>search</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="groupview">
+		<tab name="tab1name">
+			<button name="Modify">
+				<action>modifyGroup()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Rem">
+				<action>removeGroup();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>saveGroup();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="setgroup">
+		<tab name="tab1name">
+			<button name="Save">
+				<action>setGroup();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Add">
+				<action>addVarGroup();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeVarGroup();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyVarGroup();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Add">
+				<action>addVarGroup();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeVarGroup();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyVarGroup();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Add">
+				<action>addNote();</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeNote();</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyNote();</action>
+				<tooltip>icon10tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyNote(idSelectedNote)</action>
+				<tooltip>icon11tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="wizard">
+		<tab name="tab1name">
+			<button name="Exit">
+				<action>jump2Mainpage()</action>
+				<tooltip>exit</tooltip>
+				<iconStanby>images/top/exit_on.png</iconStanby>
+				<iconOver>images/top/exit_on.png</iconOver>
+				<iconClick>images/top/exit_on.png</iconClick>
+				<iconDisable>images/top/exit_on.png</iconDisable>
+				<description>exit</description>
+			</button>
+			<button name="Start">
+				<action>jump2Tab('tab_1')</action>
+				<tooltip>start</tooltip>
+				<iconStanby>images/actions/arrowdx_on.png</iconStanby>
+				<iconOver>images/actions/arrowdx_on.png</iconOver>
+				<iconClick>images/actions/arrowdx_on.png</iconClick>
+				<iconDisable>images/actions/arrowdx_on.png</iconDisable>
+				<description>start</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>subtab2_registration_siteinfo_save()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_on.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Back">
+				<action>jump2Tab('tab_0')</action>
+				<tooltip>back</tooltip>
+				<iconStanby>images/actions/arrowsx_on.png</iconStanby>
+				<iconOver>images/actions/arrowsx_on.png</iconOver>
+				<iconClick>images/actions/arrowsx_on.png</iconClick>
+				<iconDisable>images/actions/arrowsx_on.png</iconDisable>
+				<description>back</description>
+			</button>
+			<button name="Next">
+				<action>jump2Tab('tab_2')</action>
+				<tooltip>next</tooltip>
+				<iconStanby>images/actions/arrowdx_on.png</iconStanby>
+				<iconOver>images/actions/arrowdx_on.png</iconOver>
+				<iconClick>images/actions/arrowdx_on.png</iconClick>
+				<iconDisable>images/actions/arrowdx_on.png</iconDisable>
+				<description>next</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>save_line()</action>
+				<tooltip>icon10tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modify_line()</action>
+				<tooltip>icon11tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Add">
+				<action>add_line()</action>
+				<tooltip>icon12tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_line()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Back">
+				<action>jump2Tab('tab_1')</action>
+				<tooltip>back</tooltip>
+				<iconStanby>images/actions/arrowsx_on.png</iconStanby>
+				<iconOver>images/actions/arrowsx_on.png</iconOver>
+				<iconClick>images/actions/arrowsx_on.png</iconClick>
+				<iconDisable>images/actions/arrowsx_on.png</iconDisable>
+				<description>back</description>
+			</button>
+			<button name="Next">
+				<action>jump2Tab('tab_3')</action>
+				<tooltip>next</tooltip>
+				<iconStanby>images/actions/arrowdx_on.png</iconStanby>
+				<iconOver>images/actions/arrowdx_on.png</iconOver>
+				<iconClick>images/actions/arrowdx_on.png</iconClick>
+				<iconDisable>images/actions/arrowdx_on.png</iconDisable>
+				<description>next</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Refresh">
+				<action>wizard_tab4_fresh()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+			<button name="Back">
+				<action>jump2Tab('tab_2')</action>
+				<tooltip>back</tooltip>
+				<iconStanby>images/actions/arrowsx_on.png</iconStanby>
+				<iconOver>images/actions/arrowsx_on.png</iconOver>
+				<iconClick>images/actions/arrowsx_on.png</iconClick>
+				<iconDisable>images/actions/arrowsx_on.png</iconDisable>
+				<description>back</description>
+			</button>
+			<button name="Next">
+				<action>jump2Tab('tab_4')</action>
+				<tooltip>next</tooltip>
+				<iconStanby>images/actions/arrowdx_on.png</iconStanby>
+				<iconOver>images/actions/arrowdx_on.png</iconOver>
+				<iconClick>images/actions/arrowdx_on.png</iconClick>
+				<iconDisable>images/actions/arrowdx_on.png</iconDisable>
+				<description>next</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Save">
+				<action>subtab5_Alarm_Management_save()</action>
+				<tooltip>icon14tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_on.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Back">
+				<action>jump2Tab('tab_3')</action>
+				<tooltip>icon13tooltip</tooltip>
+				<iconStanby>images/actions/arrowsx_on.png</iconStanby>
+				<iconOver>images/actions/arrowsx_on.png</iconOver>
+				<iconClick>images/actions/arrowsx_on.png</iconClick>
+				<iconDisable>images/actions/arrowsx_on.png</iconDisable>
+				<description>back</description>
+			</button>
+			<button name="Next">
+				<action>jump2Tab('tab_5')</action>
+				<tooltip>icon15tooltip</tooltip>
+				<iconStanby>images/actions/arrowdx_on.png</iconStanby>
+				<iconOver>images/actions/arrowdx_on.png</iconOver>
+				<iconClick>images/actions/arrowdx_on.png</iconClick>
+				<iconDisable>images/actions/arrowdx_on.png</iconDisable>
+				<description>next</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="Save">
+				<action>subtab6_reportprint_save()</action>
+				<tooltip>icon14tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_on.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Back">
+				<action>jump2Tab('tab_4')</action>
+				<tooltip>icon13tooltip</tooltip>
+				<iconStanby>images/actions/arrowsx_on.png</iconStanby>
+				<iconOver>images/actions/arrowsx_on.png</iconOver>
+				<iconClick>images/actions/arrowsx_on.png</iconClick>
+				<iconDisable>images/actions/arrowsx_on.png</iconDisable>
+				<description>back</description>
+			</button>
+			<button name="Next">
+				<action>jump2Tab('tab_6')</action>
+				<tooltip>icon15tooltip</tooltip>
+				<iconStanby>images/actions/arrowdx_on.png</iconStanby>
+				<iconOver>images/actions/arrowdx_on.png</iconOver>
+				<iconClick>images/actions/arrowdx_on.png</iconClick>
+				<iconDisable>images/actions/arrowdx_on.png</iconDisable>
+				<description>next</description>
+			</button>
+		</tab>
+		<tab name="tab7name">
+			<button name="Back">
+				<action>jump2Tab('tab_5')</action>
+				<tooltip>icon13tooltip</tooltip>
+				<iconStanby>images/actions/arrowsx_on.png</iconStanby>
+				<iconOver>images/actions/arrowsx_on.png</iconOver>
+				<iconClick>images/actions/arrowsx_on.png</iconClick>
+				<iconDisable>images/actions/arrowsx_on.png</iconDisable>
+				<description>back</description>
+			</button>
+			<button name="Finish">
+				<action>sendVarGuardian()</action>
+				<tooltip>finish</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_on.png</iconDisable>
+				<description>finish</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="siteview">
+		<tab name="tab1name">
+			<button name="Save">
+				<action>save_line()</action>
+				<tooltip>icon10tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modify_line();</action>
+				<tooltip>icon11tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Add">
+				<action>add_line();</action>
+				<tooltip>icon12tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_line()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>save_priorities()</action>
+				<tooltip>icon14tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="setAlarm">
+				<action>setAlarmMng();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="restoreDefault">
+				<action>restoreDefault();</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/default_on.png</iconStanby>
+				<iconOver>images/actions/default_on.png</iconOver>
+				<iconClick>images/actions/default_on.png</iconClick>
+				<iconDisable>images/actions/default_off.png</iconDisable>
+				<description>default</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Export">
+				<action>propagate_fdSaveFile();</action>
+				<tooltip>icon13tooltip</tooltip>
+				<iconStanby>images/actions/export2_on.png</iconStanby>
+				<iconOver>images/actions/export2_on.png</iconOver>
+				<iconClick>images/actions/export2_on.png</iconClick>
+				<iconDisable>images/actions/export2_off.png</iconDisable>
+				<description>export</description>
+			</button>
+			<button name="Copy">
+				<action>fn_propagate()</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/copy_on.png</iconStanby>
+				<iconOver>images/actions/copy_on.png</iconOver>
+				<iconClick>images/actions/copy_on.png</iconClick>
+				<iconDisable>images/actions/copy_off.png</iconDisable>
+				<description>paramscopy</description>
+			</button>
+		</tab>
+		<tab name="tab7name">
+		<!--
+			<button name="Rem">
+				<action>remove_dpds()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+		-->
+		</tab>
+		
+		<tab name="tab6name">
+			<button name="Save">
+				<action>save_desc_menu()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Add">
+				<action>addNote();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeNote();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyNote();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyNote(idSelectedNote)</action>
+				<tooltip>icon15tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="setldap">
+		<tab name="tab1name">
+			<button name="Add">
+				<action>addUser();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeUser();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Mod">
+				<action>modifyUser();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>load(selectRow)</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+
+		<tab name="tab2name">	
+			<button name="Add">
+				<action>addProfile();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeProfile();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Mod">
+				<action>modifyProfile();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Import">
+				<action>onFileDialogPre('importconf','pcfg');</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/import_on.png</iconStanby>
+				<iconOver>images/actions/import_on.png</iconOver>
+				<iconClick>images/actions/import_on.png</iconClick>
+				<iconDisable>images/actions/import_off.png</iconDisable>
+				<description>import</description>
+			</button>
+			
+			<button name="Export">
+				<action>fdSaveFileUserProfile('','pcfg',userprofilexp_savefile);</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_off.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="setio">
+		<tab name="tab1name">
+			<button name="SaveRuleIO">
+				<action>IO_ruleFaxCfg();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/defaultrule_on.png</iconStanby>
+				<iconOver>images/actions/defaultrule_on.png</iconOver>
+				<iconClick>images/actions/defaultrule_on.png</iconClick>
+				<iconDisable>images/actions/defaultrule_off.png</iconDisable>
+				<description>defaultrule</description>
+			</button>
+			<button name="SaveTechIO">
+				<action>IO_techFaxCfg();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/defaultaction_on.png</iconStanby>
+				<iconOver>images/actions/defaultaction_on.png</iconOver>
+				<iconClick>images/actions/defaultaction_on.png</iconClick>
+				<iconDisable>images/actions/defaultaction_off.png</iconDisable>
+				<description>defaultaction</description>
+			</button>
+			<button name="SaveConfIO">
+				<action>IO_saveFaxCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="SaveRuleIO">
+				<action>IO_ruleSmsCfg();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/defaultrule_on.png</iconStanby>
+				<iconOver>images/actions/defaultrule_on.png</iconOver>
+				<iconClick>images/actions/defaultrule_on.png</iconClick>
+				<iconDisable>images/actions/defaultrule_off.png</iconDisable>
+				<description>defaultrule</description>
+			</button>
+			<button name="SaveTechIO">
+				<action>IO_techSmsCfg();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/defaultaction_on.png</iconStanby>
+				<iconOver>images/actions/defaultaction_on.png</iconOver>
+				<iconClick>images/actions/defaultaction_on.png</iconClick>
+				<iconDisable>images/actions/defaultaction_off.png</iconDisable>
+				<description>defaultaction</description>
+			</button>
+			<button name="SaveConfIO">
+				<action>IO_saveSmsCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="SaveRuleIO">
+				<action>IO_ruleMailCfg();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/defaultrule_on.png</iconStanby>
+				<iconOver>images/actions/defaultrule_on.png</iconOver>
+				<iconClick>images/actions/defaultrule_on.png</iconClick>
+				<iconDisable>images/actions/defaultrule_off.png</iconDisable>
+				<description>defaultrule</description>
+			</button>
+			<button name="SaveTechIO">
+				<action>IO_techMailCfg();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/defaultaction_on.png</iconStanby>
+				<iconOver>images/actions/defaultaction_on.png</iconOver>
+				<iconClick>images/actions/defaultaction_on.png</iconClick>
+				<iconDisable>images/actions/defaultaction_off.png</iconDisable>
+				<description>defaultaction</description>
+			</button>
+			<button name="SaveConfIO">
+				<action>IO_saveMailCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="SaveConfIO">
+				<action>IO_saveRasCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="SaveConfIO">
+				<action>IO_saveEventCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="RemoveConfIO">
+				<action>IO_delEventCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="SaveConfIO">
+				<action>IO_saveRelayCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab7name">
+			<button name="SaveConfIO">
+				<action>IO_savePrinterCfg();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="devdetail">
+		<tab name="tab1name">
+			<button name="Save">
+				<action>dev_save()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>dev_alr_save()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>dev_var_save()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Save">
+				<action>descr_var_save()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="Save">
+				<action>dev_varpos_save()</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Add">
+				<action>addNote();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeNote();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveModifyNote();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyNote(idSelectedNote)</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="alrsched">
+		<tab name="tab1name">
+			<button name="Add">
+				<action>new_rule()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_rule()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>set_rule()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyRule(lineSelected)</action>
+				<tooltip>icon16tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Add">
+				<action>CondAdd();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>CondRem();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>CondUpd();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyAlarmCondition()</action>
+				<tooltip>icon17tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Add">
+				<action>timeBandsAction('add');</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>timeBandsAction('del');</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>timeBandsAction('mod');</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>loadTimeBands(selectArgMasterTable)</action>
+				<tooltip>icon18tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Add">
+				<action>new_action()</action>
+				<tooltip>icon10tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_action()</action>
+				<tooltip>icon11tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>set_description()</action>
+				<tooltip>icon12tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyAction(false, lineSelected)</action>
+				<tooltip>icon19tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Add">
+				<action>CondGeAdd();</action>
+				<tooltip>icon13tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>CondGeRem();</action>
+				<tooltip>icon14tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>CondGeUpd();</action>
+				<tooltip>icon15tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyEventCondition()</action>
+				<tooltip>icon17tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="setaction">
+		<tab name="tab1name">
+			<button name="Save">
+				<action>save_fax()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>save_sms()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>save_email()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Save">
+				<action>save_relay()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Add">
+				<action>add_variable()</action>
+				<tooltip>icon51tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Save">
+				<action>save_variable()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="Save">
+				<action>save_remote()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab7name">
+			<button name="Save">
+				<action>save_print_window()</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="setaction2">
+		<tab name="tab1name">
+			<button name="Save">
+				<action>save_fax()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>save_sms()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>save_email()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Save">
+				<action>save_relay()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Add">
+				<action>add_variable()</action>
+				<tooltip>icon51tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Save">
+				<action>save_variable()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="Save">
+				<action>save_remote()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab7name">
+			<button name="Save">
+				<action>save_report()</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="testio">
+		<tab name="tab1name">
+			<button name="test">
+				<action>Tio_exec()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/params_on.png</iconStanby>
+				<iconOver>images/actions/params_on.png</iconOver>
+				<iconClick>images/actions/params_on.png</iconClick>
+				<iconDisable>images/actions/params_off.png</iconDisable>
+				<description>test</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="logicdevice">
+
+		<tab name="tab1name">
+			<button name="Add">
+				<action>logicDeviceAction('add');</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>logicDeviceAction('del');</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>logicDeviceAction('mod');</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Edit">
+				<action>logicDeviceAction('load');</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Add">
+				<action>logicVariableAction('add');</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>logicVariableAction('del');</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>logicVariableAction('mod');</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Edit">
+				<action>logicVariableAction('load');</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="r_sitelist">
+		<tab name="tab1name">
+			<button name="Add">
+				<action>r_site_save();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>r_site_remove();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>r_site_savemodify();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>r_site_savesync();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="report">
+		<tab name="tab1name">
+			<button name="Print">
+				<action>printReport();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="Export">
+				<action>exportReport();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Add">
+				<action>add_template();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>rem_template();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>mod_template();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyReport(idReportSelect)</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>saveExportConfigure();</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+
+	<transaction name="r_alrevnsearch">
+		<tab name="tab1name">
+			<button name="SearchAl">
+				<action>R_AlrSearch();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/search_on.png</iconStanby>
+				<iconOver>images/actions/search_on.png</iconOver>
+				<iconClick>images/actions/search_on.png</iconClick>
+				<iconDisable>images/actions/search_off.png</iconDisable>
+				<description>search</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="SearchEv">
+				<action>R_EvnSearch();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/search_on.png</iconStanby>
+				<iconOver>images/actions/search_on.png</iconOver>
+				<iconClick>images/actions/search_on.png</iconClick>
+				<iconDisable>images/actions/search_off.png</iconDisable>
+				<description>search</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="relaymgr">
+		<tab name="tab1name">
+			<button name="refreshPage">
+				<action>refresh_relay_page();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_on.png</iconDisable>
+				<description>refresha</description>
+			</button>
+			<button name="resetRelay">
+				<action>resetRelay();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="mgr">
+		<tab name="tab1name">
+			<button name="restartEngine">
+				<action>restartEngine_confirm();</action>
+				<tooltip>restart</tooltip>
+				<iconStanby>images/actions/restart_on.png</iconStanby>
+				<iconOver>images/actions/restart_on.png</iconOver>
+				<iconClick>images/actions/restart_on.png</iconClick>
+				<iconDisable>images/actions/restart_off.png</iconDisable>
+				<description>restart</description>
+			</button>
+			<button name="sendRegistration">
+				<action>SysSaveRegistration();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="sendGuardVars">
+				<action>sendVarGuardian();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="debug">
+		<tab name="tab1name">
+			<button name="start">
+				<action>debug_start();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>start</description>
+			</button>
+			<button name="stop">
+				<action>debug_stop();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/stop_on.png</iconStanby>
+				<iconOver>images/actions/stop_on.png</iconOver>
+				<iconClick>images/actions/stop_on.png</iconClick>
+				<iconDisable>images/actions/stop_off.png</iconDisable>
+				<description>stop</description>
+			</button>
+			<button name="reset">
+				<action>debug_reset();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/rst_on.png</iconStanby>
+				<iconOver>images/actions/rst_on.png</iconOver>
+				<iconClick>images/actions/rst_on.png</iconClick>
+				<iconDisable>images/actions/rst_off.png</iconDisable>
+				<description>pagereset</description>
+			</button>
+			<button name="refresh">
+				<action>forceRefresh();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="refresh">
+				<action>forceRefresh();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="save">
+				<action>mb_debug_set_level();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="refresh">
+				<action>mb_debug_refresh();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+			<button name="Export">
+				<action>exportLog();</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_off.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="hsreport">
+		<tab name="tab1name">
+			<button name="Del">
+				<action>deleteHsReport();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Print">
+				<action>printHsReport();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="Export">
+				<action>exportHsReport();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export</description>
+			</button>
+			<button name="DelAll">
+				<action>deleteAllHsReport();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>deleteall</description>
+			</button>
+			<button name="ExportAll">
+				<action>exportAllHsReport();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>exportall</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="hsprint">
+		<tab name="tab1name">
+			<button name="Del">
+				<action>deleteHsPrint();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Print">
+				<action>printHsPrint();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="Export">
+				<action>exportHsPrint();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export_pdf</description>
+			</button>
+			<button name="DelAll">
+				<action>deleteAllHsPrint();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>deleteall</description>
+			</button>
+			<button name="ExportAll">
+				<action>exportAllHsPrint();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>exportall</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="booklet">
+		<tab name="tab1name">
+			<button name="LoadDefault">
+				<action>loadDefault();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/paramsload_on.png</iconStanby>
+				<iconOver>images/actions/paramsload_on.png</iconOver>
+				<iconClick>images/actions/paramsload_on.png</iconClick>
+				<iconDisable>images/actions/paramsload_on.png</iconDisable>
+				<description>default</description>
+			</button>
+			<button name="Print">
+				<action>printBooklet();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="ExportCSV">
+				<action>booklet_csv_fdSaveFile()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export_csv</description>
+			</button>
+			<button name="ExportPDF">
+				<action>booklet_pdf_fdSaveFile();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_on.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export_pdf</description>
+			</button>
+			<button name="Save">
+				<action>saveBooklet();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="ExportAll">
+				<action>booklet_exportAll_fdSaveFile();</action>
+				<tooltip>exportAll</tooltip>
+				<iconStanby>images/actions/export2_on.png</iconStanby>
+				<iconOver>images/actions/export2_on.png</iconOver>
+				<iconClick>images/actions/export2_on.png</iconClick>
+				<iconDisable>images/actions/export2_off.png</iconDisable>
+				<description>exportAll</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>booklet_cabinet_save();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Rem">
+				<action>remove_booklet_cabinet();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Modify">
+				<action>modifyBookletCabinet(selectedCabinet)</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+	</transaction>
+	
+	<transaction name="sitebooklet_cat">
+		<tab name="tab1name">
+			<button name="Edit">
+				<action>onViewEdit();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>view_edit</description>
+			</button>
+			<button name="Save">
+				<action>onSave()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Add">
+				<action>onAdd();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Reset">
+				<action>onReset();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>reset_booklet</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="sitebooklet">
+		<tab name="tab1name">
+			<button name="Save">
+				<action>onSave()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Add">
+				<action>onAdd();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Back">
+				<action>onBack()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/arrowsx_on.png</iconStanby>
+				<iconOver>images/actions/arrowsx_on.png</iconOver>
+				<iconClick>images/actions/arrowsx_on.png</iconClick>
+				<iconDisable>images/actions/arrowsx_off.png</iconDisable>
+				<description>back</description>
+			</button>
+			<button name="Next">
+				<action>onNext()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/arrowdx_on.png</iconStanby>
+				<iconOver>images/actions/arrowdx_on.png</iconOver>
+				<iconClick>images/actions/arrowdx_on.png</iconClick>
+				<iconDisable>images/actions/arrowdx_off.png</iconDisable>
+				<description>next</description>
+			</button>
+			<button name="Print">
+				<action>onPrint()</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="heartbeat">
+		<tab name="tab1name">
+			<button name="Add">
+				<action>addFasce();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeFasce();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>saveFasce();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Add">
+				<action>save_timesite()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_timesite()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Save">
+				<action>modify_timesite()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="datatransfer">
+		<tab name="tab1name">
+			<button name="Ok">
+				<action>submitSendVariables();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>save_device()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modify_device()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Add">
+				<action>add_device()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_device()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Restart">
+				<action>restart_service()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/restart_on.png</iconStanby>
+				<iconOver>images/actions/restart_on.png</iconOver>
+				<iconClick>images/actions/restart_on.png</iconClick>
+				<iconDisable>images/actions/restart_off.png</iconDisable>
+				<description>restart_service</description>
+			</button>
+			<button name="print">
+				<action>printModbusDevices();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="DefaultDevice">
+				<action>create_default_device()</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>defaultdevice</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="r_datatransfer">
+		<tab name="tab1name">
+			<button name="Ok">
+				<action>save_site();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Ok">
+				<action>save_amm();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="ac">
+		<tab name="tab2name">
+			<button name="Start">
+				<action>start_ac();</action>
+				<tooltip>icon0tooltip</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>start</description>
+			</button>
+			<button name="Stop">
+				<action>stop_ac();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/stop_on.png</iconStanby>
+				<iconOver>images/actions/stop_on.png</iconOver>
+				<iconClick>images/actions/stop_on.png</iconClick>
+				<iconDisable>images/actions/stop_off.png</iconDisable>
+				<description>stop</description>
+			</button>
+			<button name="save">
+				<action>save_tab2();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="save">
+				<action>save_tab3();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="save">
+				<action>save_tab4();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="kpi">
+		<tab name="tab2name">
+			<button name="save">
+				<action>save_kpi1();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="save">
+				<action>save_kpi2();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="kpiresult">
+		<tab name="tab1name">
+			<button name="result">
+				<action>compute_result();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/report_on.png</iconStanby>
+				<iconOver>images/actions/report_on.png</iconOver>
+				<iconClick>images/actions/report_on.png</iconClick>
+				<iconDisable>images/actions/report_off.png</iconDisable>
+				<description>compute</description>
+			</button>
+			<button name="export">
+				<action>kpi_fdSaveFile();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/export2_on.png</iconStanby>
+				<iconOver>images/actions/export2_on.png</iconOver>
+				<iconClick>images/actions/export2_on.png</iconClick>
+				<iconDisable>images/actions/export2_off.png</iconDisable>
+				<description>export</description>
+			</button>
+			<button name="graph">
+				<action>graph_result();</action>
+				<tooltip>plot</tooltip>
+				<iconStanby>images/actions/graph_on.png</iconStanby>
+				<iconOver>images/actions/graph_on.png</iconOver>
+				<iconClick>images/actions/graph_on.png</iconClick>
+				<iconDisable>images/actions/graph_off.png</iconDisable>
+				<description>graph</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="lucinotte">
+		<tab name="tab1name">
+			<button name="save">
+				<action>save_tab1();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="save">
+				<action>save_tab2();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="save">
+				<action>save_tab3();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="save">
+				<action>save_tab4();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="add">
+				<action>addDate();</action>
+				<tooltip>adddate</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="save">
+				<action>save_tab5();</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="save">
+				<action>save_tab6();</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="lcnt_grpdtl">
+		<tab name="tab1name">
+			<button name="refresh">
+				<action>reloadPage();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+		</tab>
+	</transaction>
+
+	<transaction name="vs">
+		<tab name="tab1name">
+			<button name="save">
+				<action>save_schedule();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="set">
+				<action>set_variables();</action>
+				<tooltip>icon10tooltip</tooltip>
+				<iconStanby>images/actions/params_on.png</iconStanby>
+				<iconOver>images/actions/params_on.png</iconOver>
+				<iconClick>images/actions/params_on.png</iconClick>
+				<iconDisable>images/actions/params_off.png</iconDisable>
+				<description>params</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>save_group()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modify_group()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Add">
+				<action>add_group()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_group()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>save_category()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modify_category()</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Add">
+				<action>add_category()</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>remove_category()</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="Import">
+				<action>fdLoadFile('impexp', ext, import_category)</action>
+				<tooltip>icon11tooltip</tooltip>
+				<iconStanby>images/actions/import_on.png</iconStanby>
+				<iconOver>images/actions/import_on.png</iconOver>
+				<iconClick>images/actions/import_on.png</iconClick>
+				<iconDisable>images/actions/import_off.png</iconDisable>
+				<description>import</description>
+			</button>
+			<button name="Export">
+				<action>vs_fdSaveFile();</action>
+				<tooltip>icon12tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_off.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="switch">
+		<tab name="tab2name">
+			<button name="save">
+				<action>save_conf();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="save">
+				<action>save_dev();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="save1">
+				<action>set_default_Switch_config()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/default_on.png</iconStanby>
+				<iconOver>images/actions/default_on.png</iconOver>
+				<iconClick>images/actions/default_on.png</iconClick>
+				<iconDisable>images/actions/default_off.png</iconDisable>
+				<description>default</description>
+			</button>
+			<button name="save2">
+				<action>switch_mdl_save();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="parameters">
+		<tab name="tab3name">
+			<button name="Save">
+				<action>parameters_general_save()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Save">
+				<action>parameters_notify_save()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Save">
+				<action>parameters_modify_variables()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="DeleteAll">
+				<action>parameters_delete_all_variables()</action>
+				<tooltip>delete_all</tooltip>
+				<iconStanby>images/actions/clean_on.png</iconStanby>
+				<iconOver>images/actions/clean_on.png</iconOver>
+				<iconClick>images/actions/clean_on.png</iconClick>
+				<iconDisable>images/actions/clean_off.png</iconDisable>
+				<description>delete_all</description>
+			</button>
+		</tab>
+		<tab name="tab1name">
+			<button name="Photo">
+				<action>parameters_get_photo()</action>
+				<tooltip>photo</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>photo</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="fs">
+		<tab name="tab2name">
+			<button name="Save">
+				<action>save_utils()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>save_racks()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="fsdetail">
+		<tab name="tab2name">
+			<button name="Save">
+				<action>save_rack()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	
+	<transaction name="co2">
+		<tab name="tab1name">
+			<button name="Quick">
+				<action>quickRunning()</action>
+				<tooltip>quick_run</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>quick_run</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="Save">
+				<action>saveConfiguration()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="Save">
+				<action>saveBackup()</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyBackup()</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Save">
+				<action>saveRackGroups()</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyRack()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Save">
+				<action>saveGroup()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="Modify">
+				<action>modifyGroup()</action>
+				<tooltip>modify</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Add">
+				<action>addGroup()</action>
+				<tooltip>add</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeGroup()</action>
+				<tooltip>remove</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="Save">
+				<action>saveRacks()</action>
+				<tooltip>save</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	
+	<transaction name="energy">
+		<tab name="tab1name">
+			<button name="start">
+				<action>startenergyplugin();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>start</description>
+			</button>
+			<button name="stop">
+				<action>stopenergyplugin();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/stop_on.png</iconStanby>
+				<iconOver>images/actions/stop_on.png</iconOver>
+				<iconClick>images/actions/stop_on.png</iconClick>
+				<iconDisable>images/actions/stop_off.png</iconDisable>
+				<description>stop</description>
+			</button>
+			<button name="refresh">
+				<action>energyrefresh();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+			<button name="reset">
+				<action>energyReset()</action>
+				<tooltip>reset</tooltip>
+				<iconStanby>images/button/reset_on_black.png</iconStanby>
+				<iconOver>images/button/reset_on_black.png</iconOver>
+				<iconClick>images/button/reset_on_black.png</iconClick>
+				<iconDisable>images/button/reset_off.png</iconDisable>
+				<description>reset_counter</description>
+			</button>
+			
+		</tab>
+		<tab name="tab2name">
+			<button name="preview">
+				<action>preview()</action>
+				<tooltip>icon15tooltip</tooltip>
+				<iconStanby>images/energy/zoom_on.png</iconStanby>
+				<iconOver>images/energy/zoom_on.png</iconOver>
+				<iconClick>images/energy/zoom_on.png</iconClick>
+				<iconDisable>images/energy/zoom_off.png</iconDisable>
+				<description>preview</description>
+			</button>
+			<button name="print">
+				<action>print()</action>
+				<tooltip>icon16tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print</description>
+			</button>
+			<button name="print_all">
+				<action>printAll()</action>
+				<tooltip>icon17tooltip</tooltip>
+				<iconStanby>images/actions/print_on.png</iconStanby>
+				<iconOver>images/actions/print_on.png</iconOver>
+				<iconClick>images/actions/print_on.png</iconClick>
+				<iconDisable>images/actions/print_off.png</iconDisable>
+				<description>print_all</description>
+			</button>
+		</tab>
+		<tab name="tab3name">
+			<button name="report">
+				<action>energy_fdSaveFile();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/export2_on.png</iconStanby>
+				<iconOver>images/actions/export2_on.png</iconOver>
+				<iconClick>images/actions/export2_on.png</iconClick>
+				<iconDisable>images/actions/export2_off.png</iconDisable>
+				<description>export</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="Add">
+				<action>addGroup()</action>
+				<tooltip>icon11tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Modify">
+				<action>modifyGroup()</action>
+				<tooltip>icon12tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Rem">
+				<action>removeGroup()</action>
+				<tooltip>icon13tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="save">
+				<action>saveGroup();</action>
+				<tooltip>icon14tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab5name">
+			<button name="Add">
+				<action>addModel()</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Modify">
+				<action>modifyModel()</action>
+				<tooltip>icon8tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="Rem">
+				<action>removeModel()</action>
+				<tooltip>icon9tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="save">
+				<action>saveModel();</action>
+				<tooltip>icon10tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab6name">
+			<button name="save">
+				<action>saveXML()</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+			<button name="import">
+				<action>fdLoadFile('impexp', ext, importXML)</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/import_on.png</iconStanby>
+				<iconOver>images/actions/import_on.png</iconOver>
+				<iconClick>images/actions/import_on.png</iconClick>
+				<iconDisable>images/actions/import_off.png</iconDisable>
+				<description>import</description>
+			</button>
+			<button name="export">
+				<action>fdSaveFile('impexp', ext, exportXML, init_fd_file)</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/export_on.png</iconStanby>
+				<iconOver>images/actions/export_on.png</iconOver>
+				<iconClick>images/actions/export_off.png</iconClick>
+				<iconDisable>images/actions/export_off.png</iconDisable>
+				<description>export</description>
+			</button>
+		</tab>
+		<tab name="tab7name">
+			<button name="Modify">
+				<action>modifyConsumerDevices()</action>
+				<tooltip>icon18tooltip</tooltip>
+				<iconStanby>images/actions/Edit_on.png</iconStanby>
+				<iconOver>images/actions/Edit_on.png</iconOver>
+				<iconClick>images/actions/Edit_on.png</iconClick>
+				<iconDisable>images/actions/Edit_off.png</iconDisable>
+				<description>modify</description>
+			</button>
+			<button name="save">
+				<action>saveConsumerDevices()</action>
+				<tooltip>icon19tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="algopro">
+		<tab name="tab1name">
+			<button name="refresh">
+				<action>algoProRefresh()</action>
+				<tooltip>refresha</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_on.png</iconDisable>
+				<description>refresha</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="opt_startstop">
+		<tab name="tab1name">
+			<button name="start">
+				<action>onStart();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>start</description>
+			</button>
+			<button name="stop">
+				<action>onStop();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/stop_on.png</iconStanby>
+				<iconOver>images/actions/stop_on.png</iconOver>
+				<iconClick>images/actions/stop_on.png</iconClick>
+				<iconDisable>images/actions/stop_off.png</iconDisable>
+				<description>stop</description>
+			</button>
+			<button name="refresh">
+				<action>onRefresh();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+			<button name="reset">
+				<action>onReset();</action>
+				<tooltip>icon7tooltip</tooltip>
+				<iconStanby>images/actions/rst_on.png</iconStanby>
+				<iconOver>images/actions/rst_on.png</iconOver>
+				<iconClick>images/actions/rst_on.png</iconClick>
+				<iconDisable>images/actions/rst_off.png</iconDisable>
+				<description>reset_counter</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+		</tab>
+		<tab name="tab3name">
+			<button name="Add">
+				<action>addAlgorithm()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeAlgorithm()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="save">
+				<action>saveSettings();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+		<tab name="tab4name">
+			<button name="save">
+				<action>save_schedule();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="opt_nightfreecooling">
+		<tab name="tab1name">
+			<button name="start">
+				<action>onStart();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>start</description>
+			</button>
+			<button name="stop">
+				<action>onStop();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/stop_on.png</iconStanby>
+				<iconOver>images/actions/stop_on.png</iconOver>
+				<iconClick>images/actions/stop_on.png</iconClick>
+				<iconDisable>images/actions/stop_off.png</iconDisable>
+				<description>stop</description>
+			</button>
+			<button name="refresh">
+				<action>onRefresh();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+		</tab>
+		<tab name="tab3name">
+			<button name="Add">
+				<action>addAlgorithm()</action>
+				<tooltip>icon5tooltip</tooltip>
+				<iconStanby>images/actions/add_on.png</iconStanby>
+				<iconOver>images/actions/add_on.png</iconOver>
+				<iconClick>images/actions/add_on.png</iconClick>
+				<iconDisable>images/actions/add_off.png</iconDisable>
+				<description>add</description>
+			</button>
+			<button name="Rem">
+				<action>removeAlgorithm()</action>
+				<tooltip>icon6tooltip</tooltip>
+				<iconStanby>images/actions/remove_on.png</iconStanby>
+				<iconOver>images/actions/remove_on.png</iconOver>
+				<iconClick>images/actions/remove_on.png</iconClick>
+				<iconDisable>images/actions/remove_off.png</iconDisable>
+				<description>remove</description>
+			</button>
+			<button name="save">
+				<action>saveSettings();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+	<transaction name="opt_lights">
+		<tab name="tab1name">
+			<button name="start">
+				<action>onStart();</action>
+				<tooltip>icon2tooltip</tooltip>
+				<iconStanby>images/actions/start_on.png</iconStanby>
+				<iconOver>images/actions/start_on.png</iconOver>
+				<iconClick>images/actions/start_on.png</iconClick>
+				<iconDisable>images/actions/start_off.png</iconDisable>
+				<description>start</description>
+			</button>
+			<button name="stop">
+				<action>onStop();</action>
+				<tooltip>icon3tooltip</tooltip>
+				<iconStanby>images/actions/stop_on.png</iconStanby>
+				<iconOver>images/actions/stop_on.png</iconOver>
+				<iconClick>images/actions/stop_on.png</iconClick>
+				<iconDisable>images/actions/stop_off.png</iconDisable>
+				<description>stop</description>
+			</button>
+			<button name="refresh">
+				<action>onRefresh();</action>
+				<tooltip>icon4tooltip</tooltip>
+				<iconStanby>images/actions/refresh_on.png</iconStanby>
+				<iconOver>images/actions/refresh_on.png</iconOver>
+				<iconClick>images/actions/refresh_on.png</iconClick>
+				<iconDisable>images/actions/refresh_off.png</iconDisable>
+				<description>refresha</description>
+			</button>
+		</tab>
+		<tab name="tab2name">
+			<button name="save">
+				<action>saveSettings();</action>
+				<tooltip>icon1tooltip</tooltip>
+				<iconStanby>images/actions/save_on.png</iconStanby>
+				<iconOver>images/actions/save_on.png</iconOver>
+				<iconClick>images/actions/save_on.png</iconClick>
+				<iconDisable>images/actions/save_off.png</iconDisable>
+				<description>save</description>
+			</button>
+		</tab>
+	</transaction>
+</actionmenu>

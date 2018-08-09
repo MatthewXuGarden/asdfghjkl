@@ -1,0 +1,30 @@
+.infotable{
+border:2px solid #000;
+}
+.infotable td{
+border:none;
+}
+
+
+.topLine{
+border-left:none;
+border-right:none;
+border-bottom:none;
+border-top:1px solid #000;
+}
+
+.topBottomLine{
+border-left:none;
+border-right:none;
+border-bottom:1px solid #000;
+border-top:1px solid #000;
+}
+
+.standardTxtSmall{
+	font-family: Tahoma,Verdana,Arial,sans-serif;
+ 	font-size: 8pt;
+ 	color:black;
+}
+
+
+

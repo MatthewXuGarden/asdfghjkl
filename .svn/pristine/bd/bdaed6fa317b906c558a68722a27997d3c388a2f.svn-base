@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Eco HVAC|HVAC Smart Start">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>HVAC Smart Start: scheduling</title>
+        <link href="../Resources/TableStyles/Tab_Warn.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Tab_Due_grigi.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/HVAC_Smart_Schedulazione.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Eco HVAC</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">HVAC Smart Start</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Scheduling</span>
+        </div>
+        <h1>HVAC Smart Start: scheduling</h1>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 13.699%;" />
+            <col style="width: 86.301%;" />
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;" valign="bottom" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">Path:<img src="../Resources/Images/ico_white23x22.jpg" style="border: none;width: 23px;height: 22px;float: none;border-style: none;border-style: none;" width="23" height="22" border="0" /></p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;" valign="bottom" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella"><span style="font-weight: normal;"><img src="../Resources/Images/menusx/new/icona_optimum3_32x31.png" style="border: none;float: none;width: 32;height: 31;" border="0" />, <a href="HVAC_Smart_Introduzione.htm">HVAC Smart Start</a>, <b>Scheduling</b> page</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">&#160;</p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: None;" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 15.979%;" />
+            <col style="width: 84.021%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Purpose</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>This page lets you set building opening and closing hours in a weekly calendar.</p>
+                    <p>The climate control system must reach the set point within these hours and  HVAC Smart Start must start working to optimize consumption.</p>
+                    <p>Exceptions can take precedence over the standard calendar for which different intervals and values must be set (i.e.: a holiday).</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Description</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>-</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">What to do first</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p style="color: #000000;"> Set operations. See the <a href="HVAC_Smart_Configurazione.htm">Settings</a> page.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/Tab_Warn.css');" class="TableStyle-Tab_Warn" cellspacing="2">
+            <col class="Column-Column1" style="width: 63px;" />
+            <col class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>
+                            <img src="../Resources/Images/AAinfo.gif" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p class="Note">A maximum of two daily time bands can be set, for example, from 8 AM to noon and from 2 PM to 8 PM.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="TitoloInterno">Page description</p>
+        <p>
+            <img src="../Resources/Images/HVAC Smart Start Schedule_500x333.png" class="StrutturaLarge" style="width: 500;height: 333;" />
+        </p>
+        <p class="TitoloInterno">Page area descriptions</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');margin-left: 0;margin-right: auto;" class="TableStyle-Tab_Due_grigi" cellspacing="3">
+            <col class="Column-Column1" />
+            <col class="Column-Column2" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Area</th>
+                    <th class="HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" style="font-weight: bold;">
+                        <p><b>1</b>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column2-Body1">
+                        <p>Area where the standard weekly calendar can be set</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1" style="font-weight: bold;">
+                        <p><b>2</b>
+                        </p>
+                    </td>
+                    <td class="BodyA-Column2-Body1">
+                        <p>Area where exceptions can be set</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Action</p>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Set the weekly calendar                   </a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li value="1">On the day where the rule is to be added, click  <img src="../Resources/Images/actions/params_button.png" />: a window will appear where you can set the interval and value</li>
+                        <li value="2">Click <b>Ok</b>: the interval appears in the dashboard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Other actions</p>
+        <p>Common used buttons</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 15.979%;" />
+            <col style="width: 84.021%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="15.979%">
+                    <p>
+                        <img src="../Resources/Images/scheduler/skin/add_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Create a new rule interval</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">
+                        <img src="../Resources/Images/scheduler/skin/copy_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Copy the intervals in a day</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">
+                        <img src="../Resources/Images/scheduler/skin/paste_normal.png" style="border: none;width: 28px;height: 28px;float: none;border-style: none;border-style: none;" width="28" height="28" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Paste copied intervals to another day.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0">
+            </img>See also</p>
+        <p class="Link"><a href="HVAC_Smart_Introduzione.htm">HVAC Smart Start: introduction</a>
+        </p>
+        <p class="Link"><a href="HVAC_Smart_Configurazione.htm">HVAC Smart Start: setup</a>
+        </p>
+        <p class="Link"><a href="HVAC_Smart_Grafico.htm">HVAC Smart Start: graph</a>
+        </p>
+        <p class="Link"><a href="HVAC_Smart_Sinottico.htm">HVAC Smart Start: dashboard</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

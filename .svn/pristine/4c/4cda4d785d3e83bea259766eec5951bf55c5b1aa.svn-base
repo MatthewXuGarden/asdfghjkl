@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.Locale" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="I concetti alla base di PlantVisor PRO">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configurazione: concetti di base</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Configurazione__concetti_di_base.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">I concetti alla base di PlantVisor PRO</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Configurazione: concetti di base</span>
+        </div>
+        <h1>Configurazione: concetti di base</h1>
+        <h2>Schema logico</h2>
+        <p class="Image">
+            <img src="../Resources/Images/Schema_Physic-Logic_416x585.png" style="border: none;float: none;border-style: none;border-style: none;width: 416;height: 585;" border="0" />
+        </p>
+        <h2>Elementi di configurazione</h2>
+        <p>PlantVisorPRO Locale utilizza i seguenti elementi di database per il 
+ monitoraggio del campo:</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 22.298%;" />
+            <col style="width: 77.702%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;"><a name="Dispositivi"></a>Dispositivi</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="77.702%">
+                    <p>Dispositivi fisici, derivati da modelli standard CAREL o modelli personalizzati, 
+ collegati a PlantVisorPRO Locale via linea seriale con protocolli proprietari 
+ o Modbus.</p>
+                    <p>In fase di configurazione PlantVisorPRO Locale presenta un elenco di 
+ modelli di dispositivi. I modelli standard CAREL portano con sé la configurazione 
+ di fabbrica del dispositivo, i modelli personalizzati portano con sé la 
+ configurazione creata in Device Editor. </p>
+                    <p>I dati presenti nelle due configurazioni sono:</p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>parametri con impostati i valori di default</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>variabili di allarme con impostate le priorità</p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>variabili storiche e HACCP con le modalità di registrazione</p>
+                        </li>
+                        <li class="p" value="4">
+                            <p>pagina di monitoraggio con gli stati, le sonde, ecc..</p>
+                        </li>
+                        <li class="p" value="5">
+                            <p>relé con le modalità di reset</p>
+                        </li>
+                    </ul>
+                    <p>Un dispositivo derivato da un modello standard o personalizzato è quindi 
+ già pronto per il monitoraggio, non appena viene collegato alla linea 
+ seriale e aggiunto alla linea in PlantVisorPRO Locale.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;">Dispositivi personalizzati</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="77.702%">
+                    <p>Sono dispositivi derivati da modelli creati con Device Editor, che una 
+ volta importati in PlantVisorPRO Locale compaiono nell'elenco dei modelli 
+ di dispositivi.</p>
+                    <p>Vengono trattati nello stesso modo dei dispositivi standard CAREL.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;">Linee</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="77.702%">
+                    <p>Insiemi di dispositivi fisici che comunicano con PlantVisorPRO Locale 
+ tramite lo stesso protocollo e sono collegati alla stessa porta seriale.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;">Variabili/parametri</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="77.702%">
+                    <p>Variabili/parametri già predisposti nel singolo dispositivo. Le proprietà 
+ delle variabili/parametri sono contenute nei modelli di dispositivo.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;">Variabili logiche</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="77.702%">
+                    <p>Variabili che contengono il risultato di funzioni logico-matematiche 
+ tra due o più variabili/parametri di dispositivi fisici e costanti. Lo 
+ scopo di una variabile logica è monitorare situazioni complesse (es.: 
+ medie aritmetiche, il valore massimo, ecc..).</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;">Dispositivi logici</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="77.702%">
+                    <p>Insiemi di variabili/parametri fisici e/o di variabili logiche. Lo scopo 
+ di un dispositivo logico è riunire variabili (fisiche o logiche) che hanno 
+ una certa attinenza tra loro (es.: temperature latticini) e che è meglio 
+ tenere sotto controllo nello stesso modo di un dispositivo fisico. Un 
+ dispositivo logico è infatti analogo a uno fisico, con gli stessi dati 
+ (confronta in questa pagina, paragrafo <span style="font-weight: bold;"><a href="#Dispositivi">Dispositivi</a></span>). 
+ </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;">Gruppi</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="77.702%">
+                    <p>Insiemi di dispositivi fisici e/o logici. Lo scopo del gruppo è quello 
+ di raggruppare dispositivi:</p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>con le stesse caratteristiche (es.: tutti gli MPXPRO)</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>che controllano la stessa tipologia di prodotto conservato 
+ (es.: banchi latticini, frutta e verdura, isole surgelati)</p>
+                        </li>
+                    </ul>
+                    <p>I gruppi compaiono in <span style="font-weight: bold;">Globale.</span></p>
+                    <p>Il gruppo permette di:</p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>visualizzare solo gli allarmi di gruppo</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>configurare grafici HACCP e storici di gruppo</p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>poter impostare, mediante le variabili di gruppo, lo 
+ stesso valore su più parametri </p>
+                        </li>
+                        <li class="p" value="4">
+                            <p>per permettere l'accesso di utenti specializzati a certi 
+ gruppi di dispositivi (es.: per manutenzione).</p>
+                        </li>
+                    </ul>
+                    <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+                        <col style="width: 6.855%;" />
+                        <col style="width: 93.145%;" />
+                        <tr valign="top">
+                            <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                                <p class="Note">
+                                    <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                                </p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                                <p>Un dispositivo fisico o logico può appartenere a un solo gruppo. </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 22.298%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#C9C9C9" width="22.298%">
+                    <p style="font-weight: bold;">Variabili di gruppo</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 77.702%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#EAEAEA" width="77.702%">
+                    <p style="color: #000000;">Insiemi di parametri dei dispositivi di un gruppo 
+ (quindi fisiche o logiche) che possono essere valorizzati con un unico 
+ comando.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Procedure_configurazione_standard.htm">Procedure di configurazione</a>
+        </p>
+        <p><a href="Config-sito__introduzione.htm">Configurare il sito</a>
+        </p>
+        <p><a href="Config-sito__dettaglio_linea.htm">Configurare una linea</a>
+        </p>
+        <p><a href="Config-dispositivo__introduzione.htm">Configurare un dispositivo 
+ fisico</a>
+        </p>
+        <p><a href="Monitoraggio__grafico_HACCP_e_storico.htm">Configurare i grafici</a>
+        </p>
+        <p><a href="Report__introduzione.htm">Configurare i report</a>
+        </p>
+        <p><a href="Trasferimento_dati__introduzione.htm">Configurare i dati 
+ storici da trasferire al Remoto</a>
+        </p>
+        <p><a href="Config-Dispositivo_logico__introduzione.htm">Configurare un 
+ dispositivo logico</a>
+        </p>
+        <p><a href="Gruppi_logici__introduzione.htm">Configurare un gruppo logico</a>
+        </p>
+        <p><a href="Utenti_di_programma__introduzione.htm">Configurare gli utenti</a>
+        </p>
+        <p><a href="Procedure_creazione_attivita-locale.htm">Procedure di creazione 
+ delle attività</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

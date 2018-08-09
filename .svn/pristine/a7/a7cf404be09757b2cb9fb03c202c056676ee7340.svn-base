@@ -1,0 +1,722 @@
+package com.carel.supervisor.dataaccess.db;
+
+import com.carel.supervisor.base.config.CoreMessages;
+import com.carel.supervisor.base.config.IInitializable;
+import com.carel.supervisor.base.config.InvalidConfigurationException;
+import com.carel.supervisor.base.config.SystemNotInitializedException;
+import com.carel.supervisor.base.log.Logger;
+import com.carel.supervisor.base.log.LoggerMgr;
+import com.carel.supervisor.base.timer.ILocalTimer;
+import com.carel.supervisor.base.timer.TimerMgr;
+import com.carel.supervisor.base.xml.XMLNode;
+import com.carel.supervisor.dataaccess.db.connection.ConnectionRegistry;
+import com.carel.supervisor.dataaccess.db.types.IDBType;
+import com.carel.supervisor.dataaccess.db.types.TypeMgr;
+import com.carel.supervisor.dataaccess.monitor.ICounter;
+import com.carel.supervisor.dataaccess.monitor.StatementMgr;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.List;
+
+
+public class DatabaseMgr implements IInitializable
+{
+    private final static String TYPE_MGR = "typemgr";
+    private final static String CONNECTION_MGR = "connectionmgr";
+    private final static String NAME = "name";
+    private final static int NUM_ROW_FETCH = 1000;
+    private static boolean initialized = false;
+    private static final DatabaseMgr me = new DatabaseMgr();
+    private static final Logger logger = LoggerMgr.getLogger(DatabaseMgr.class);
+    private TypeMgr typeMgr = null;
+    private ConnectionRegistry connectionRegistry = null;
+    private ILocalTimer queryTimer = TimerMgr.getTimer("[DATAACCESS][query]", TimerMgr.HIGH);
+    private ILocalTimer execTimer = TimerMgr.getTimer("[DATAACCESS][execute]", TimerMgr.HIGH);
+    private ILocalTimer commTimer = TimerMgr.getTimer("[DATAACCESS][command]", TimerMgr.HIGH);
+    private ILocalTimer multiTimer = TimerMgr.getTimer("[DATAACCESS][multi]", TimerMgr.HIGH);
+
+    private DatabaseMgr()
+    {
+    }
+
+    public static DatabaseMgr getInstance()
+    {
+        return me;
+    }
+
+    public boolean initialized()
+    {
+        return initialized;
+    }
+
+    public synchronized void init(XMLNode xmlStatic) throws InvalidConfigurationException
+    {
+        if (!initialized)
+        {
+            XMLNode xmlTmp = null;
+
+            for (int i = 0; i < xmlStatic.size(); i++)
+            {
+                xmlTmp = xmlStatic.getNode(i);
+
+                if (xmlTmp.getAttribute(NAME).equals(CONNECTION_MGR))
+                {
+                    connectionRegistry = new ConnectionRegistry(xmlTmp);
+                }
+                else if (xmlTmp.getAttribute(NAME).equals(TYPE_MGR))
+                {
+                    typeMgr = new TypeMgr(xmlTmp);
+                }
+            }
+
+            initialized = true;
+        }
+    }
+
+    protected TypeMgr getTypeMgr()
+    {
+        return typeMgr;
+    }
+
+    public RecordSet executeQuery(String dbId, String statement)
+        throws DataBaseException
+    {
+        return executeQuery(dbId, statement, null);
+    }
+
+    public RecordSet executeQuery(String dbId, String statement, Object[] values)
+        throws DataBaseException
+    {
+        ICounter counter = StatementMgr.getInstance().retrieve(statement);
+        counter.start();
+        queryTimer.start();
+
+        Connection connection = getConnection(dbId);
+        PreparedStatement preparedStatement = getPreparedStatement(dbId, connection, statement);
+
+        try
+        {
+            if (null != values)
+            {
+                IDBType[] dbType = getTypes(values);
+
+                for (int i = 0; i < values.length; i++)
+                {
+                    dbType[i].valorize(preparedStatement, i + 1, values[i]);
+                }
+
+                //if (logger.isDebugEnabled())
+                //	logger.debug(format(dbId, statement, dbType, values));	
+            }
+
+            //else if (logger.isDebugEnabled())
+            //	logger.debug(format(dbId, statement));	
+            preparedStatement.setFetchSize(NUM_ROW_FETCH);
+
+            ResultSet result = preparedStatement.executeQuery();
+
+            RecordSet recordSet = new RecordSet(result);
+            preparedStatement.close();
+
+            connection.commit();
+            closeConnection(dbId, connection);
+
+            queryTimer.stop();
+            counter.stop();
+
+            return recordSet;
+        }
+        catch (Exception e)
+        {
+            closeAll(dbId, connection, preparedStatement);
+            logger.error(format(dbId, statement, null, values), e);
+            throw new DataBaseException(CoreMessages.format("DTCE0004",
+                    new Object[] { dbId, statement }), e);
+        }
+    }
+
+    /// metodo utilizzato per paginazione  Luca
+    public RecordSet executeQuery(String dbId, String statement, Object[] values, int numStart,
+        int numEnd) throws DataBaseException
+    {
+        ICounter counter = StatementMgr.getInstance().retrieve(statement);
+        counter.start();
+        queryTimer.start();
+
+        Connection connection = getConnection(dbId);
+        PreparedStatement preparedStatement = getPreparedStatement(dbId, connection, statement);
+
+        try
+        {
+            if (null != values)
+            {
+                IDBType[] dbType = getTypes(values);
+
+                for (int i = 0; i < values.length; i++)
+                {
+                    dbType[i].valorize(preparedStatement, i + 1, values[i]);
+                }
+
+                //if (logger.isDebugEnabled())
+                //	logger.debug(format(dbId, statement, dbType, values));	
+            }
+
+            //else if (logger.isDebugEnabled())
+            //	logger.debug(format(dbId, statement));	
+            preparedStatement.setFetchSize(NUM_ROW_FETCH);
+
+            ResultSet result = preparedStatement.executeQuery();
+
+            RecordSet recordSet = new RecordSet(result, numStart, numEnd);
+            preparedStatement.close();
+
+            connection.commit();
+            closeConnection(dbId, connection);
+            queryTimer.stop();
+            counter.stop();
+
+            return recordSet;
+        }
+        catch (Exception e)
+        {
+            closeAll(dbId, connection, preparedStatement);
+            logger.error(format(dbId, statement, null, values), e);
+            throw new DataBaseException(CoreMessages.format("DTCE0004",
+                    new Object[] { dbId, statement }), e);
+        }
+    }
+
+    public void executeStatement(String statement, Object[] values)
+        throws DataBaseException
+    {
+        executeStatement(null, statement, values);
+    }
+
+    public void executeStatement(String dbId, String statement, Object[] values)
+        throws DataBaseException
+    {
+        executeStatement(dbId, statement, values, true);
+    }
+
+    public void executeStatement(String dbId, String statement, Object[] values, boolean logError)
+        throws DataBaseException
+    {
+        ICounter counter = StatementMgr.getInstance().retrieve(statement);
+        counter.start();
+
+        Connection connection = getConnection(dbId);
+        execTimer.start();
+
+        PreparedStatement preparedStatement = getPreparedStatement(dbId, connection, statement);
+
+        try
+        {
+            if (null != values)
+            {
+                IDBType[] dbType = getTypes(values);
+
+                for (int i = 0; i < values.length; i++)
+                {
+                    dbType[i].valorize(preparedStatement, i + 1, values[i]);
+                }
+
+                // if (logger.isDebugEnabled())
+                //	logger.debug(format(dbId, statement, dbType, values));	
+            }
+
+            //else if (logger.isDebugEnabled())
+            //	logger.debug(format(dbId, statement));
+            preparedStatement.execute();
+
+            preparedStatement.close();
+
+            connection.commit();
+            closeConnection(dbId, connection);
+            execTimer.stop();
+            counter.stop();
+        }
+        catch (Exception e)
+        {
+            closeAll(dbId, connection, preparedStatement);
+
+            if (logError)
+            {
+                logger.error(format(dbId, statement, null, values), e);
+            }
+
+            throw new DataBaseException(CoreMessages.format("DTCE0005",
+                    new Object[] { dbId, statement }), e);
+        }
+    }
+
+    public int executeStatementUpd(String dbId, String statement, Object[] values) throws DataBaseException
+	{
+	    int rowsUpd = -1; //parto con nessuna riga modificata
+    	ICounter counter = StatementMgr.getInstance().retrieve(statement);
+	    counter.start();
+		
+	    Connection connection = getConnection(dbId);
+	    execTimer.start();
+	    
+	    PreparedStatement preparedStatement = getPreparedStatement(dbId, connection, statement);
+	    
+	    try
+	    {
+	        if (null != values)
+	        {
+	            IDBType[] dbType = getTypes(values);
+	
+	            for (int i = 0; i < values.length; i++)
+	            {
+	                dbType[i].valorize(preparedStatement, i + 1, values[i]);
+	            }
+	        }
+	        
+	        preparedStatement.close();
+	    	
+	        connection.commit();
+	        closeConnection(dbId, connection);
+	        
+	        preparedStatement.execute();
+	        rowsUpd = preparedStatement.getUpdateCount(); //righe effettivamente modificate dalla query
+	        
+	    }
+	    catch (Exception e)
+	    {
+	        closeAll(dbId, connection, preparedStatement);
+	        
+	        logger.error(format(dbId, statement, null, values), e);
+	        throw new DataBaseException(CoreMessages.format("DTCE0005", new Object[] { dbId, statement }), e);
+	    }
+	    finally
+	    {
+	        execTimer.stop();
+	        counter.stop();
+	    }
+	    
+	    return rowsUpd;
+	}
+    
+    public RecordSet executeCommand(String dbId, IDBCommand command)
+        throws DataBaseException
+    {
+        Connection connection = getConnection(dbId);
+        commTimer.start();
+
+        try
+        {
+            RecordSet recordSet = command.execute(connection);
+            connection.commit();
+            closeConnection(dbId, connection);
+            commTimer.stop();
+
+            return recordSet;
+        }
+        catch (Exception e)
+        {
+            closeAll(dbId, connection, null);
+            throw new DataBaseException(CoreMessages.format("DTCE0006",
+                    new Object[] { dbId, command.name() }), e);
+        }
+    }
+
+    public void executeMultiStatementNoError(String dbId, String statement, Object[][] val) throws DataBaseException
+    {
+    	ICounter counter = StatementMgr.getInstance().retrieve(statement);
+        counter.start();
+        multiTimer.start();
+
+        Connection connection = getConnection(dbId);
+        PreparedStatement preparedStatement = getPreparedStatement(dbId, connection, statement);
+
+        try
+        {
+            int numMax = 10;
+            int count = 0;
+
+            if (null != val)
+            {
+                IDBType[] dbType = getMultiTypes(val);
+
+                for (int j = 0; j < val.length; j++)
+                {
+                    for (int i = 0; i < val[j].length; i++)
+                    {
+                        dbType[i].valorize(preparedStatement, i + 1, val[j][i]);
+                    }
+
+                    preparedStatement.setFetchSize(NUM_ROW_FETCH);
+                    try
+                    {
+                    	preparedStatement.execute();
+                    }
+                    catch(Exception e)
+                    {
+                    	//Vado avanti
+                    }
+                    count++;
+                    try
+                    {
+	                    if (count > numMax)
+	                    {
+	                        connection.commit();
+	                        count = 0;
+	                    }
+                    }
+                    catch(Exception e)
+                    {
+                    	//Vado avanti
+                    }
+                    //  if (logger.isDebugEnabled())
+                    //	logger.debug(format(dbId, statement, dbType, values[j]));	
+                }
+            }
+            else
+            {
+                //	if (logger.isDebugEnabled())
+                //		logger.debug(format(dbId, statement));	
+                preparedStatement.execute();
+            }
+
+            preparedStatement.close();
+
+            connection.commit();
+            closeConnection(dbId, connection);
+
+            multiTimer.stop();
+            counter.stop();
+        }
+        catch (Exception e)
+        {
+            closeAll(dbId, connection, preparedStatement);
+            logger.error(format(dbId, statement, null, null), e);
+            throw new DataBaseException(CoreMessages.format("DTCE0007",
+                    new Object[] { dbId, statement }), e);
+        }
+    }
+    
+    public void executeMultiStatement(String dbId, String statement, List values)
+        throws DataBaseException
+    {
+        Object[][] val = new Object[values.size()][];
+        for(int i = 0; i < values.size(); i++)
+        {
+        	val[i] = (Object[])values.get(i);
+        }
+        executeMultiStatement(dbId, statement, val);
+    }
+
+    
+    public void executeMultiStatement(String dbId, String statement, Object[][] values)
+        throws DataBaseException
+    {
+        ICounter counter = StatementMgr.getInstance().retrieve(statement);
+        counter.start();
+        multiTimer.start();
+
+        Connection connection = getConnection(dbId);
+        PreparedStatement preparedStatement = getPreparedStatement(dbId, connection, statement);
+
+        try
+        {
+            int numMax = 200;
+            int count = 0;
+
+            if (null != values)
+            {
+                IDBType[] dbType = getMultiTypes(values);
+
+                for (int j = 0; j < values.length; j++)
+                {
+                    for (int i = 0; i < values[j].length; i++)
+                    {
+                        dbType[i].valorize(preparedStatement, i + 1, values[j][i]);
+                    }
+
+                    preparedStatement.setFetchSize(NUM_ROW_FETCH);
+                    preparedStatement.execute();
+                    count++;
+
+                    if (count > numMax)
+                    {
+                        connection.commit();
+                        count = 0;
+                    }
+
+                    //  if (logger.isDebugEnabled())
+                    //	logger.debug(format(dbId, statement, dbType, values[j]));	
+                }
+            }
+            else
+            {
+                //	if (logger.isDebugEnabled())
+                //		logger.debug(format(dbId, statement));	
+                preparedStatement.execute();
+            }
+
+            preparedStatement.close();
+
+            connection.commit();
+            closeConnection(dbId, connection);
+
+            multiTimer.stop();
+            counter.stop();
+        }
+        catch (Exception e)
+        {
+            closeAll(dbId, connection, preparedStatement);
+            logger.error(format(dbId, statement, null, null), e);
+            throw new DataBaseException(CoreMessages.format("DTCE0007",
+                    new Object[] { dbId, statement }), e);
+        }
+    }
+
+    protected java.sql.Connection createConnection(String name)
+        throws Exception
+    {
+        if (!initialized)
+        {
+            throw new SystemNotInitializedException("DATA ACCESS");
+        }
+
+        java.sql.Connection connection = null;
+
+        if (null == name)
+        {
+            connection = connectionRegistry.getConnection().createConnection();
+        }
+        else
+        {
+            connection = connectionRegistry.getConnection(name).createConnection();
+        }
+
+        return connection;
+    }
+
+    public void closeConnection(String name, java.sql.Connection connection)
+        throws Exception
+    {
+        if (!initialized)
+        {
+            throw new SystemNotInitializedException("DATA ACCESS");
+        }
+
+        if (null == name)
+        {
+            connectionRegistry.getConnection().closeConnection(connection);
+        }
+        else
+        {
+            connectionRegistry.getConnection(name).closeConnection(connection);
+        }
+    }
+
+    public void resetConnections(String dbId) throws Exception
+    {
+        if (null == dbId)
+        {
+            connectionRegistry.getConnection().resetConnections();
+        }
+        else
+        {
+            connectionRegistry.getConnection(dbId).resetConnections();
+        }
+    }
+
+    public Connection getConnection(String dbId) throws DataBaseException
+    {
+        try
+        {
+            return createConnection(dbId);
+        }
+        catch (Exception e)
+        {
+            throw new DataBaseException(CoreMessages.format("DTCE0001", dbId), e);
+        }
+    }
+
+    private PreparedStatement getPreparedStatement(String name, Connection connection,
+        String statement) throws DataBaseException
+    {
+        try
+        {
+            return connection.prepareStatement(statement);
+        }
+        catch (Exception e)
+        {
+            try
+            {
+                connection.rollback();
+                closeConnection(name, connection);
+                throw new DataBaseException(CoreMessages.format("DTCE0002"), e);
+            }
+            catch (DataBaseException e2)
+            {
+                throw e2;
+            }
+            catch (Exception e2)
+            {
+                throw new DataBaseException(CoreMessages.format("DTCE0003"), e);
+            }
+        }
+    }
+
+    private IDBType findNotNull(Object[][] values, int pos)
+        throws DataBaseException
+    {
+        for (int i = 0; i < values.length; i++)
+        {
+            if (null != values[i][pos])
+            {
+                return typeMgr.get(values[i][pos].getClass().getName());
+            }
+        }
+
+        return typeMgr.get("null");
+    }
+
+    private IDBType[] getMultiTypes(Object[][] values)
+        throws DataBaseException
+    {
+        try
+        {
+            IDBType[] dbType = new IDBType[values[0].length];
+
+            for (int pos = 0; pos < values[0].length; pos++)
+            {
+                dbType[pos] = findNotNull(values, pos);
+            }
+
+            return dbType;
+        }
+        catch (Exception e)
+        {
+            throw new DataBaseException("ERROR DURING RETRIEVE TYPES: " + dumpObjects(values));
+        }
+    }
+
+    private IDBType[] getTypes(Object[] values) throws DataBaseException
+    {
+        int i = 0;
+
+        try
+        {
+            IDBType[] dbType = new IDBType[values.length];
+
+            for (i = 0; i < values.length; i++)
+            {
+                if (null != values[i])
+                {
+                    dbType[i] = typeMgr.get(values[i].getClass().getName());
+                }
+                else
+                {
+                    dbType[i] = typeMgr.get("null");
+                }
+            }
+
+            return dbType;
+        }
+        catch (Exception e)
+        {
+            throw new DataBaseException("ERROR DURING RETRIEVE TYPES: " + dumpObjects(values));
+        }
+    }
+
+    private StringBuffer dumpObjects(Object[] values)
+    {
+        if (null != values)
+        {
+            StringBuffer buffer = new StringBuffer();
+
+            for (int i = 0; i < values.length; i++)
+            {
+                buffer.append("[VALUE:");
+                buffer.append((null != values[i]) ? values[i].toString() : "NULL");
+                buffer.append(" TYPE:");
+                buffer.append((null != values[i]) ? values[i].getClass().getName() : "NULL");
+                buffer.append("]");
+            }
+
+            return buffer;
+        }
+        else
+        {
+            return new StringBuffer("NULL");
+        }
+    }
+
+    private StringBuffer dumpTypes(IDBType[] dbType)
+    {
+        if (null != dbType)
+        {
+            StringBuffer buffer = new StringBuffer();
+
+            for (int i = 0; i < dbType.length; i++)
+            {
+                buffer.append((null != dbType[i]) ? dbType[i].getClass().getName() : "NULL");
+
+                if (i < (dbType.length - 1))
+                {
+                    buffer.append(",");
+                }
+            }
+
+            return buffer;
+        }
+        else
+        {
+            return new StringBuffer("NULL");
+        }
+    }
+
+    private String format(String dbId, String statement, IDBType[] dbType, Object[] values)
+    {
+        StringBuffer buffer = new StringBuffer();
+        buffer.append("[DBID:");
+        buffer.append(dbId);
+        buffer.append("][STATEMENT:");
+        buffer.append(statement);
+        buffer.append("][TYPES:");
+        buffer.append(dumpTypes(dbType));
+        buffer.append("][OBJECTS:");
+        buffer.append(dumpObjects(values));
+        buffer.append("]");
+
+        return buffer.toString();
+    }
+
+    private void closeAll(String dbId, Connection connection, PreparedStatement preparedStatement)
+    {
+        try
+        {
+            if (null != preparedStatement)
+            {
+                preparedStatement.close();
+            }
+        }
+        catch (Exception e2)
+        {
+            //Important Exception is e
+        }
+
+        try
+        {
+            connection.rollback();
+        }
+        catch (Exception e2)
+        {
+            //        	Important Exception is e
+        }
+
+        try
+        {
+            closeConnection(dbId, connection);
+        }
+        catch (Exception e)
+        {
+            logger.error(e);
+        }
+    }
+}

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carel-config>
+
+<!-- +++++++++++++++++++++++++++ -->
+<!--  PERFORMANCE TIMER SERVICE  -->
+<!-- +++++++++++++++++++++++++++ -->
+	
+	<component class="com.carel.supervisor.base.timer.TimerMgr"  blockingerror="true">
+		<element name="manager" value="com.carel.supervisor.base.timer.impl.TimerMgrImpl"/>
+		<element name="level" value="low"/>
+		<element name="autostart" value="Y"/>
+	<!--	<element type="timerdata" class="com.carel.supervisor.base.timer.impl.TimerMgrDummy"/>   -->
+	</component>
+	
+	<component class="com.carel.supervisor.dataaccess.monitor.StatementMgr"  blockingerror="true">
+		<element name="class" value="com.carel.supervisor.dataaccess.monitor.StatementSniffer"/>
+	</component>
+	
+<!-- +++++++++++++++++++ -->
+<!--  EXCEPTION HANDLER  -->
+<!-- +++++++++++++++++++ -->
+	
+	<component class="com.carel.supervisor.base.util.ExceptionHandler"  blockingerror="true">
+		<element name="active" value="true"/>
+	</component>
+		
+<!-- ++++++++++++++++ -->
+<!--  DUMPER SERVICE  -->
+<!-- ++++++++++++++++ -->
+	
+	<component class="com.carel.supervisor.base.dump.DumperMgr"  blockingerror="true">
+		<registry>
+			<element type="java.util.List" class="com.carel.supervisor.base.dump.registry.DumperList"/>
+			<element type="java.util.ArrayList" class="com.carel.supervisor.base.dump.registry.DumperList"/>
+			<element type="java.util.Vector" class="com.carel.supervisor.base.dump.registry.DumperList"/>
+			<element type="java.util.LinkedList" class="com.carel.supervisor.base.dump.registry.DumperList"/>
+			<element type="java.util.Map" class="com.carel.supervisor.base.dump.registry.DumperMap"/>
+			<element type="java.util.HashMap" class="com.carel.supervisor.base.dump.registry.DumperMap"/>
+			<element type="java.util.Hashtable" class="com.carel.supervisor.base.dump.registry.DumperMap"/>
+			<element type="java.lang.Object" class="com.carel.supervisor.base.dump.registry.DumperObject"/>
+			<element type="com.carel.supervisor.base.dump.IDumpable" class="com.carel.supervisor.base.dump.registry.DumperDumpable"/>
+			<element type="[" class="com.carel.supervisor.base.dump.registry.DumperArray"/>
+		</registry>
+		<config>
+			<element name="com.carel.supervisor.field.FieldConnectorMgr" value="C:\\DUMP\\Field.dump"/>
+		</config>
+	</component>
+	
+
+<!-- ++++++++++++++++++++++++++ -->
+<!--  DATABASE MANAGER SERVICE  -->
+<!-- ++++++++++++++++++++++++++ -->
+
+	<component name="databasemgr" class="com.carel.supervisor.dataaccess.db.DatabaseMgr" blockingerror="true">
+		<manager name="typemgr">
+			<element type="java.lang.String" javatype="1" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBVarchar"/>
+			<element type="java.lang.String" javatype="12" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBVarchar"/>
+			<element type="java.lang.Long" javatype="4" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBLong"/>
+			<element type="java.lang.Integer" javatype="4" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBInteger"/>
+			<element type="java.lang.Integer" javatype="-5" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBInteger"/>
+			<element type="java.lang.Double" javatype="8" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBDouble"/>
+			<element type="java.lang.Double" javatype="2" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBDouble"/>
+			<element type="java.lang.Float" javatype="7" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBFloat"/>
+			<element type="java.lang.Short" javatype="5" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBShort"/>
+			<element type="java.util.Date" javatype="91" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBDate"/>
+			<element type="java.sql.Date" javatype="91" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBDate"/>
+			<element type="java.lang.Boolean" javatype="16" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBBoolean"/>
+			<element type="java.lang.Boolean" javatype="-7" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBBoolean"/>
+			<element type="java.sql.Time" javatype="92" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBTime"/>
+			<element type="java.sql.Timestamp" javatype="93" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBTimeStamp"/>
+			<element type="null" javatype="0" class="com.carel.supervisor.dataaccess.db.types.dbregistry.DBNull"/>
+		</manager>
+		<manager name="connectionmgr" default="POSTGRES">
+			<connection name="POSTGRES" type="com.carel.supervisor.dataaccess.db.connection.impl.PvPoolConnection">
+				<element type="driver" value="org.postgresql.Driver"/>
+				<element type="url" value="jdbc:postgresql://localhost/plantvisorpro"/>
+				<element type="user" value="postgres"/>
+				<element type="password" value="postgres"/>
+				<element type="numconnections" value="20"/>
+				<element type="maxconnections" value="15"/>
+				<element type="minconnections" value="10"/>
+			</connection>
+		</manager>
+	</component>
+	
+	
+<!-- +++++++++++++++++ -->
+<!-- SEQUENCE MANAGER  -->
+<!-- ++++++++++++++++++-->
+	
+	<component name="sequencemgr" class="com.carel.supervisor.dataaccess.db.SeqMgr" blockingerror="true">	
+	</component>
+	
+<!-- ++++++++++++++++++++++++++++ -->
+<!--  SYSTEMCONFIG MANAGER SERVICE  -->
+<!-- ++++++++++++++++++++++++++++ -->
+
+	<component class="com.carel.supervisor.dataaccess.dataconfig.SystemConfMgr" blockingerror="true">
+		<element name="table" table="systemconf"/>
+	</component>
+	
+<!-- ++++++++++++++++++++++++++++ -->
+<!--  PRODUCTINFO MANAGER SERVICE  -->
+<!-- ++++++++++++++++++++++++++++ -->
+
+	<component class="com.carel.supervisor.base.config.ProductInfoMgr" blockingerror="true">
+		<element name="instance" class="com.carel.supervisor.dataaccess.dataconfig.ProductInfo"/>
+	</component>
+	
+
+<!-- ++++++++++++++++++++++++++++++ -->
+<!--  MULTILANGUAGE MANAGER SERVICE -->
+<!-- +++++++++++++++++++++++++++++++-->
+
+	<component class="com.carel.supervisor.dataaccess.language.LangMgr"  blockingerror="true">
+		<element name="path" value="language"/>
+	</component>
+		
+<!-- +++++++++++++++++++++++ -->
+<!--  EVENT MANAGER SERVICE  -->
+<!-- +++++++++++++++++++++++ -->
+	<component class="com.carel.supervisor.dataaccess.event.EventMgr"  blockingerror="true">
+		<element filter="D000"/>
+		<element filter="D007"/>
+		<element filter="D019"/>
+		<element filter="D021"/>
+		<element filter="D030"/>
+		<element filter="D033" reboot="yes"/>
+		<element filter="D042" reboot="yes"/>
+		<element filter="D045"/>
+		<element filter="D046"/>
+		<element filter="D045"/>
+		<element filter="D057"/>
+		<element filter="F002"/>
+		<element filter="F003"/>
+		<element filter="G005" reboot="yes"/>
+		<element filter="S027"/>
+		<element filter="W038"/>
+		<element filter="W039"/>
+		<element filter="W040"/>
+		<element filter="M001"/>
+		<element filter="M002"/>
+		<element filter="M003"/>
+	</component>
+
+<!-- ++++++++++++++++++++++++++++ -->
+<!--  DATACONFIG MANAGER SERVICE  -->
+<!-- ++++++++++++++++++++++++++++ -->
+
+	<component class="com.carel.supervisor.dataaccess.dataconfig.DataConfigMgr" blockingerror="true">
+		<element name="cfdev" class="com.carel.supervisor.dataaccess.dataconfig.DeviceInfoList"/>
+		<element name="cfline" class="com.carel.supervisor.dataaccess.dataconfig.LineInfoList"/>
+		<element name="cfvars" class="com.carel.supervisor.dataaccess.dataconfig.VariableInfoList"/>
+		<element name="cfvarlg" class="com.carel.supervisor.dataaccess.dataconfig.VariableLogicInfoList"/>
+	</component>
+	
+<!-- ++++++++++++++++++++++++++ -->
+<!--  PROFILING MANAGER SERVICE -->
+<!-- +++++++++++++++++++++++++++-->
+	<component name="profilermgr" class="com.carel.supervisor.base.profiling.ProfilingMgr"  blockingerror="true">
+		<!--<component type="dummy" class="com.carel.supervisor.base.profiling.impl.DummyProfiler"/>
+		<component type="ldap" class="com.carel.supervisor.presentation.ldap.LDAPProfiler">
+			<element value="cn=root,dc=carel,dc=com" name="adminName"></element>
+			<element value="{CRYP}5988da5902a90f17c6ae8c0e197d3ced1df1229a903c9b16a611e2858f303669c6ed4dfc7454b7ced734a7b2f86b01ff9cb84b1757a2cedd0b5b874226db88e" name="adminPassword"></element>
+			<element value="ldap://localhost:389" name="ldapURL"></element>
+			<element value="simple" name="securtyAuthentication"></element>
+			<element value="com.sun.jndi.ldap.LdapCtxFactory" name="contextFactory"></element>
+			<element value="SHA-1" name="cryptingMethod"></element>
+			<element value="demo" name="ldapNode"></element>
+		</component>-->
+		<component type="db" class="com.carel.supervisor.presentation.ldap.DBProfiler">
+			<element value="SHA-1" name="cryptingMethod"></element>
+		</component>
+	
+	</component>
+
+	
+<!-- ++++++++++++++++ -->
+<!-- PRINTER MANAGER  -->
+<!-- +++++++++++++++++-->
+	
+	<component name="printermgr" class="com.carel.supervisor.report.PrinterMgr2" blockingerror="true">
+<!--		<component type="templatemgr" class="com.carel.supervisor.base.printer.template.TemplateMgr">-->
+<!--			<element type="template" class="com.carel.supervisor.base.printer.template.impl.FactoryTemplateTemplate" />-->
+<!--			<element type="image" class="com.carel.supervisor.base.printer.template.impl.FactoryImageTemplate" />-->
+<!--			<element type="table" class="com.carel.supervisor.base.printer.template.impl.FactoryTableTemplate" />-->
+<!--			<element type="text" class="com.carel.supervisor.base.printer.template.impl.FactoryTextTemplate" />-->
+<!--			<element type="list" class="com.carel.supervisor.base.printer.template.impl.FactoryListTemplate" />-->
+<!--		</component>-->
+<!--		-->
+<!--		<component type="templatemgrHTML" class="com.carel.supervisor.base.printer.template.TemplateMgrHTML">-->
+<!--			<element type="template" class="com.carel.supervisor.base.printer.template.implHTML.FactoryTemplateTemplateHTML" />-->
+<!--			<element type="image" class="com.carel.supervisor.base.printer.template.implHTML.FactoryImageTemplateHTML" />-->
+<!--			<element type="table" class="com.carel.supervisor.base.printer.template.implHTML.FactoryTableTemplateHTML" />-->
+<!--			<element type="text" class="com.carel.supervisor.base.printer.template.implHTML.FactoryTextTemplateHTML" />-->
+<!--			<element type="list" class="com.carel.supervisor.base.printer.template.implHTML.FactoryListTemplateHTML" />-->
+<!--		</component>-->
+		
+		<component type="path" class="">
+			<element type="templatePath" value="template"/>
+			<element type="reportPath" value="template/report"/>
+			<element type="savePath" value="PvPro"/>
+		</component>
+	
+	</component>
+	
+	
+<!-- ++++++++++++++++++++++++++++++++ -->
+<!--  FIELDCONNECTOR MANAGER SERVICE  -->
+<!-- ++++++++++++++++++++++++++++++++ -->
+
+	<component class="com.carel.supervisor.field.FieldConnectorMgr" blockingerror="true">
+		<component name="SUPERVISOR" type="SUPERVISOR" classConn="com.carel.supervisor.field.dataconn.impl.DataConnSUPERVISOR">
+			<element name="mem_size" value="128" />
+		</component>
+		<!-- value for debug are 0, 1, 2, 3 -->
+		<!-- 
+			0: only information regarding Open and Close command, and error logs (no debug information)
+			1: also debug information about Read and Write command received from dll
+			2: also debug information about the 8 bit read and write during Read and Write operation
+			3: also debug information about the 8 bit read before a Write operation
+		 -->
+		 <!-- readDelay: delay between a write operation and read needed to check write success -->
+		<component name="FTD2IO" type="FTD2IO" classConn="com.carel.supervisor.field.dataconn.impl.DataConnFTD2IO">
+			<element name="logLvl" value="0" />
+			<element name="numRetry" value="3" />
+			<element name="readDelay" value="250" />
+		</component>
+		<component name="CAREL" type="CAREL" classConn="com.carel.supervisor.field.dataconn.impl.DataConnCAREL">
+			<element name="path" value="C:\\WINDOWS\\SYSTEM32\\"/>
+			<element name="fileName" value="DRIVER"/>
+			<element name="mode" value="1"/>
+		</component>
+		<component name="CAN" type="CAN" classConn="com.carel.supervisor.field.dataconn.impl.DataConnCAN">
+			<element name="path" value="C:\\WINDOWS\\SYSTEM32\\"/>
+			<element name="fileName" value="DRIVERCAN"/>
+			<element name="mode" value="1"/>
+		</component>
+		<!-- value for debug is 0, 1, 2, 3. see Dataconnmodbus.java  -->
+		<component name="MODBUS" type="MODBUS" classConn="com.carel.supervisor.field.dataconn.impl.DataConnMODBUS">
+			<element name="debug" value="0" />
+		</component>
+		<component name="PLANTVISOR" type="PLANTVISOR" classConn="com.carel.supervisor.field.dataconn.impl.DataConnPLANT"/>
+		<component name="DUMMY" type="DUMMY" classConn="com.carel.supervisor.field.dataconn.impl.DataConnDUMMY"/>
+		<component name="STRESS" type="STRESS" classConn="com.carel.supervisor.field.dataconn.impl.DataConnSTRESS"/>
+		<component name="VERYSTRESS" type="VERYSTRESS" classConn="com.carel.supervisor.field.dataconn.impl.DataConnVERYSTRESS"/>
+		
+		<component name="SNMPv1" type="SNMPv1" classConn="com.carel.supervisor.field.dataconn.impl.DataConnSNMP">
+			<element name="pollvalue" value="30" />
+			<element name="debug" value="true" />
+		</component>
+		<!-- <component name="VIRTUAL" type="VIRTUAL" classConn="com.carel.supervisor.director.pco.DataConnVIRTUAL"/>  -->
+		
+	</component>
+	
+
+<!-- +++++++++++++++++++ -->
+<!-- CONTROLLER MANAGER  -->
+<!-- ++++++++++++++++++++-->
+	
+	<component name="controllermgr" class="com.carel.supervisor.controller.ControllerMgr" blockingerror="true">	
+	</component>
+	
+
+	
+<!-- +++++++++++++++++ -->
+<!-- FUNCTION MANAGER  -->
+<!-- +++++++++++++++++ -->	
+	<component name="functionmgr" class="com.carel.supervisor.controller.function.FunctionMgr" blockingerror="true">
+		<element symbol="+" web="true" code="+" in="real" out="real" pars="n" class="com.carel.supervisor.controller.function.registry.AddFunction"/>
+	    	<element symbol="/" web="true" code="/" in="real" out="real" pars="2" class="com.carel.supervisor.controller.function.registry.DivFunction"/>
+	    	<element symbol="-" web="true" code="-" in="real" out="real" pars="2" class="com.carel.supervisor.controller.function.registry.MinusFunction"/>
+	    	<element symbol="*" web="true" code="*" in="real" out="real" pars="n" class="com.carel.supervisor.controller.function.registry.ProdFunction"/>
+	    	<element symbol="sqrt" web="true" code="sqrt" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.SqrtFunction"/>
+	    	<element symbol="sqr" web="true" code="sqr" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.SqrFunction"/>
+	    	<element symbol="ln" web="true" code="ln" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.LnFunction"/>
+	    	<element symbol="exp" web="true" code="exp" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.ExpFunction"/>
+	    	<element symbol="cos" web="true" code="cos" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.CosFunction"/>
+	    	<element symbol="sin" web="true" code="sin" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.SinFunction"/>
+	    	<element symbol="round" web="true" code="round" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.RoundFunction"/>
+	    	<element symbol="abs" web="true" code="abs" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.AbsFunction"/>
+	    	<element symbol="I" web="true" code="I" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.IdentityFunction"/>
+	    	<element symbol="I" web="true" code="ID" in="boolean" out="boolean" pars="1" class="com.carel.supervisor.controller.function.registry.IdentityFunction"/>
+	    	<element symbol="acos" web="true" code="acos" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.AcosFunction"/>
+	    	<element symbol="asin" web="true" code="asin" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.AsinFunction"/>
+	    	<element symbol="atan" web="true" code="atan" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.AtanFunction"/>
+	    	<element symbol="max" web="true" code="max" in="real" out="real" pars="n" class="com.carel.supervisor.controller.function.registry.MaxFunction"/>
+	    	<element symbol="min" web="true" code="min" in="real" out="real" pars="n" class="com.carel.supervisor.controller.function.registry.MinFunction"/>
+	    	<element symbol="pow" web="true" code="pow" in="real" out="real" pars="2" class="com.carel.supervisor.controller.function.registry.PowFunction"/>
+	    	<element symbol="tan" web="true" code="tan" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.TanFunction"/>
+	    	<element symbol=">" web="true" code="GR" in="real" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.GreaterCompare"/>
+	    	<element symbol=">=" web="true" code="GREQ" in="real" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.GreaterEqualCompare"/>
+	    	<element symbol="&lt;" web="true" code="LS" in="real" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.LessCompare"/>
+	    	<element symbol="&lt;=" web="true" code="LSEQ" in="real" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.LessEqualCompare"/>
+	    	<element symbol="=" web="true" code="EQ" in="real" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.EqualCompare"/>
+	    	<element symbol="=" web="true" code="EQD" in="boolean" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.EqualCompare"/>
+	    	<element symbol="&lt;>" web="true" code="NOTEQ" in="real" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.DifferentCompare"/>
+	    	<element symbol="&lt;>" web="true" code="NOTEQD" in="boolean" out="boolean" pars="2" class="com.carel.supervisor.controller.function.registry.DifferentCompare"/>
+	    	<element symbol="~" web="true" code="NOT" in="boolean" out="boolean" pars="1" class="com.carel.supervisor.controller.function.registry.NotElement"/>
+	    	<element symbol="&amp;" web="true" code="AND" in="boolean" out="boolean" pars="n" class="com.carel.supervisor.controller.function.registry.AndElement"/>
+	    	<element symbol="|" web="true" code="OR" in="boolean" out="boolean" pars="n" class="com.carel.supervisor.controller.function.registry.OrElement"/>
+	    	<element symbol="avg" web="true" code="avg" in="real" out="real" pars="n" class="com.carel.supervisor.controller.function.registry.AverageFunction"/>
+	    	<element symbol="*10" web="true" code="*10" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.TenfoldFunction"/>
+	    	<element symbol="*100" web="true" code="*100" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.HundredfoldFunction"/>
+	    	<element symbol="*1000" web="true" code="*1000" in="real" out="real" pars="1" class="com.carel.supervisor.controller.function.registry.ThousandfoldFunction"/>
+	</component>
+	
+<!-- ++++++++++++++++++++++++++++++ -->
+<!--   DIRECTOR MANAGER SERVICE	    -->
+<!-- +++++++++++++++++++++++++++++++-->
+
+	<component type="directormgr" class="com.carel.supervisor.director.DirectorMgr" blockingerror="true">
+		<element name="initialSizeQueue" value="5000"/>
+		<element name="normaleNumDequeue" value="20"/>
+		<element name="normalNumGCDwriter" value="1"/>
+		<element name="emergencyNumDequeue" value="200"/>
+		<element name="emergencyNumGCDwriter" value="1"/>
+		<element name="threasholdEmergency" value="10000"/>
+		<element name="maxStepNumber" value="30000"/>
+	</component>
+	
+
+<!-- ++++++++++++++++++++++++++++++ -->
+<!--   EXPORT MANAGER SERVICE	    -->
+<!-- +++++++++++++++++++++++++++++++-->
+
+	<component type="exportmgr" class="com.carel.supervisor.director.ide.ExportMgr" blockingerror="true">
+		<component name="site" class="com.carel.supervisor.director.ide.SiteExporter">
+			<var-field column="idvariable" xml="key"/>
+			<var-field column="type" xml="type"/>
+		</component>
+	</component>
+	
+<!-- ++++++++++++++++++++++++++++++ -->
+<!-- MENU MANAGER SERVICE 	    -->
+<!-- +++++++++++++++++++++++++++++++-->
+	
+	<component type="MenuConfigurationLoader" class="com.carel.supervisor.presentation.menu.configuration.MenuConfigMgr" blockingerror="true">
+		<element type="file" path="menu" name="configuration.xml"/>
+		<element type="plug" path="menu/plugins" name="cfg_"/>
+	</component>
+	
+	<component type="MenuTabMgrLoader" class="com.carel.supervisor.presentation.menu.configuration.MenuTabMgr" blockingerror="true">
+		<element type="tab" path="menu" name="tabmenu.xml"/>
+		<element type="plug" path="menu/plugins" name="tab_"/>
+	</component>
+	
+	<component type="MenuActMgrLoader" class="com.carel.supervisor.presentation.menu.configuration.MenuActionMgr" blockingerror="true">
+		<element type="action" path="menu" name="actionmenu.xml"/>
+		<element type="plug" path="menu/plugins" name="act_"/>
+	</component>
+
+<!-- +++++++++++++++++++++++++++++++ -->
+<!-- DISPATCHER MANAGER ++++ -->
+<!-- +++++++++++++++++++++++++++++++ -->	
+	<component name="DispatcherManager" class="com.carel.supervisor.dispatcher.DispatcherMgr" blockingerror="true">
+		<config>
+			<element name="startonload" value="true"/>
+			<element name="useservices" value="true"/>
+			<element name="timeread" value="20000"/>
+			<element name="timeafterstart" value="10000"/>
+			<element name="timealgo" value="300000"/>
+			<element name="templatepath" value="template/dispatcher"/>
+			<element name="repository" value="PvPro"/>
+			<element name="services" value="Services"/>
+			<element name="certificate" value=".keystore"/>
+			<element name="smsproviderpath" value="Provider"/>
+			<element name="smsprovidername" value="prot_sms.ini"/>
+			<element name="rlogin" value="PVRemote"/>
+			<element name="rpassw" value="PD35010"/>
+			<element name="rtiout" value="120"/>
+			<element name="F" value="PVSendFaxTest.rtf"/>
+			<element name="S" value="PlantvisorPRO SMS TEST"/>
+			<element name="P" value="PVTempateTest.pdf"/>
+			<element name="E" value="PVTempateTest.pdf"/>
+		</config>
+		<registry>
+			<element type="F" desc="Fax"   action="com.carel.supervisor.dispatcher.action.FAction" memory="com.carel.supervisor.dispatcher.memory.FMemory"/>
+			<element type="S" desc="Sms"   action="com.carel.supervisor.dispatcher.action.SAction" memory="com.carel.supervisor.dispatcher.memory.SMemory"/>
+			<element type="E" desc="E-mail" action="com.carel.supervisor.dispatcher.action.EAction" memory="com.carel.supervisor.dispatcher.memory.EMemory"/>
+			<element type="D" desc="Dial"  action="com.carel.supervisor.dispatcher.action.DAction" memory="com.carel.supervisor.dispatcher.memory.DMemory"/>
+			<element type="W" desc="Window"  action="com.carel.supervisor.dispatcher.action.WAction" memory="com.carel.supervisor.dispatcher.memory.WMemory"/>
+			<element type="R" desc="Ras"   action="com.carel.supervisor.dispatcher.action.RAction" memory="NULL"/>
+			<element type="P" desc="Print" action="com.carel.supervisor.dispatcher.action.PAction" memory="NULL"/>
+			<element type="Pr" desc="Print" action="com.carel.supervisor.dispatcher.action.PAction" memory="NULL"/>
+			<element type="V" desc="Variable"   action="com.carel.supervisor.dispatcher.action.VAction" memory="NULL"/>
+			<element type="L" desc="Relay" action="com.carel.supervisor.dispatcher.action.VAction" memory="NULL"/>
+			<element type="T" desc="Tech" action="com.carel.supervisor.dispatcher.action.TAction" memory="NULL"/>
+
+<!--			<element type="BA" desc="BMS Alarms" action="com.carel.supervisor.dispatcher.action.BMSAction" memory="NULL"/>-->
+<!--			<element type="BS" desc="BMS Schedule" action="com.carel.supervisor.dispatcher.action.BMSSchedAction" memory="NULL"/>-->
+			<element type="#BA" desc="BMS Alarms" action="com.carel.supervisor.dispatcher.action.BMSAction" memory="com.carel.supervisor.dispatcher.memory.BAMemory"/>
+			<element type="#BS" desc="BMS Schedule" action="com.carel.supervisor.dispatcher.action.BMSSchedAction" memory="com.carel.supervisor.dispatcher.memory.BSMemory"/>
+
+			<!-- Action per Plugin Controllo Parametri -->
+			<element type="FX" desc="Fax"    action="com.carel.supervisor.plugin.parameters.action.FXAction" memory="com.carel.supervisor.dispatcher.memory.FMemory"/>
+			<element type="SX" desc="Sms"    action="com.carel.supervisor.plugin.parameters.action.SXAction" memory="com.carel.supervisor.dispatcher.memory.SMemory"/>
+			<element type="EX" desc="E-mail" action="com.carel.supervisor.plugin.parameters.action.EXAction" memory="com.carel.supervisor.dispatcher.memory.EMemory"/>
+			
+		</registry>
+		<template>
+			<element type="PDF_Alarm" object="com.carel.supervisor.report.AlarmReport"/>
+			<element type="PDF_Daily" object="com.carel.supervisor.report.DailyReport"/>
+			<element type="PDF_Weekly" object="com.carel.supervisor.report.DailyReport"/>
+		</template>
+	</component>
+	
+<!-- +++++++++++++++++++ -->
+<!-- 	RAS SERVER		++++ -->
+<!-- +++++++++++++++++++ -->	
+
+	<component name="RasServerMgr" class="com.carel.supervisor.remote.manager.RasServerMgr" blockingerror="true">
+		<element name="enable" value="true"/>
+		<element name="services" value="Services"/>
+		<element name="protocol" value="https"/>
+		<element name="port" value="443"/>
+		<element name="root" value="/PlantVisorPRO/servlet/remote"/>
+		<element name="login" value="PVRemote"/>
+		<element name="passw" value="PD35010"/>
+		<element name="check" value="1000"/>
+		<element name="after" value="10000"/>
+	</component>
+
+<!-- +++++++++++++++++ -->
+<!-- 	REMOTE			++++ -->
+<!-- +++++++++++++++++ -->	
+	
+	<component name="RemoteMgr " class="com.carel.supervisor.remote.manager.RemoteMgr" blockingerror="true">
+		<config name="conf">
+			<element name="path" value="Synch"/>
+		</config>
+		<component name="local">
+			<table name="cfarea" class="com.carel.supervisor.remote.engine.impl.ExpArea"/> 
+			<table name="cfgroup" class="com.carel.supervisor.remote.engine.impl.ExpGroup"/> 
+			<table name="cfdevice" class="com.carel.supervisor.remote.engine.impl.ExpDevice"/> 
+			<table name="cfvariable" class="com.carel.supervisor.remote.engine.impl.ExpVariable"/> 
+			<table name="hsalarm" class="com.carel.supervisor.remote.engine.impl.ExpAlarm"/>
+			<table name="hsevent" class="com.carel.supervisor.remote.engine.impl.ExpEvent"/>
+			<table name="hsnote" class="com.carel.supervisor.remote.engine.impl.ExpNote"/>
+		</component>
+		<component name="remote">
+			<table name="cfarea" class="com.carel.supervisor.remote.engine.impl.ImpArea"/> 
+			<table name="cfgroup" class="com.carel.supervisor.remote.engine.impl.ImpGroup"/> 
+			<table name="cfdevice" class="com.carel.supervisor.remote.engine.impl.ImpDevice"/>
+			<table name="cfvariable" class="com.carel.supervisor.remote.engine.impl.ImpVariable"/>
+			<table name="hsalarm" class="com.carel.supervisor.remote.engine.impl.ImpAlarm"/>
+			<table name="hsevent" class="com.carel.supervisor.remote.engine.impl.ImpEvent"/>
+			<table name="hsnote" class="com.carel.supervisor.remote.engine.impl.ImpNote"/>
+		</component>
+	</component>
+	
+
+<!-- +++++++++++++++++++++ -->
+<!-- 	MAINTENANCE   ++++ -->
+<!-- +++++++++++++++++++++ -->	
+
+<!--  Time espresso in giorni-->
+
+	<component name="maintenance" class="com.carel.supervisor.director.maintenance.MaintenanceMgr" blockingerror="true">
+		<tablelist>
+			<table name="hsaction" action = "delete" time="90" frequency="10" column="lastupdate"/>
+			<table name="hsactionqueue" action = "delete" time="90" frequency="10" column="lastupdate"/>
+			<table name="hsalarm" action = "delete" time="300" frequency="10" column="lastupdate"/>
+			<table name="hsevent" action = "delete" time="300" frequency="10"  column="lastupdate"/>
+			<table name="hsalarmsctrl" action = "delete" frequency="10" time="300" column="lastupdate"/>
+			<table name="hsvarhistor" action = "vacuum" frequency="150"/>
+			<table name="hsparams" action = "deletenum" time="100000" frequency="10"  column="id"/>
+			<table name="parameters_events" action = "delete" time="90" frequency="10"  column="datetime"/>
+			<table name="hsreport" action = "delete" time="547" frequency="1"  column="creationtime"/>
+			<table name="opt_startstop_log" action = "delete" time="365" frequency="60"  column="timestamp"/>
+			<table name="opt_nightfreecooling_log" action = "delete" time="365" frequency="60"  column="timestamp"/>
+		</tablelist>
+		
+		<dirlist>
+			<dir name="scheduler\send" time="7"/>
+			<dir name="fhs" time="90"/>
+			<dir name="log" time="90"/>
+			<dir name="PvPro" time="547"/>
+			<dir name="guardian\log" time="90"/>
+			<dir name="Synch" time="7"/>
+			<dir name="PvPro\TempReports" time="1"/>
+			<dir name="PvPro\TempExports" time="1"/>
+		</dirlist>
+		
+	</component>
+
+	<!--++++++++++++++++++++++++++-->
+	<!-- PRIORITY MANAGER SERVICE -->
+	<!--++++++++++++++++++++++++++-->
+	<component name="prioritymgr" class="com.carel.supervisor.controller.priority.PriorityMgr" blockingerror="true">
+	</component>
+
+	<!--+++++++++++++++++++++++++++-->
+	<!-- PAGELINKS MANAGER SERVICE -->
+	<!--+++++++++++++++++++++++++++-->
+	<component name="pagelinksmgr" class="com.carel.supervisor.controller.pagelinks.PageLinksMgr" blockingerror="false">
+	</component>
+	
+	<!--++++++++++++++++++++++++-->
+	<!-- MODULE MANAGER SERVICE -->
+	<!--++++++++++++++++++++++++-->
+	<component name="modules" class="com.carel.supervisor.director.module.ModuleMgr" blockingerror="false">
+		<modules>
+			<module name="ac" class="com.carel.supervisor.director.ac.AcModuleHook" desc="Drew Point"/>
+			<!--  module name="loon" class="com.carel.supervisor.director.lightnight.LightNightModuleHook" desc="NightLight"/ -->
+			<module name="bms" class="com.carel.supervisor.director.bms.BmsHook" desc="BMS"/>
+			<module name="vs" class="com.carel.supervisor.director.vscheduler.SchedulerHook" desc="VisualScheduler"/>
+			<module name="opt" class="com.carel.supervisor.plugin.optimum.OptimumModuleHook" desc="Optimum"/>
+			
+			<!-- Plugins become Modules -->
+			<module name="fs" class="com.carel.supervisor.plugin.fs.FSModuleHook" desc="FloatingSuction"/>
+			<module name="energy" class="com.carel.supervisor.plugin.energy.EnergyModuleHook" desc="Energy"/>
+			<module name="parameters" class="com.carel.supervisor.plugin.parameters.ParamenterModuleHook" desc="ParameterControl"/>
+			<module name="algopro" class="com.carel.supervisor.director.algorithpro.AlgorithProHook" desc="AlgorithmPro"/>
+			<module name="switch" class="com.carel.supervisor.plugin.switchtech.SwitchModuleHook" desc="SwitchTech"/>
+			<module name="co2" class="com.carel.supervisor.plugin.co2.CO2SavingModuleHook" desc="CO2Saving"/>
+		
+		</modules>
+	</component>
+	
+	<!--++++++++++++++++++++++++-->
+	<!-- UPDATE MANAGER SERVICE -->
+	<!--++++++++++++++++++++++++-->
+	<component name="UpdateMgr" class="com.carel.supervisor.updater.UpdateMgr" blockingerror="false">
+		<directory value="C:/updater_sp_tmp" />
+		<service value="PVPRO_Updater" />
+		<log value="updater.log" />  	
+	</component>
+	
+</carel-config>

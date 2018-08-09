@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Controlling energy consumption|Floating Suction Pressure Control">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="PVPRO_PPSTDFS0D0_IT_d02.doc" /><title>Floating suction: checking rack status</title>
+        <link href="../Resources/TableStyles/Tab_Due_grigi.css" rel="stylesheet" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Floating_suction__avviamentoMonitoraggio.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controlling energy consumption</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Floating Suction Pressure Control</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Starting and monitoring</span>
+        </div>
+        <h1>FSP: startup and monitoring</h1>
+        <h2>Starting the plugin</h2>
+        <p>In the <b>Main</b> page, click <img src="../Resources/Images/actions/start_on_black.png" style="border-style: none;width: 24px;height: 24px;float: none;" width="24" height="24" border="0" /> :</p>
+        <ul>
+            <li value="1">
+                <p> the first duty cycle is calculated for each showcase</p>
+            </li>
+            <li value="2">
+                <p>If the Smooth lines algorithm is enabled, the first sample is taken to check the status of each showcase</p>
+            </li>
+        </ul>
+        <h2>Rack monitoring</h2>
+        <p>After having started the plugin the trend of the set point on each rack can be checked by reading the graph on the main page.<b> <![CDATA[ ]]></b><b>M</b><b>ain</b>. </p>
+        <p style="font-weight: normal;">Enabled racks appear in the page with an indication of the control algorithm:<i>Floating suction</i> or <i>Smooth lines.</i></p>
+        <p class="Figu">
+            <img src="../Resources/Images/Floating_suction_file/Principale_630x370.png" style="float: none;border-style: none;border-style: none;width: 630;height: 370;" border="0" />
+        </p>
+        <table style="width: 100.0%;border: none;border-spacing: 0px;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" width="100%" class="TableStyle-Tab_Due_grigi" cellspacing="3">
+            <col class="Column-Column1" />
+            <col class="Column-Column2" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Area</th>
+                    <th class="HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td style="width: 32.4pt;padding: 0cm 5.4pt 0cm 5.4pt;border-top-style: none;border-right-style: none;border-bottom-style: None;border-left-style: none;" width="32.4pt" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">1</p>
+                    </td>
+                    <td style="width: 395.3pt;padding: 0cm 5.4pt 0cm 5.4pt;padding-left: 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;border-top-style: none;border-right-style: none;border-bottom-style: none;" valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p>Current set point: current rack set point variable value. The graph is not colored if equal to the minimum value.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td style="width: 32.4pt;padding: 0cm 5.4pt 0cm 5.4pt;border-top-style: none;border-right-style: none;border-bottom-style: None;border-left-style: none;" width="32.4pt" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">2</p>
+                    </td>
+                    <td style="width: 395.3pt;padding: 0cm 5.4pt 0cm 5.4pt;padding-left: 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;border-top-style: none;border-right-style: none;border-bottom-style: none;" valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p>Minimum set point: minimum value available for the Set Point variable on the rack
+ </p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td style="width: 32.4pt;padding: 0cm 5.4pt 0cm 5.4pt;border-top-style: none;border-right-style: none;border-bottom-style: None;border-left-style: none;" width="32.4pt" class="BodyE-Column1-Body1">
+                        <p style="font-weight: bold;">3</p>
+                    </td>
+                    <td style="width: 395.3pt;padding: 0cm 5.4pt 0cm 5.4pt;padding-left: 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;border-top-style: none;border-right-style: none;border-bottom-style: none;" valign="top" width="395.3pt" class="BodyD-Column2-Body1">
+                        <p>Maximum set point: maximum value available for the Set Point variable on the rack
+					</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td style="width: 32.4pt;padding: 0cm 5.4pt 0cm 5.4pt;border-top-style: none;border-right-style: none;border-bottom-style: None;border-left-style: none;" width="32.4pt" class="BodyB-Column1-Body1">
+                        <p style="font-weight: bold;">4</p>
+                    </td>
+                    <td style="width: 395.3pt;padding: 0cm 5.4pt 0cm 5.4pt;padding-left: 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;border-top-style: none;border-right-style: none;border-bottom-style: none;" valign="top" width="395.3pt" class="BodyA-Column2-Body1">
+                        <p>Running algorithm indication.			</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="ActionDetail"><span><i style="font-style: normal;"><img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /></i></span>See also</p>
+        <p><a href="Floating_suction__introduzione.htm">Floating suction: introduction</a>
+        </p>
+        <p><a href="Floating_suction__parametriAlgoritmi.htm">Floating Suction: algorithm parameters</a>
+        </p>
+        <p><b><a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">Floating Suction: customizing parameters</a></b>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

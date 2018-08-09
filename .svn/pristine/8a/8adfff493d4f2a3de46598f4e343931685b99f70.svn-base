@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Installer help file (setup)|Controlling energy consumption|Floating Suction Pressure Control">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="PVPRO_PPSTDFS0D0_IT_d02.doc" /><title>Floating suction: rack parameter list</title>
+        <link href="../Resources/TableStyles/Tab_Due_grigi.css" rel="stylesheet" />
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Floating_suction__parametriAlgoritmi.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Installer help file (setup)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controlling energy consumption</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Floating Suction Pressure Control</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Algorithm parameters</span>
+        </div>
+        <h1>FSP: algorithm parameters</h1>
+        <h2>Floating Suction algorithm parameters</h2>
+        <p>Following are the more significant parameters:</p>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 100%;border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%">
+            <col style="width: 160px;" class="Column-Column1" />
+            <col style="width: 410px;" class="Column-Column2" />
+            <col class="Column-Column2" />
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Parameter</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Description</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Default</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Current set point</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Current value of the Set Point variable on the rack</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Minimum set point</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Minimum value available for the Set Point variable. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Maximum set point</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Maximum value available for the Set Point variable. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Gradient</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">It sets how the set point variable value will be increased or decreased following duty cycle calculations on showcases.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Time window for DC calculations</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Indicates how long the data corresponding to the solenoid on each individual showcase is saved in the memory. The duty cycle will be calculated based on these data; once the window is full, each new value will overwrite the oldest value.</p>
+                    <p class="testoit">The value may vary from 10 to 180 minutes.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">12 minutes</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">DC calculation frequency</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Indicates how often the duty cycle must be calculated for rack showcases and, consequently, the set point changed if necessary.</p>
+                    <p class="testoit">The value may vary from 10 to 180 minutes.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">30 minutes</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Maximum failed connection time</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Maximum percentage of failed acquisitions for each showcase associated with the rack If this is exceeded, the showcase is considered offline.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">30%</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1" style="text-align: left;">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Maximum number of showcases not connected</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">If when the duty cycle is calculated the showcases that are offline exceed this number, the set point is not changed on the rack. </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">3</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Smooth lines algorithm parameters</h2>
+        <p>Following are the more significant parameters:</p>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 100%;border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%">
+            <col class="Column-Column1" style="width: 160px;" />
+            <col style="width: 410px;" class="Column-Column2" />
+            <col class="Column-Column2" />
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Parameter</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Description</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Default</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Last sample
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Time of the last completed sample.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-
+					</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Current set point</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Current value of the Set Point variable on the rack</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Minimum set point</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Minimum value available for the Set Point variable. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Maximum set point</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Maximum value available for the Set Point variable. 
+ </p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Gradient</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Sets how much the set point will be increased or decreased based on the configuration.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Number of set utilities
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Number of showcases linked to the rack.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Number of samples</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Minimum number of samples required to show the showcase and rack status trend.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">3</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Interval between samples</p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Time interval between two samples.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">10 minutes</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Timeframe
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Minimum time period to show the showcase and rack status trend.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">30 minutes</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Yellow
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Number of admitted yellow leds in a sample.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Orange
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Number of admitted orange  leds in a sample.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Red
+                    </p>
+                </td>
+                <td valign="top" class="BodyF-Column2-Body1">
+                    <p class="testoit">Number of admitted red  leds in a sample.</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">-</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Rack and linked showcase status        </h2>
+        <table class="TableStyle-Tab_Due_grigi" style="width: 100%;border: none;x-border-left: 1px table-solid;x-border-top: 1px table-solid;x-border-right: 1px table-solid;x-border-bottom: 1px table-solid;border-collapse: separate;border-spacing: 0px;border-spacing: 0px;mc-table-style: url('../Resources/TableStyles/Tab_Due_grigi.css');" cellspacing="3" width="100%">
+            <col style="width: 160px;" class="Column-Column1" />
+            <col style="width: 491px;" class="Column-Column2" />
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Led color</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">Description of the rack or showcase status</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p valign="top">
+                        <img src="../Resources/Images/led/L1.gif" />(green).</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1" style="font-style: italic;">
+                    <p style="font-style: normal;">Showcase <i>OK</i>. The showcase is correctly operating from the Smooth lines algorithm standpoint: the rack set point can be increased.</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1" style="height: 16px;">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p style="font-weight: bold;">
+                        <img src="../Resources/Images/led/Giallo_10x10.png" style="border: none;float: left;float: none;border-style: none;border-style: none;width: 10;height: 10;" border="0" />                      (yellow)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p>First warning: the showcase has switched from <i>OK</i> (green led) to <i>NOT OK</i>.</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">
+                        <img src="../Resources/Images/led/Arancione_10x10.png" style="border: none;float: left;float: none;border-style: none;border-style: none;width: 10;height: 10;" border="0" />                      (orange)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">Second warning: the showcase remains in <i>NOT OK</i> status for 2 consecutive samples (the led was yellow at the last sample).</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">
+                        <img src="../Resources/Images/led/L2.gif" />(red).</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">Third warning: the showcase remains in <i>NOT OK</i> status for 3 consecutive samples (the led was orange at the last sample).</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">
+                        <img src="../Resources/Images/led/L0.gif" />(black)</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">Offline: the plug-in cannot read the showcase or rack set point value.</p>
+                </td>
+            </tr>
+            <tr class="Body-Body1">
+                <td valign="top" class="BodyE-Column1-Body1">
+                    <p class="Inlinetestoit" style="font-weight: bold;">N/A</p>
+                </td>
+                <td valign="top" class="BodyD-Column2-Body1">
+                    <p class="testoit">The showcase does not support the Smooth lines algorithm: the plug-in cannot read the showcase set point variable value.</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 72px;" />
+            <col style="width: 579px;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC">
+                    <p>If N/A status persists for a showcase, it should be eliminated from the group. In fact, the rack is forced to constantly work in safety conditions, at minimum set point, when the Smooth lines algorithm is not supported.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: left;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p>&#160;</p>
+        <p><a href="Floating_suction__introduzione.htm">Floating suction: introduction</a>
+        </p>
+        <p><a href="Floating_suction__DettaglioFunzionamento.htm">Floating suction: operating details</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

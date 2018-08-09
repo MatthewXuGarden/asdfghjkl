@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="tr">
+
+  <file datatype="plaintext" original="VisualScheduler.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADD_EXCEPTION">
+        <source>Ayrıcalık ekle</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ANALOG">
+        <source>Analog deger</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APRIL">
+        <source>Nisan</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_AUGUST">
+        <source>Agustos</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CANCEL">
+        <source>Iptal</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CHECK_INTERVALS">
+        <source>Kırmızı isaretli aralikları kontrol edin. Takvimleme datasi kaydedilmedi</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CLEAR">
+        <source>Temiz</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_COMMAND">
+        <source>Komut</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_COPY">
+        <source>Kopya</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_DASHBOARD">
+        <source>Dashboard</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DECEMBER">
+        <source>Aralık</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DIGITAL">
+        <source>Dijital Deger</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DISABLE">
+        <source>Takvimlemeyi Deaktive Et</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DISABLED">
+        <source>Deaktive</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ENABLED">
+        <source>Aktive</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EXCEPTION_DATE">
+        <source>Ayricalik tarihi</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_EXCEPTION_NOTE">
+        <source>Not: Ayrıcalık tarihi tüm kategoriler için ayarlandı</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_EXCEPTIONS">
+        <source>Exceptions</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FEBRUARY">
+        <source>Subat</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FRIDAY">
+        <source>Cuma</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROUP_NAME">
+        <source>Grup ismi</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INTERVAL_NO_ALERT">
+        <source>Gunde 10 eylem olabilir</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_JANUARY">
+        <source>Ocak</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_JULY">
+        <source>Temmuz</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_JUNE">
+        <source>Haziran</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LOADING">
+        <source>Data yüklüyor…</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MARCH">
+        <source>Mart</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_MAY">
+        <source>Mayis</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MONDAY">
+        <source>Pazartesi</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEXT">
+        <source>Sonraki</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NO_CAT_DEF">
+        <source>Tanimli katagori yok</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NO_GROUP_DEF">
+        <source>Tanimli grrup yok</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NOVEMBER">
+        <source>Kasim</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_OCTOBER">
+        <source>Ekim</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_OK">
+        <source>OK</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_PARAMETER">
+        <source>Parametre Ayarlama</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_PASTE">
+        <source>Yapistir</source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_PREVIOUS">
+        <source>Onceki</source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_REMOVE">
+        <source>Kaldir</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_REPETITIVE">
+        <source>Tekrarli</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_RUN_ONCE">
+        <source>Bir kere calis</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SATURDAY">
+        <source>Cumartesi</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_SAVING">
+        <source>Data kaydediliyor….</source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_SCHEDULE">
+        <source>Takvimleme</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_SENDING">
+        <source>Komutlar gonderiliyor…</source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_SEPTEMBER">
+        <source>Eylul</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_STANDARD">
+        <source>Standard</source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_START">
+        <source>Basla</source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_STOP">
+        <source>Dur</source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_SUNDAY">
+        <source>Pazar</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_THURSDAY">
+        <source>Persembe</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_TUESDAY">
+        <source>Sali</source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_WEDNESDAY">
+        <source>Carsamba</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.Locale" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="I concetti alla base di PlantVisor PRO">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Report: concetti di base</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Report__concetti_di_base.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">I concetti alla base di PlantVisor PRO</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Report: concetti di base</span>
+        </div>
+        <h1>Report e stampe: concetti di base</h1>
+        <h2>Schema logico</h2>
+        <p class="Image">
+            <img src="../Resources/Images/Schema_Log_HACCP.png" style="border: none;float: none;width: 589px;height: 438px;border-style: none;border-style: none;" width="589" height="438" border="0" />
+        </p>
+        <p>In PlantVisorPRO Locale sono disponibili diversi stampati, alcuni di 
+ formato fisso (es.: riga di allarme), altri configurabili dall'Installatore 
+ (i report). A parte la stampa della riga di allarme che viene indirizzata 
+ direttamente sulla stampante, tutte le altre stampe vengono prima mostrate 
+ in un'anteprima HTML o PDF e indirizzate opzionalmente sulla stampante.</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Per abilitare la stampa automatica dei report vedi <span style="font-weight: bold;">Configurazione 
+ periferiche I/O, Stampante</span> (vedi <a href="Config-canali__stampante.htm">Configurazione 
+ canali notifiche: abilitazione stampante</a>).</p>
+                    <p>I report storici e HACCP possono essere esportati anche in un file Excel 
+ (.CSV).</p>
+                    <p>Anche la funzione di controllo delle performance di un dispositivo, 
+ produce dei report. Fare riferimento al capitolo <a href="Indicatori_di_performance__concetti_di_base.htm">Indicatori 
+ di performance: concetti di base</a>.</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Anteprima HTML</h2>
+        <p class="Image">
+            <img src="../Resources/Images/Report_HTML_print_howTo.png" style="border: none;width: 450px;height: 278px;float: none;border-style: none;border-style: none;" width="450" height="278" border="0" />
+        </p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Azioni</p>
+        <p>Stampare la pagina visualizzata
+                                            
+                                                
+                                                    
+                                                        
+                                                            
+                                                                
+                                                                    
+                                            </p>
+        <div>
+            <ul style="list-style: disc;" type="disc">
+                <li class="p" value="1">
+                    <p>Nella toolbar del browser <span style="font-weight: bold;">[1]</span> 
+ fare clic su <img src="../Resources/Images/Icona_print_IE.png" style="border: none;width: 24px;height: 30px;float: none;border-style: none;border-style: none;" width="24" height="30" border="0" /> per stampare.</p>
+                </li>
+            </ul>
+        </div>
+        <h2>Anteprima PDF</h2>
+        <p class="Image">
+            <img src="../Resources/Images/Report_PDF_print_howTo.png" style="border: none;width: 450px;height: 342px;float: none;border-style: none;border-style: none;" width="450" height="342" border="0" />
+        </p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Azioni</p>
+        <p>Stampare la pagina visualizzata
+                                            
+                                                
+                                                    
+                                                        
+                                                            
+                                                                
+                                            </p>
+        <div>
+            <ul style="list-style: disc;" type="disc">
+                <li class="p" value="1">
+                    <p>Nella toolbar del browser <span style="font-weight: bold;">[1]</span> 
+ fare clic su <img src="../Resources/Images/Icona_print_IE.png" style="border: none;width: 24px;height: 30px;float: none;border-style: none;border-style: none;" width="24" height="30" border="0" /> per stampare.</p>
+                </li>
+                <li class="p" value="2">
+                    <p>Nella toolbar di Acrobat <span style="font-weight: bold;">[2]</span> 
+ fare clic su <img src="../Resources/Images/Icona_print_pdf.png" style="border: none;width: 32px;height: 28px;float: none;border-style: none;border-style: none;" width="32" height="28" border="0" /> per stampare.</p>
+                </li>
+            </ul>
+        </div>
+        <h2>File Excel</h2>
+        <p class="Image">
+            <img src="../Resources/Images/Report_CSV.png" style="border: none;float: none;width: 450px;height: 345px;border-style: none;border-style: none;" width="450" height="345" border="0" />
+        </p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /> Azioni</p>
+        <p>Stampare la pagina visualizzata
+                                            
+                                                
+                                                    
+                                                        
+                                                            
+                                            </p>
+        <div>
+            <ul style="list-style: disc;" type="disc">
+                <li class="p" value="1">
+                    <p>Nella toolbar del browser <span style="font-weight: bold;">[1]</span> 
+ fare clic su <img src="../Resources/Images/Icona_print_IE.png" style="border: none;width: 24px;height: 30px;float: none;border-style: none;border-style: none;" width="24" height="30" border="0" /> per stampare.</p>
+                </li>
+            </ul>
+        </div>
+        <h2>Elenco completo report e stampe</h2>
+        <p>PlantVisorPRO Locale può stampare:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>report storici/HACCP a fronte di attività schedulate, 
+ con dati istantanei, giornalieri, settimanali o mensili</p>
+            </li>
+            <li class="p" value="2">
+                <p>report storici/HACCP su richiesta dell'utente, con dati 
+ istantanei, giornalieri, settimanali mensili o di un periodo specificato 
+ dall'utente</p>
+            </li>
+            <li class="p" value="3">
+                <p>allarmi attivi/rientrati, eventi di tutto il sito</p>
+            </li>
+            <li class="p" value="4">
+                <p>allarmi attivi/rientrati di un gruppo</p>
+            </li>
+            <li class="p" value="5">
+                <p>allarmi attivi/rientrati di un dispositivo</p>
+            </li>
+            <li class="p" value="6">
+                <p>allarmi attivi/rientrati che rispondono a criteri di 
+ ricerca</p>
+            </li>
+            <li class="p" value="7">
+                <p>riga di allarme come azione di un'attività su allarme 
+ o evento</p>
+            </li>
+            <li class="p" value="8">
+                <p>grafici storici/HACCP</p>
+            </li>
+        </ul>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Tutti i report si basano su modelli configurati dall'Installatore nella 
+ pagina <span style="font-weight: bold;">Report, Configurazione</span>.</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Report</h2>
+        <p>I report si basano esclusivamente sulle variabili dei dispositivi fisici 
+ o logici che sono state dichiarate come "storiche" nella pagina 
+ <span style="font-weight: bold;">Configurazione dispositivo</span>, <span style="font-weight: bold;">Config storici</span> (vedi capitolo <a href="Config-dispositivo__storici.htm">Configurazione 
+ dispositivo: storici</a>).</p>
+        <p>Le variabili possono essere registrate in base a parametri impostati 
+ dall'utente (<span style="font-weight: bold;">report storico</span>) o 
+ a parametri non modificabili e basati sulla normativa HACCP (<span style="font-weight: bold;">report 
+ HACCP</span>).</p>
+        <p>Per le variabili destinate a <span style="font-weight: bold;">report 
+ storici</span> è possibile determinare:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p>la <span style="font-weight: bold;">durata della registrazione</span>, 
+ usata per esempio per tenere sotto controllo un dispositivo solo per un 
+ periodo definito</p>
+            </li>
+            <li class="p" value="2">
+                <p>la <span style="font-weight: bold;">variazione minima 
+ della variabile</span><span>,</span> usata per esempio per scartare campioni 
+ inutili e ottenere una curva meno accentuata. Una variazione minima alta, 
+ farà scartare più campioni e quindi la curva sarà meno accentuata.</p>
+            </li>
+            <li class="p" value="3">
+                <p>la <span style="font-weight: bold;">frequenza di campionamento</span>, 
+ usata per aumentare il numero di campioni e ottenere una curva più definita.</p>
+            </li>
+        </ul>
+        <p>Per le variabili destinate ai report HACCP occorre fare riferimento 
+ all'omonima normativa (vedi <span style="font-style: italic;">Analisi 
+ dei rischi e controllo dei punti critici,</span> D.Lgs. 155/97). </p>
+        <h2>Modalità di utilizzo delle variabili storiche</h2>
+        <p>Dal momento che la configurazione delle variabili storiche di un dispositivo 
+ viene salvata in database, PlantVisorPRO Locale inizia a registrarne i 
+ valori.</p>
+        <p>I dati sono sempre disponibili e vengono usati in modo diverso.</p>
+        <h3>variabili storiche</h3>
+        <p><span style="font-weight: bold;">Trasferite a RemotePRO</span>. RemotePRO 
+ tiene traccia degli andamenti dei dispositivi dell'impianto. Occorre usare 
+ la funzione <span style="font-weight: bold;">Allineamento dati</span> 
+ per scegliere la dimensione del file da trasferire e le variabili che 
+ dovranno essere incluse.</p>
+        <p><span style="font-weight: bold;">Incluse in un modello di report storico</span>. 
+ Le variabili storiche devono essere incluse in un modello di report, che 
+ oltre alle variabili definisce anche il periodo, il layout, la frequenza 
+ dei campioni e il formato di output. Un modello di report può essere usato 
+ sia per stampare manualmente il report, sia per stampare il report a intervalli 
+ regolari (es.: una volta al giorno). Per le stampe che avvengono a intervalli 
+ regolari, è possibile creare un'attività a tempo che allo scadere di un 
+ certo istante manda in stampa un report storico. </p>
+        <p>I modelli di report devono essere predisposti con la funzione <span style="font-weight: bold;">Configurazione report </span>(vedi capitolo 
+ <a href="Report__introduzione.htm">Configurazione report periodici</a>), 
+ e poi creare un'attività a tempo con la funzione <span style="font-weight: bold;">Gestione 
+ attività schedulate</span> (vedi capitolo <a href="Attivita_schedulate__introduzione.htm">Attività 
+ schedulate</a>). Solo i report schedulati restano disponibili in archivio 
+ anche dopo la stampa, vedi funzione <span style="font-weight: bold;">Archivio 
+ report</span> (vedi capitolo Archivio 
+ di tutti i report).</p>
+        <p><span style="font-weight: bold;">Variabili che scatenano azioni</span>. 
+ Se è stata prevista un'azione di notifica (es.: fax, SMS) o un'azione 
+ verso il campo (imposta relé o variabili) a fronte di una condizione di 
+ evento causata dal risultato di un'espressione logico-matematica tra variabili 
+ storiche, l'azione viene eseguita. Vedi funzione <span style="font-weight: bold;">Gestione 
+ allarmi e eventi</span>, pagina <span style="font-weight: bold;">Condizioni 
+ eventi</span>.</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Le azioni a fronte di un evento non possono essere bloccate.</p>
+                </td>
+            </tr>
+        </table>
+        <h3>variabili HACCP</h3>
+        <p><span style="font-weight: bold;">Incluse in un modello di report periodico 
+ HACCP</span>. Analogo alle variabili storiche.</p>
+        <h2>Contenuti dei report</h2>
+        <p>I report possono visualizzare i valori di variabili:</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p" value="1">
+                <p><span style="font-weight: bold;">Istantanei</span>: 
+ i valori stampati saranno quelli rilevati al momento della stampa</p>
+            </li>
+            <li class="p" value="2">
+                <p><span style="font-weight: bold;">Giornalieri</span>: 
+ i valori stampati saranno quelli rilevati nelle ultime 24 ore</p>
+            </li>
+            <li class="p" value="3">
+                <p><span style="font-weight: bold;">Settimanali</span>: 
+ i valori stampati saranno quelli rilevati negli ultimi 7 giorni</p>
+            </li>
+            <li class="p" value="4">
+                <p><span style="font-weight: bold;">Personalizzati</span>: 
+ solo per le stampe a richiesta, il periodo viene impostato dall'utente</p>
+            </li>
+        </ul>
+        <h3>Intervallo tra i campioni</h3>
+        <p>Solo per i report storici è possibile definire un <span style="font-weight: bold;">intervallo 
+ di tempo tra i campioni</span> che determina la frequenza con cui il campione 
+ viene riportato nel report. </p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Nei report HACCP l'intervallo è fisso a 30 minuti.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="TitoloInterno">Limitazioni del sistema</p>
+        <p>Il sistema permette di selezionare le seguenti combinazioni coppia frequenza/profondità 
+ storico:</p>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 12.5%;" />
+            <col style="width: 12.5%;" />
+            <col style="width: 12.5%;" />
+            <col style="width: 12.5%;" />
+            <col style="width: 12.5%;" />
+            <col style="width: 12.5%;" />
+            <col style="width: 12.5%;" />
+            <col style="width: 12.5%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-top-style: none;border-right-style: Solid;border-right-color: #000000;border-bottom-style: None;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;text-align: right;" align="right">storico</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-top-style: none;border-right-style: Solid;border-right-color: #000000;border-bottom-style: none;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;">1 settimana</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-top-style: none;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;">1 mese</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-top-style: none;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;">2 mesi</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-top-style: none;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;">6 mesi</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-top-style: none;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;">12 mesi</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-top-style: none;border-right-color: #000000;border-right-style: Solid;border-bottom-style: none;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;">18 mesi</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-top-style: none;border-right-style: none;border-bottom-style: none;" width="12.5%">
+                    <p style="font-weight: bold;">24 mesi</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: Solid;border-right-color: #000000;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;border-right-width: 1px;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">frequenza</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: Solid;border-right-width: 1px;border-right-color: #000000;border-bottom-style: Solid;border-bottom-width: 1px;border-bottom-color: #000000;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: Solid;border-right-width: 1px;border-right-color: #000000;border-bottom-style: Solid;border-bottom-width: 1px;border-bottom-color: #000000;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">60 min.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">30 min.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">15 min.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">5 min.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">2 min.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">1 min.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">30 s.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">15 s.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">10 s.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-color: #000000;border-bottom-width: 1px;border-bottom-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p style="font-weight: bold;text-align: center;" align="center">5 s.</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>X</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-color: #000000;border-right-width: 1px;border-right-style: Solid;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+                <td style="width: 12.5%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-bottom-style: none;" width="12.5%">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p class="TitoloInterno">Esempio</p>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 50%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;border-top-style: None;" width="50%">
+                    <p style="font-weight: bold;">Valori campionati con frequenza 1 minuto</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 50%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-top-style: None;border-right-style: None;" width="50%">
+                    <p style="font-weight: bold;">Valori estratti in report a intervalli di 
+ 10 minuti</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;border-left-style: None;border-right-style: None;border-bottom-style: None;" width="50%">
+                    <p>30/01/2008 12.01 28.01&#160;&#160;</p>
+                    <p>30/01/2008 12.02 28.01&#160;&#160;</p>
+                    <p>30/01/2008 12.03 28.02&#160;&#160;</p>
+                    <p>30/01/2008 12.04 28.02&#160;&#160;</p>
+                    <p>30/01/2008 12.05 28.01&#160;&#160;</p>
+                    <p>30/01/2008 12.06 28.02&#160;&#160;</p>
+                    <p>....</p>
+                    <p>30/01/2008 12.10 28.05.00</p>
+                    <p>30/01/2008 12.11 27.06.00</p>
+                    <p>...</p>
+                </td>
+                <td style="width: 50%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="50%">
+                    <p>30/01/2008 12.00 28.01&#160;&#160;</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>.</p>
+                    <p>30/01/2008 12.10 28.05&#160;&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" width="93.145%">
+                    <p style="color: #000000;">L'intervallo di tempo tra campioni deve essere 
+ sempre maggiore della frequenza di campionamento riportata dalla variabile 
+ con frequenza più bassa (ovvero con il valore più alto). Per esempio, 
+ se nel report si hanno:</p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li style="color: #000000;" class="p" value="1">
+                            <p style="color: #000000;">variabile 
+ 1 frequenza = 1 minuto</p>
+                        </li>
+                        <li style="color: #000000;" class="p" value="2">
+                            <p style="color: #000000;">variabile 
+ 2 frequenza = 5 minuti</p>
+                        </li>
+                        <li style="color: #000000;" class="p" value="3">
+                            <p style="color: #000000;">variabile 
+ 3 frequenza = 3 minuti</p>
+                        </li>
+                    </ul>
+                    <p>L'intervallo impostato dovrà essere &gt;=6.</p>
+                    <p>Il sistema considera il campione acquisito nell'istante più prossimo 
+ alla scadenza dell'intervallo.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Report__introduzione.htm">Configurare i report</a>
+        </p>
+        <p>Archivio report storici</p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

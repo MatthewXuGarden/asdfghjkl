@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="zh-CN">
+
+  <file datatype="plaintext" original="VisualScheduler.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADD_EXCEPTION">
+        <source>添加例外</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ANALOG">
+        <source>模拟量值</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APRIL">
+        <source>四月</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_AUGUST">
+        <source>八月</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CANCEL">
+        <source>取消</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CHECK_INTERVALS">
+        <source>请检查标注为红色的间隔。调度程序数据未保存</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CLEAR">
+        <source>清除</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_COMMAND">
+        <source>命令</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_COPY">
+        <source>复制</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_DASHBOARD">
+        <source>仪表板</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DECEMBER">
+        <source>十二月</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DIGITAL">
+        <source>数字量值</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DISABLE">
+        <source>禁用调度程序</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DISABLED">
+        <source>禁用</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ENABLED">
+        <source>启用</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EXCEPTION_DATE">
+        <source>例外日期</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_EXCEPTION_NOTE">
+        <source>备注：例外日期是给所有类别设定的。</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_EXCEPTIONS">
+        <source>例外</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FEBRUARY">
+        <source>二月</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FRIDAY">
+        <source>周五</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROUP_NAME">
+        <source>组名称</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INTERVAL_NO_ALERT">
+        <source>每天仅允许10个动作</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_JANUARY">
+        <source>一月</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_JULY">
+        <source>七月</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_JUNE">
+        <source>六月</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LOADING">
+        <source>加载数据…</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MARCH">
+        <source>三月</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_MAY">
+        <source>五月</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MONDAY">
+        <source>周一</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEXT">
+        <source>下一个</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NO_CAT_DEF">
+        <source>无类别被定义</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NO_GROUP_DEF">
+        <source>无组被定义</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NOVEMBER">
+        <source>十一月</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_OCTOBER">
+        <source>十月</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_OK">
+        <source>OK</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_PARAMETER">
+        <source>参数设定</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_PASTE">
+        <source>粘贴</source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_PREVIOUS">
+        <source>上一个</source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_REMOVE">
+        <source>移除</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_REPETITIVE">
+        <source>重复的</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_RUN_ONCE">
+        <source>运行一次</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SATURDAY">
+        <source>周六</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_SAVING">
+        <source>保存数据…</source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_SCHEDULE">
+        <source>日程表</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_SENDING">
+        <source>发送命令中…</source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_SEPTEMBER">
+        <source>九月</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_STANDARD">
+        <source>标准</source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_START">
+        <source>开始</source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_STOP">
+        <source>停止</source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_SUNDAY">
+        <source>周日</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_THURSDAY">
+        <source>周四</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_TUESDAY">
+        <source>周二</source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_WEDNESDAY">
+        <source>周三</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

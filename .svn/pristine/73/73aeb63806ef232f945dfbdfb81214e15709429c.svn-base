@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Help introduction|Help file concepts">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Help: actions</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Guida_in_linea_azioni.htm">Open topic with navigation</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Help introduction</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Help file concepts</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Possible function actions</span>
+        </div>
+        <h1>Help: actions</h1>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 65.491%;" />
+            <col style="width: 34.509%;" />
+            <tr valign="top">
+                <td style="width: 65.491%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-left-style: none;border-top-style: none;border-bottom-style: none;" width="65.491%">
+                    <p class="TitoloInterno">
+                        <img src="../Resources/Images/AAaction.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />Action</p>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Creating a daily calendar (valid every day)
+                                </a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <div>
+                                <ul style="list-style: disc;" type="disc">
+                                    <li class="p" value="1">
+                                        <p>Select the <span style="font-weight: bold;">Daily calendar</span></p>
+                                    </li>
+                                    <li class="p" value="2">
+                                        <p>Set the band (start time&lt;end time) when it is on</p>
+                                    </li>
+                                    <li class="p" value="3">
+                                        <p>Click <img src="../Resources/Images/dbllistbox/arrowdx_on.png" style="border: none;float: none;border-style: none;width: 54px;height: 19px;" width="54" height="19" border="0" /> to add the time interval</p>
+                                    </li>
+                                    <li class="p" value="4">
+                                        <p>Repeat to add as many time intervals as needed</p>
+                                    </li>
+                                    <li class="p" value="5">
+                                        <p>Click <img src="../Resources/Images/actions/add_on.png" style="border: none;float: none;border-style: none;width: 24px;height: 24px;" width="24" height="24" border="0" /> to add the calendar</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Creating a weekly calendar (valid every week)
+                                </a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <div>
+                                <ul style="list-style: disc;" type="disc">
+                                    <li class="p" value="1">
+                                        <p>Select the <span style="font-weight: bold;">Weekly calendar</span></p>
+                                    </li>
+                                    <li class="p" value="2">
+                                        <p>Select the days of the week and the band (start time &lt; end time) when it is on</p>
+                                    </li>
+                                    <li class="p" value="3">
+                                        <p>Click <img src="../Resources/Images/dbllistbox/arrowdx_on.png" style="border: none;float: none;border-style: none;width: 54px;height: 19px;" width="54" height="19" border="0" /> to add the time interval</p>
+                                    </li>
+                                    <li class="p" value="4">
+                                        <p>Repeat to add as many time intervals as needed</p>
+                                    </li>
+                                    <li class="p" value="5">
+                                        <p>Click <img src="../Resources/Images/actions/add_on.png" style="border: none;float: none;border-style: none;width: 24px;height: 24px;" width="24" height="24" border="0" /> to add the calendar</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width: 34.509%;padding-right: 10px;padding-left: 10px;border-right-style: none;border-top-style: none;border-bottom-style: none;" width="34.509%">
+                    <p>This section is more operative: it lists all the possible actions in the described application window.</p>
+                    <p>Sentences written in blue are <span style="font-weight: bold;">drop-down links</span>. </p>
+                    <p><span style="font-weight: bold;">Click on the sentence</span> to expand the page and display hidden information.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />See also</p>
+        <p><a href="Guida__convenzioni.htm">Basic concepts</a>
+        </p>
+        <p><a href="Guida_in_linea_percorso.htm">Path</a>
+        </p>
+        <p><a href="Guida_in_linea_warning_info_tips.htm">Warnings, info and tips</a>
+        </p>
+        <p><a href="Guida_in_linea_vedi_anche.htm">See also</a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ENG"> +030220771 Manual ver. 2.3 dated May, 9th 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

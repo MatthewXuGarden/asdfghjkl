@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PVPRO" default="OnlyBuild" basedir="." xmlns:tptp="antlib:org.eclipse.hyades.automation.client.adapters.ant">
+
+	<target name="init">
+		<property name="dirs.base" value="${basedir}" />
+		<property name="classdir" value="${dirs.base}/src/main/webapp/WEB-INF/classes" />
+		<property name="confdir" value="${basedir}/src/main/config" />
+		<property name="src" value="${dirs.base}/src/main/java" />
+		<property name="web" value="${dirs.base}/src/main/webapp" />
+		<property name="tomcathomedir" value="C:/Carel/PlantVisorPRO/engine" />
+		<property name="tomcatworkdir" value="C:\\Carel\\PlantVisorPRO\\engine\\work\\Catalina\\localhost\\PlantVisorPRO" />
+		<property name="publishdir" value="C:\\Carel\\PlantVisorPRO\\engine\\webapps\\PlantVisorPRO" />
+
+		<property name="warFile" value="PlantVisorPRO.war" />
+
+		<property name="wardir" value="${dirs.base}/build/war" />
+
+		<property name="lib.dir" value="${dirs.base}/src/main/webapp/WEB-INF/lib" />
+		<property name="external-lib.dir" value="${dirs.base}/src/main/webapp/WEB-INF" />
+		<property file="${external-lib.dir}/external-libs.properties" />
+
+		<path id="classpath">
+			<fileset dir="${lib.dir}" includes="**/*.jar" />
+			<fileset file="${junit-lib}" />
+			<fileset file="${servlet-api}" />
+		</path>
+
+		<!-- Create Web-inf and classes directories -->
+		<mkdir dir="${wardir}/WEB-INF" />
+		<mkdir dir="${wardir}/WEB-INF/classes" />
+
+		<!-- Create Meta-inf and classes directories -->
+		<mkdir dir="${earDir}/META-INF" />
+
+	</target>
+
+	<!-- *************************************************************** -->
+	<!-- *************************************************************** -->
+	<!-- Main targets section -->
+	<target name="cleanAndBuild" depends="init,stop-tomcat,clean,build,start-tomcat" />
+	<target name="CleanAndBuildAll" depends="cleanAndBuild,buildWar,publish" />
+	<target name="TestVerifyOutOfProcess" depends="Verify"/>
+	<target name="TestsExecute" depends="ExecuteTests"/>
+	<target name="TestsExecuteInterrogate" depends="ExecuteTests, InterrogateResults"/>
+	<target name="TestsExecuteInterrogatePublish" depends="ExecuteTests, InterrogateResults"/>
+	<target name="BuildAndTestAll" depends="build, Verify, ExecuteTests, rewriteMetadata, InterrogateResults"/>
+	<target name="OnlyBuild" depends="build"/>
+	<!-- *************************************************************** -->
+	<!-- *************************************************************** -->
+		
+
+	<!-- Compile Java Files and store in /WEB-INF/classes directory -->
+	<target name="build" depends="init">
+		<javac encoding="8859_1" srcdir="${src}" destdir="${classdir}" debug="true" includes="**/*.java" classpathref="classpath" />
+		<copy todir="${classdir}">
+			<fileset dir="${confdir}" includes="**/*.*" />
+			<fileset dir="${src}" excludes="**/*.java" />
+		</copy>
+	</target>
+
+	<!-- Create the War File -->
+	<target name="buildWar" depends="init">
+		<copy todir="${wardir}/WEB-INF/classes">
+			<fileset dir="${classdir}" includes="**/*.class" />
+		</copy>
+
+		<copy todir="${wardir}/WEB-INF">
+			<fileset dir="${deploymentdescription}" includes="web.xml" />
+		</copy>
+
+		<copy todir="${wardir}">
+			<fileset dir="${web}" includes="**/*.*" />
+		</copy>
+
+		<!-- Create war file and place in ear directory -->
+		<jar jarfile="${earDir}/${warFile}" basedir="${wardir}" />
+	</target>
+
+	<!-- Publish the web content after build -->
+	<target name="publish" depends="init,build">
+
+		<!-- clean project publishing directory -->
+		<!-- <delete dir="${publishdir}" includeemptydirs="true"/> -->
+		<!-- clean tomcat work dir -->
+		<delete dir="${tomcatworkdir}" includeemptydirs="true" />
+
+		<copy todir="${publishdir}" overwrite="yes">
+			<fileset dir="${web}" />
+		</copy>
+
+		<!-- publish to a remote machine -->
+		<!-- <ftp 	server="10.0.2.113"
+		   		remotedir="\\webapps\\PlantVisorPRO"
+		   		userid="viane"
+		   		password="viane"
+		   		depends="yes">
+			<fileset dir="${web}"/>
+		</ftp> -->
+
+	</target>
+
+	<!-- AlgorithmPRO Script Ant-->
+	<target name="algoinit">
+		<property name="algopro.version" value="1.0" />
+		<property name="dirs.base" value="${basedir}" />
+		<property name="src" location="src" description="Source files" />
+		<property name="build" location="build" description="Build folder" />
+		<property name="dist" location="dist" description="Dist folder" />
+		<property name="classes.dir" value="${dirs.base}/src/main/webapp/WEB-INF/classes" />
+		<mkdir dir="${build}" />
+		<delete dir="${dist}" />
+		<mkdir dir="${dist}" />
+		<copy todir="${build}">
+			<fileset dir="${classes.dir}">
+				<include name="com/carel/supervisor/plugin/algorithmpro/**" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="algopack" depends="algoinit">
+		<jar basedir="${build}" jarfile="${dist}/algopro-${algopro.version}.jar">
+			<manifest>
+				<attribute name="Implementation-Vendor" value="Carel" />
+				<attribute name="Implementation-Title" value="PlantVisorPRO AlgorithPRO Library" />
+				<attribute name="Implementation-Version" value="${algopro.version}" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="algomain" depends="algopack" description="Generate AlgorithmPRO library distribution">
+		<delete dir="${build}" />
+	</target>
+	
+	<!-- ********************************************************* -->
+	<!-- *************** TEST EXECUTION SECTION ****************** -->
+	<!-- ********************************************************* -->
+	
+	
+	<!-- Global configuration: -->
+	<property name="ECLIPSE_HOME" value="C:\\eclipse"/>
+	<property name="ECLIPSE_WORKSPACE_HOME" value="C:\\Documents and Settings\\alessandrovianello\\CarelWorkspace"/>
+
+	<!-- Requirements:
+			1) Add the following dependencies to the Ant classpath or lib directory before running:
+				-${tptp.automation.eclipse}\plugins\org.eclipse.hyades.execution_<version>\ant-tptp.jar
+			2) Set the above global configuration.
+	-->
+
+	<property name="tptp.automation.eclipse" value="${ECLIPSE_HOME}"/>
+	<property name="tptp.test.workspace" value="${ECLIPSE_WORKSPACE_HOME}"/>
+	<property name="tptp.test.project" value="TestContainer" />
+	
+	<!--
+	NOTE: To debug the test service, add the following property to the service state:
+	      <property name="tptp.automation.vmargs" value="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+	-->
+	
+	<property name="project.dir" value="${tptp.test.workspace}\\${tptp.test.project}" />
+
+
+
+	<target name="Verify" description="Verify: tptp:rac://localhost:10002/default"> 
+		<property name="tptp.test.connection" value="tptp:rac://localhost:10002/default"/>
+		<tptp:verification />
+	</target>
+
+	<target name="ExecuteTests" description="Executes: all the testsuites">
+		<!-- <property name="tptp.test.deployment" value="test-resources\Deployment\SampleDeployment.deploy"/> -->
+		<tptp:execution resultsrefid="tptp.test.results" overwrite="yes">			
+			<fileset dir="${project.dir}">
+			    <include name="**\*.testsuite"/>
+			</fileset>
+		</tptp:execution>
+	</target>
+
+	<target name="InterrogateResults" description="Interrogate: tests execution">
+		<condition property="tptp.test.success">
+			<tptp:interrogation verdictproperty="tptp.test.verdict">
+		        <filelist refid="tptp.test.results"/>
+		    </tptp:interrogation>
+		</condition>
+		<echo message="The overall test result verdict is: '${tptp.test.verdict}'" />		
+		<fail unless="tptp.test.success" message="At least one test failed!" />
+	</target>
+
+	<!-- <target name="PublishReport" description="Report of tests execution">
+		<tptp:publication report="${project.dir}\Report">
+		    <filelist refid="tptp.test.results"/>
+		</tptp:publication>
+	</target> -->
+	
+	<property name="metadata.src.dir" value="C:\\Documents and Settings\\alessandrovianello\\backup_metadata\\metadata" />
+	<property name="metadata.dest.dir" value="${tptp.test.workspace}\\.metadata" />
+	
+
+	<!-- Clean del progetto -->
+	<target name="clean" description="Clean up of the project" >
+		<!-- Cancella il contenuto della cartella di build -->
+		<delete includeemptydirs="true" >
+			<fileset dir="${classdir}" includes="**/*" />
+		</delete>
+	</target>
+	
+	<!-- stop del server -->
+	<target name="stop-tomcat">
+	    <java jar="${tomcathomedir}/bin/bootstrap.jar" fork="true">
+	        <jvmarg value="-Dcatalina.home=${tomcathomedir}"/>
+	        <arg line="stop"/>
+	    </java>
+	</target>
+
+	<!-- sovrascrittura dei metadata -->
+	<target name="rewriteMetadata">
+		<echo message="Rewriting metadata..." />
+		<copy todir="${metadata.dest.dir}" overwrite="true">
+			<fileset dir="${metadata.src.dir}" />
+		</copy>
+		<echo message="...done" />
+	</target>
+			
+	<!-- Start server tomcat -->
+	<target name="start-tomcat">
+	    <java jar="${tomcathomedir}/bin/bootstrap.jar" fork="true">
+	        <jvmarg value="-Dcatalina.home=${tomcathomedir}"/>
+	    </java>
+	</target>
+	
+
+</project>

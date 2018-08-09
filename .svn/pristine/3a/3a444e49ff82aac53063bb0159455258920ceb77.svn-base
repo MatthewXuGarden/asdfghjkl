@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Guida per l'installatore (configurazione)|Controllare i consumi energetici|Floating Suction Pressure Control">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Originator" content="ImportDoc" />
+        <meta name="OriginalFile" content="PVPRO_PPSTDFS0D0_IT_d02.doc" /><title>Floating suction: introduzione</title>
+        <style>
+a:visited
+{
+	color: #800080;
+}
+a:link
+{
+	color: #0000ff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Floating_suction__introduzione.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Guida per l'installatore (configurazione)</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Controllare i consumi energetici</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Floating Suction Pressure Control</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Introduzione</span>
+        </div>
+        <h1>FSP - Ottimizzazione pressione aspirazione</h1>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 13.699%;" />
+            <col style="width: 86.301%;" />
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;border-top-style: None;" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">Percorso:</p>
+                    <p class="PercorsoIntroduzioneTabella">
+                        <img src="../Resources/Images/menusx/new/function2.png" style="border: none;width: 58px;height: 74px;float: none;border-style: none;border-style: none;" width="58" height="74" border="0" />
+                    </p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;" valign="middle" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella"><span style="font-weight: normal;">Fare 
+ clic su <img src="../Resources/Images/menusx/new/function3.png" style="border: none;width: 32px;height: 31px;float: none;border-style: none;border-style: none;" width="32" height="31" border="0" /> e scegliere </span>FSP - Ottimizzazione pressione aspirazione </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 13.699%;padding-right: 10px;padding-left: 10px;border-left-style: none;border-right-style: none;border-bottom-style: none;" width="13.699%">
+                    <p class="PercorsoIntroduzioneTabella">Accesso:</p>
+                </td>
+                <td style="width: 86.301%;padding-right: 10px;padding-left: 10px;border-bottom-style: none;border-right-style: None;" width="86.301%">
+                    <p class="PercorsoIntroduzioneTabella">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="testoit">&#160;</p>
+        <table style="border-left-style: Solid;border-top-style: Solid;border-right-style: Solid;border-bottom-style: Solid;border-left-width: 2px;border-right-width: 2px;border-top-width: 2px;border-bottom-width: 2px;border-left-color: #5f5f5f;border-right-color: #5f5f5f;border-top-color: #5f5f5f;border-bottom-color: #5f5f5f;width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 15.979%;" />
+            <col style="width: 84.021%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-width: 3px;border-left-style: Solid;border-left-color: #ffffff;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-style: Solid;border-top-color: #ffffff;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Scopo</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-width: 3px;border-right-style: Solid;border-right-color: #ffffff;border-bottom-width: 3px;border-bottom-color: #ffffff;border-bottom-style: Solid;border-top-width: 3px;border-top-color: #ffffff;border-top-style: Solid;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Ridurre i consumi energetici indotti dai banchi frigo.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Descrizione</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Per farlo analizza periodicamente il funzionamento dei banchi frigo 
+ collegati alle centrali frigo abilitate e modifica automaticamente 
+ il setpoint della centrale in base:</p>
+                    <ul>
+                        <li value="1">ai valori delle percentuali di lavoro (duty cycle) calcolate per ogni banco (algoritmo Floating Suction)</li>
+                        <li value="2">allo stato del banco al momento del campionamento (algoritmo Smooth lines)</li>
+                    </ul>
+                    <p>In questo modo ottimizza l’erogazione di 
+ liquido refrigerante e quindi riduce, nel medio e lungo periodo, i consumi.</p>
+                    <p>Fra i dispositivi presenti nell’impianto, Floating Suction Pressure 
+ Control coinvolge&#160; solo quelli che possono assolvere alla funzione 
+ di banco o di centrale frigo e, per detti dispositivi, visualizza solo 
+ i parametri per il controllo della pressione. I parametri dei due algoritmi 
+ sono impostati a livello di fabbrica, ma possono essere personalizzati 
+ per soddisfare caratteristiche specifiche di impianto.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 15.979%;padding-right: 10px;padding-left: 10px;background-color: #c9c9c9;border-left-color: #ffffff;border-left-style: Solid;border-left-width: 3px;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#C9C9C9" width="15.979%">
+                    <p style="font-weight: bold;">Procedura guidata</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 84.021%;padding-right: 10px;padding-left: 10px;background-color: #eaeaea;border-right-color: #ffffff;border-right-style: Solid;border-right-width: 3px;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 3px;" bgcolor="#EAEAEA" width="84.021%">
+                    <p>Il plugin  deve essere prima configurato e poi attivato. Per farlo 
+ si suggeriscono i seguenti passaggi:</p>
+                    <ol start="1" style="list-style: decimal;list-style-type: decimal;">
+                        <li class="p-InlineNormal9" value="1">
+                            <p class="InlineNormal9">Scegliere quali 
+ centrali controllare, associare alle centrali i banchi frigo,scegliere e configurare l'algoritmo di controllo
+ (vedi <a href="Floating_suction__configurarePlugin.htm">Configurare 
+ Floating Suction</a>).</p>
+                        </li>
+                        <li class="p-InlineNormal9" value="2">
+                            <p class="InlineNormal9">Avviare il plugin (vedi <a href="Floating_suction__avviamentoMonitoraggio.htm">Avviamento e monitoraggio</a>).</p>
+                        </li>
+                        <li class="p-InlineNormal9" value="3">
+                            <p class="InlineNormal9">Tenere sotto controllo 
+ le variazioni del setpoint di centrale per regolare, eventualmente, i 
+ parametri dell’algoritmo (vedi <a href="Floating_suction__DettaglioFunzionamento.htm">Dettaglio del funzionamento</a>e <a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">Personalizzare 
+ i parametri di centrale e di banco</a>).</p>
+                        </li>
+                    </ol>
+                    <p>Una volta che il plugin è avviato è possibile:</p>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p-InlineNormal9" value="1">
+                            <p class="InlineNormal9">Abilitare/disabilitare 
+ al controllo una centrale.</p>
+                        </li>
+                        <li class="p-InlineNormal9" value="2">
+                            <p class="InlineNormal9">Fare il reset  del calcolo del duty cycle di tutti i banchi o di un singolo 
+ banco (vedi <a href="Floating_suction__avviamentoMonitoraggio.htm">Dettaglio del funzionamento</a>).</p>
+                        </li>
+                        <li class="p-InlineNormal9" value="3">
+                            <p class="InlineNormal9">Modificare i parametri 
+ della centrale e il massimo duty cycle di ogni banco (vedi <a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">Personalizzare 
+ i parametri di centrale e di banco</a>).</p>
+                        </li>
+                        <li class="p-InlineNormal9" value="4">
+                            <p class="InlineNormal9">Abilitare/disabilitare l'algoritmo Smooth lines.</p>
+                        </li>
+                        <li class="p-InlineNormal9" value="5">
+                            <p class="InlineNormal9">Modificare i parametri 
+ della centrale e le condizioni che, se verificate, attivano il plugin (vedi <a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">Personalizzare 
+ i parametri di centrale e di banco</a>).</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="ActionDetail">
+            <img src="../Resources/Images/AAvedianche.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" />Vedi anche</p>
+        <p><a href="Floating_suction__parametriAlgoritmi.htm">Floating Suction: <a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">param</a></a><a href="Floating_suction__parametriAlgoritmi.htm"><a href="Floating_suction__personalizzare_i_parametri_di_centrale_e_di_banco.htm">etri degli algoritmi</a></a>
+        </p>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

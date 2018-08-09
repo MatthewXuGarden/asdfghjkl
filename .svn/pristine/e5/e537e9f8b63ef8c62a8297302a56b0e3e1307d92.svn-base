@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PDF_Alarm" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="30" rightMargin="30" topMargin="20" bottomMargin="20">
+	<property name="ireport.scriptlethandling" value="0"/>
+	<property name="ireport.encoding" value="UTF-8"/>
+	<import value="java.util.*"/>
+	<import value="net.sf.jasperreports.engine.*"/>
+	<import value="net.sf.jasperreports.engine.data.*"/>
+	<field name="startstop" class="java.lang.String"/>
+	<field name="ts" class="java.sql.Timestamp"/>
+	<field name="dev" class="java.lang.String"/>
+	<field name="alr" class="java.lang.String"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band/>
+	</title>
+	<pageHeader>
+		<band height="60">
+			<textField pattern="yyyy-MM-dd  HH.mm.ss" isBlankWhenNull="false">
+				<reportElement key="textField" x="408" y="10" width="127" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<image scaleImage="RetainShape" vAlign="Middle">
+				<reportElement x="0" y="0" width="229" height="30"/>
+				<imageExpression class="java.lang.String"><![CDATA[$P{REPORT_PARAMETERS_MAP}.get("logo")]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="378" y="40" width="157" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{REPORT_PARAMETERS_MAP}.get("sitename")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="40" width="229" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" isUnderline="false" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{REPORT_PARAMETERS_MAP}.get("i18ndescalr")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="10" width="58" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{REPORT_PARAMETERS_MAP}.get("i18ndate")]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<staticText>
+				<reportElement x="350" y="0" width="115" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<text><![CDATA[Action taken]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="465" y="0" width="71" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="6" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<text><![CDATA[Rectified? 
+(MGR SIG)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="0" width="83" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<text><![CDATA[Time]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="243" y="0" width="107" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<text><![CDATA[Alarm]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="0" width="118" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<text><![CDATA[Cabinet]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22">
+			<textField isBlankWhenNull="true">
+				<reportElement key="textField-1" mode="Opaque" x="0" y="0" width="42" height="22"/>
+				<box topPadding="1" leftPadding="5" bottomPadding="1" rightPadding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{startstop}]]></textFieldExpression>
+			</textField>
+			<textField pattern="yyyy/MM/dd HH:mm" isBlankWhenNull="true">
+				<reportElement key="textField-2" mode="Opaque" x="42" y="0" width="83" height="22"/>
+				<box topPadding="1" leftPadding="5" bottomPadding="1" rightPadding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.sql.Timestamp"><![CDATA[$F{ts}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement key="textField-3" mode="Opaque" x="125" y="0" width="118" height="22"/>
+				<box topPadding="1" leftPadding="5" bottomPadding="1" rightPadding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{dev}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement key="textField-4" mode="Opaque" x="243" y="0" width="107" height="22"/>
+				<box topPadding="1" leftPadding="5" bottomPadding="1" rightPadding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{alr}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="0" width="115" height="22"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="465" y="0" width="70" height="22"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="19">
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="378" y="1" width="114" height="18"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$V{PAGE_NUMBER}+"/"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="492" y="1" width="43" height="18"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" pdfFontName="C:\Windows\Fonts\ARIALUNI.TTF" pdfEncoding="Identity-H"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[""+$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<lastPageFooter>
+		<band/>
+	</lastPageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

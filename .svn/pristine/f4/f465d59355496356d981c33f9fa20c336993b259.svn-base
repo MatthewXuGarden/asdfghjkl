@@ -1,0 +1,13 @@
+<modelsconfiguration>
+        <device mdlcode='mpxprostep2'>
+		<subset id='subset1'>
+            <var code='St2' />
+            <var code='c0' />
+            <var code='H0' />
+            <var code='rt' />
+            <var code='St' />
+            <var code='c7' />
+            <var code='c6' />
+		</subset>
+	</device>
+</modelsconfiguration>

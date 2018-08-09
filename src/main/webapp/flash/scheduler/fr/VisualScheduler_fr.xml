@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="fr">
+
+  <file datatype="plaintext" original="VisualScheduler.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADD_EXCEPTION">
+        <source>Ajouter Exception</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ANALOG">
+        <source>Valeur Analogique</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APRIL">
+        <source>Avril</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_AUGUST">
+        <source>Août</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CANCEL">
+        <source>Annuler</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CHECK_INTERVALS">
+        <source>Vérifier les intervalles marqués en rouge. Planificateur non sauvé.</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CLEAR">
+        <source>Effacer</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_COMMAND">
+        <source>Commande</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_COPY">
+        <source>Copier</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_DASHBOARD">
+        <source>Principale</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DECEMBER">
+        <source>Décembre</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DIGITAL">
+        <source>Valeur Digitale</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DISABLE">
+        <source>Désactiver le Planificateur</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DISABLED">
+        <source>Désactiver</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ENABLED">
+        <source>Activer</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EXCEPTION_DATE">
+        <source>Date Exceptionnelle</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_EXCEPTION_NOTE">
+        <source>Note: la date exceptionnelle est configurée pour toutes les catégories</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_EXCEPTIONS">
+        <source>Exceptions</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FEBRUARY">
+        <source>Février</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FRIDAY">
+        <source>Vendredi</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROUP_NAME">
+        <source>Nom Groupe</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INTERVAL_NO_ALERT">
+        <source>10 actions maximum par jour sont autorisés</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_JANUARY">
+        <source>Janvier</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_JULY">
+        <source>Juillet</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_JUNE">
+        <source>Juin</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LOADING">
+        <source>Chargement des données</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MARCH">
+        <source>Mars</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_MAY">
+        <source>Mai</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MONDAY">
+        <source>Lundi</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEXT">
+        <source>Suivant</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NO_CAT_DEF">
+        <source>Aucune catégorie défini</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NO_GROUP_DEF">
+        <source>Aucun groupe défini</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NOVEMBER">
+        <source>Novembre</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_OCTOBER">
+        <source>Octobre</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_OK">
+        <source>OK</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_PARAMETER">
+        <source>Réglages paramètres</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_PASTE">
+        <source>Coller</source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_PREVIOUS">
+        <source>Précédent</source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_REMOVE">
+        <source>Supprimer</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_REPETITIVE">
+        <source>Répétitif</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_RUN_ONCE">
+        <source>Effectuer une fois</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SATURDAY">
+        <source>Samedi</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_SAVING">
+        <source>Sauvegarde des données …</source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_SCHEDULE">
+        <source>Planification</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_SENDING">
+        <source>Envoi des commandes …</source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_SEPTEMBER">
+        <source>Septembre</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_STANDARD">
+        <source>Standard</source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_START">
+        <source>Démarrer</source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_STOP">
+        <source>Arrêter</source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_SUNDAY">
+        <source>Dimanche</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_THURSDAY">
+        <source>Jeudi</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_TUESDAY">
+        <source>Mardi</source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_WEDNESDAY">
+        <source>Mercredi</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

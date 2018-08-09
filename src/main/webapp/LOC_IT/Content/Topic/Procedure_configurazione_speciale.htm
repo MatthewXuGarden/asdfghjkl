@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="it" xml:lang="it" data-mc-search-type="Stem" data-mc-help-system-file-name="PVPROloc_index.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Primary.Locale" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Guida per il System Integrator">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Procedure configurazione speciale</title>
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/PVPRO20.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../PVPROloc_index.htm#Topic/Procedure_configurazione_speciale.htm">Aperto di navigazione</a>
+        </p>
+        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">  <![CDATA[ ]]></span><span class="MCBreadcrumbsSelf">Guida per il System Integrator</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Procedure per una configurazione speciale dell'impianto</span>
+        </div>
+        <h1>Procedure per una configurazione speciale l'impianto</h1>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Solo per System Integrator altamente specializzati. Le impostazioni di fabbrica vengono personalizzate. Confronta con <a href="Procedure_configurazione_standard.htm">Procedure per una configurazione standard dell'impianto (Installatore</a>)</p>
+                </td>
+            </tr>
+        </table>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail"><a href="#ConfigurareCampo">Configurare i dispositivi in campo</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail"><a href="#PersonalizzareConfgStandard">Personalizzare la configurazione standard di un dispositivo</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail"><a href="#PersonalizzazioneSpintaPVPIDE">Integrare la configurazione con Device Editor</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail"><a href="#ConfigurazioneLogica">Configurare logicamente l'impianto</a>
+                </p>
+            </li>
+            <li class="p-ActionDetail" value="5">
+                <p class="ActionDetail"><a href="#PersonalizzareInterfacciaPVP">Personalizzare l'interfaccia di PlantVisorPRO Locale</a>
+                </p>
+            </li>
+        </ol>
+        <hr style="color: #808080;height: 1px;float: alignleft;" color="#808080" size="0" align="center" width="100%" />
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="ConfigurareCampo"></a>Configurare i dispositivi in campo</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Dichiarare i dispositivi collegati a ogni porta seriale</a></span>
+                    <div class="MCDropDownBody dropDownBody">
+                        <div>
+                            <ul style="list-style: disc;" type="disc">
+                                <li class="p" value="1">
+                                    <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+																																														<span style="font-weight: bold;">Nuova linea</span> impostare le caratteristiche della porta seriale</p>
+                                </li>
+                                <li class="p" value="2">
+                                    <p>Aggiungere i dispositivi fisici assegnando l'indirizzo  seriale</p>
+                                </li>
+                                <li class="p" value="3">
+                                    <p>Modificare la descrizione (vedi capitolo <a href="Config-sito__dettaglio_linea.htm">Dettaglio di una linea</a>)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Annotare le modifiche apportate
+                                                                                                                                                                    </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ doppio clic sulla linea, <span style="font-weight: bold;">Note</span> 
+ aggiungere una nota descrittiva dell'operazione appena compiuta (vedi 
+ capitolo <a href="Configurazione__pagina_note.htm">Pagina note</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail">(opzionale) Disabilitare un dispositivo</p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ doppio clic su una linea, <span style="font-weight: bold;">Modifica linea</span><span>,</span> 
+ disabilitare quei dispositivi da cui non si vogliono ricevere allarmi 
+ (vedi capitolo <a href="Config-sito__dettaglio_linea.htm">Dettaglio di 
+ una linea</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail">Provare 
+ la comunicazione con il campo
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Dopo avere riavviato il motore, in <span style="font-weight: bold;">Globale</span> 
+ compare l'elenco di tutti i dispositivi in campo. </p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Controllare lo stato dei dispositivi (in linea, scollegato 
+ o disabilitato) e l'indirizzo (vedi capitolo <a href="Monitoraggio__pagina_principale.htm">Monitoraggio: 
+ pagina principale</a> )</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="5">
+                <p class="ActionDetail">Stampare 
+ l'elenco dei dispositivi fisici
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Globale</span> stampare 
+ l'elenco dei dispositivi (vedi capitolo <a href="Monitoraggio__pagina_principale.htm">Monitoraggio: 
+ pagina principale</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="6">
+                <p class="ActionDetail">Stampare 
+ i parametri della configurazione
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">REPORT, Report di 
+ collaudo </span>stampare i parametri (vedi capitolo <a href="Report_collaudo__introduzione.htm">Stampa 
+ report collaudo</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="7">
+                <p class="ActionDetail">Ripulire 
+ gli allarmi e eventi
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Pagine di sistema</span>, 
+ <span style="font-weight: bold;">Sistema</span> cancellare gli allarmi 
+ e gli eventi generati durante la configurazione (vedi capitolo <a href="Pagine_di_sistema-Remoto__stato_del_sistema.htm">Stato 
+ del sistema</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="Configurazione__concetti_di_base.htm">Configurazione: 
+ concetti di base</a></p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="PersonalizzareConfgStandard"></a>Personalizzare 
+ la configurazione standard di un dispositivo</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Scegliere 
+ un dispositivo "modello"
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Prima di iniziare la personalizzazione dei dispositivi, 
+ identificare i dispositivi simili che possono condividere la stessa configurazione</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Di questi scegliere un dispositivo (chiamato dispositivo 
+ "modello") e personalizzarne la configurazione.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Definire 
+ i livelli di allarme del dispositivo modello
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In Configurazione sito, 
+ doppio clic sulla linea, doppio clic sul dispositivo, Variabili 
+ di allarme(vedi capitolo <a href="Config-dispositivo__variabili_di_allarme.htm">Configurazione 
+ dispositivo: variabili di allarme</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail">Definire 
+ le modalità di registrazione degli storici e quali variabili registrare 
+ secondo normativa HACCP
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In Configurazione sito, 
+ doppio clic sulla linea, doppio clic sul dispositivo, Config 
+ storici(vedi capitolo <a href="Config-dispositivo__storici.htm">Configurazione 
+ dispositivo: storici</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail">Definire 
+ la pagina di monitoraggio del dispositivo modello
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ doppio clic sulla linea, doppio clic sul dispositivo, <span style="font-weight: bold;">Variabili 
+ principali</span> (vedi capitolo <a href="Config-dispositivo__variabili_monitoraggio.htm">Configurazione 
+ dispositivo: pagina monitoraggio</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="5">
+                <p class="ActionDetail">Personalizzare 
+ le descrizioni delle variabili del dispositivo
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ doppio clic sulla linea, doppio clic sul dispositivo, <span style="font-weight: bold;">Lista 
+ descrizioni</span> (vedi capitolo <a href="Config-dispositivo__descrizioni_variabili.htm">Configurazione 
+ dispositivo: descrizioni variabili</a>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="6">
+                <p class="ActionDetail">Seguire la <a href="Procedure_impostazione_grafici.htm">Procedura 
+ di impostazione dei grafici</a> per personalizzare i grafici HACCP e storici</p>
+            </li>
+            <li class="p-ActionDetail" value="7">
+                <p class="ActionDetail">Copiare 
+ la configurazione del dispositivo modello su altri modelli di dispositivi 
+ simili
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ <span style="font-weight: bold;">Copia configurazione</span> scegliere 
+ il dispositivo modello appena personalizzato e scegliere quale configurazione 
+ si desidera copiare (vedi capitolo <a href="Config-sito__propagazione_configurazione.htm">Propagazione 
+ della configurazione di un dispositivo)</a>.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="8">
+                <p class="ActionDetail">Copiare 
+ la configurazione di tutti i grafici da un profilo utente a altri profili 
+ utente
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ <span style="font-weight: bold;">Copia configurazione</span> scegliere 
+ il profilo da cui copiare la configurazione di tutti i grafici (a livello 
+ di dispositivo, gruppo e globale) e scegliere i profili su cui si desidera 
+ copiare (vedi capitolo <a href="Config-sito__propagazione_configurazione.htm">Propagazione 
+ della configurazione)</a>.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="PVPRO__architettura.htm">Architettura 
+ di sistema</a>, <a href="Configurazione__concetti_di_base.htm">Configurazione: 
+ concetti di base</a>, <a href="Report__concetti_di_base.htm">Report: concetti 
+ di base</a>, <a href="Dispositivo__concetti_di_base.htm">Dispositivo: 
+ concetti di base</a>, <a href="Grafici__concetti_di_base.htm">Grafici: 
+ concetti di base</a>.</p>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="PersonalizzazioneSpintaPVPIDE"></a>Integrare la 
+ configurazione con mappe sinottiche e dispositivi personalizzati </p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Creare dei modelli di dispositivi personalizzati
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Pagine di sistema</span>, 
+ <span style="font-weight: bold;">Personalizzazione </span>eliminare un 
+ eventuale modello personalizzato obsoleto</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>Importare da <span style="font-weight: bold;">Device 
+ Creator</span> il file descrittore del nuovo modello personalizzato (vedi 
+ capitolo <a href="Pagine_di_sistema__personalizzazioni.htm">Pagine di 
+ sistema: personalizzazioni</a>)</p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>Aggiungere uno o più dispositivi derivati dal modello 
+ personalizzato (vedi capitolo <a href="Config-sito__dettaglio_linea.htm">Linea-config: 
+ dettaglio</a>)</p>
+                        </li>
+                        <li class="p" value="4">
+                            <p>In <span style="font-weight: bold;">Globale</span> controllare 
+ la presenza del dispositivo (vedi capitolo <a href="Monitoraggio__pagina_principale.htm">Monitoraggio: 
+ pagina principale</a>)</p>
+                        </li>
+                        <li class="p" value="5">
+                            <p>Doppio clic sul dispositivo e controllare tutta la configurazione 
+ (vedi capitolo <a href="Monitoraggio-dispositivo__introduzione.htm">Monitoraggio 
+ dispositivo</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Creare 
+ mappe sinottiche per la supervisione dell'impianto
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Pagine di sistema</span>, 
+ <span style="font-weight: bold;">Personalizzazione </span>esportare la 
+ configurazione del sito</p>
+                        </li>
+                        <li class="p" value="2">
+                            <p>In <span style="font-weight: bold;">Layout Editor</span> 
+ provvedere alla creazione delle mappe sinottiche</p>
+                        </li>
+                        <li class="p" value="3">
+                            <p>In <span style="font-weight: bold;">Pagine di sistema</span>, 
+ <span style="font-weight: bold;">Personalizzazione </span>importare le 
+ mappe (vedi capitolo <a href="Pagine_di_sistema__personalizzazioni.htm">Pagine 
+ di sistema: personalizzazioni</a>))</p>
+                        </li>
+                        <li class="p" value="4">
+                            <p>In <span style="font-weight: bold;">Mappa</span> controllare 
+ la nuova struttura delle mappe (vedi capitolo <a href="Monitoraggio_mappe__introduzione.htm">Mappe 
+ sinottiche</a>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="ConfigurazioneLogica"></a>Configurare logicamente 
+ l'impianto</p>
+        <ol style="list-style: decimal;list-style-type: decimal;">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Creare algoritmi 
+ di controllo per monitorare situazioni complesse (variabili logiche)
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Creazione dispositivi 
+ logici</span>, <span style="font-weight: bold;">Variabili logiche</span> 
+ scegliere le variabili dei dispositivi e l'operatore logico o fisico: 
+ il risultato della funzione verrà salvato in una variabile logica (vedi 
+ capitolo <a href="Config-Dispositivo_logico__variabili_logiche.htm">Creazione 
+ variabili logiche</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="2">
+                <p class="ActionDetail">Raggruppare 
+ le variabili per monitorare comportamenti analoghi di più dispositivi 
+ (dispositivi logici)
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Creazione dispositivi 
+ logici</span>, <span style="font-weight: bold;">Dispositivi logici</span> 
+ scegliere le variabili dei dispositivi fisici o variabili logiche da trattare 
+ come se fossero variabili di uno stesso dispositivo (vedi capitolo <a href="Config-Dispositivo_logico__pagina_principale.htm">Creazione dispositivo 
+ logico</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="3">
+                <p class="ActionDetail">Raggruppare 
+ dispositivi per monitorare/comandare contemporaneamente più dispositivi 
+ (gruppi)
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Gruppi logici</span>, 
+ <span style="font-weight: bold;">Nuovo gruppo</span> scegliere i dispositivi 
+ fisici o logici da monitorare in pagine separate (vedi capitolo <a href="Gruppi-config__dettaglio.htm">Dettaglio 
+ di un gruppo</a> e <a href="Monitoraggio__pagina_principale.htm">Monitoraggio 
+ di gruppo</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="4">
+                <p class="ActionDetail">Raggruppare 
+ i parametri analoghi del gruppo per comandare contemporaneamente più dispositivi 
+ (variabili di gruppo)
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Gruppi logici</span>, 
+ doppio clic su un gruppo, <span style="font-weight: bold;">Variabili di 
+ gruppo</span>, scegliere i parametri dei dispositivi fisici o logici da 
+ impostare contemporaneamente (vedi capitolo <a href="Gruppi_logici__variabili_di_gruppo.htm">Variabili 
+ di gruppo</a> e <a href="Monitoraggio__parametri.htm">Monitoraggio: imposta 
+ i parametri</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="5">
+                <p class="ActionDetail">Annotare 
+ le modifiche apportate
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione sito</span>, 
+ <span style="font-weight: bold;">Note</span> aggiungere una nota descrittiva 
+ dell'operazione appena compiuta (vedi capitolo <a href="Configurazione__pagina_note.htm">Configurazione: 
+ pagina note</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="6">
+                <p class="ActionDetail">Verificare 
+ la configurazione logica
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Dopo avere riavviato il motore:</p>
+                        </li>
+                        <ul style="list-style: disc;" type="disc">
+                            <li class="p" value="1">
+                                <p>In <span style="font-weight: bold;">Globale, &lt;nomeGruppo&gt;</span>, 
+ pagina <span style="font-weight: bold;">Principale </span>compaiono i 
+ dispositivi fisici e logici appartenenti al gruppo (vedi capitolo <a href="Monitoraggio__pagina_principale.htm">Monitoraggio: 
+ pagina principale</a>)</p>
+                            </li>
+                            <li class="p" value="2">
+                                <p>In <span style="font-weight: bold;">Globale,</span><span style="font-weight: bold;">&lt;nomeGruppo&gt;</span>, pagina <span style="font-weight: bold;">Parametri</span> compaiono le variabili di 
+ gruppo (vedi capitolo <a href="Monitoraggio__parametri.htm">Monitoraggio: 
+ imposta parametri</a>)</p>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="7">
+                <p class="ActionDetail">Configurare 
+ i dispositivi logici
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Configurazione logica</span>, 
+ doppio clic su un dispositivo: configurare le variabili di allarme, le 
+ variabili storiche, la pagina di monitoraggio del dispositivo e personalizzare 
+ le descrizioni delle variabili (vedi capitolo <a href="Config-dispositivo__introduzione.htm">Configurazione 
+ dispositivo</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="8">
+                <p class="ActionDetail">Stampare 
+ l'elenco dei dispositivi di gruppo
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>Per ogni gruppo, in <span style="font-weight: bold;">Globale, 
+ &lt;nomeGuppo&gt;</span>, stampare l'elenco dei 
+ dispositivi (vedi capitolo <a href="Monitoraggio__pagina_principale.htm">Monitoraggio: 
+ pagina principale</a>)&#160;</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="9">
+                <p class="ActionDetail">Stampare 
+ i parametri della configurazione
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">REPORT, Report di 
+ collaudo </span>stampare i parametri (vedi capitolo <a href="Report_collaudo__introduzione.htm">Stampa 
+ report collaudo</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="p-ActionDetail" value="10">
+                <p class="ActionDetail">Ripulire 
+ gli allarmi e eventi
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Pagine di sistema</span>, 
+ <span style="font-weight: bold;">Sistema</span> cancellare gli allarmi 
+ e gli eventi generati durante la configurazione (vedi capitolo <a href="Pagine_di_sistema-Remoto__stato_del_sistema.htm">Stato 
+ del sistema</a>)</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+        <p>Per saperne di più vedi capitolo <a href="Configurazione__concetti_di_base.htm">Configurazione: 
+ concetti di base</a>.</p>
+        <table style="width: 100%;border-left-color: #000000;border-left-width: 1px;border-right-color: #000000;border-right-width: 1px;background-color: #c0c0c0;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" bgcolor="#C0C0C0" width="100%">
+            <col style="width: 6.855%;" />
+            <col style="width: 93.145%;" />
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 6.855%;padding-right: 10px;padding-left: 10px;background-color: #cccccc;border-bottom-width: 2px;border-bottom-color: #ffffff;border-bottom-style: Solid;" bgcolor="#CCCCCC" valign="middle" width="6.855%">
+                    <p class="Note">
+                        <img src="../Resources/Images/AAinfo.gif" style="border: none;width: 32px;height: 32px;float: none;border-style: none;border-style: none;" width="32" height="32" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 93.145%;padding-right: 1px;padding-left: 1px;background-color: #cccccc;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;" bgcolor="#CCCCCC" width="93.145%">
+                    <p>Riavviare il motore dopo le modifiche.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="TitoloInterno">
+            <img src="../Resources/Images/AAaction.gif" style="border: none;float: none;width: 32px;height: 32px;border-style: none;border-style: none;" width="32" height="32" border="0" /><a name="PersonalizzareInterfacciaPVP"></a>Personalizzare 
+ l'interfaccia di PlantVisorPRO Locale</p>
+        <ul style="list-style: disc;" type="disc">
+            <li class="p-ActionDetail" value="1">
+                <p class="ActionDetail">Personalizzare 
+ l'interfaccia di PlantVisorPRO Locale
+                                                                                                                                                                        </p>
+                <div>
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="p" value="1">
+                            <p>In <span style="font-weight: bold;">Pagine di sistema</span>, 
+ <span style="font-weight: bold;">Sistema</span> cambiare lo sfondo della 
+ pagina di logon e cambiare il logo, definire la durata massima di una 
+ sessione e impostare la pagina iniziale (vedi capitolo <a href="Pagine_di_sistema-Remoto__stato_del_sistema.htm">Stato 
+ del sistema</a>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <p style="text-align: right;color: #808080;margin-right: 8pt;margin-bottom: 4.5pt;margin-top: 4.5pt;"><span style="color: #d3d3d3;"><span style="color: #808080;">PlantVisorPRO Locale 2.2.0 - </span></span>
+            <MadCap:conditionalText style="color: #808080;" data-mc-conditions="Primary.Attachment_ITA">Manuale +030220770 ver. 2.3 del 9 Maggio 2014</MadCap:conditionalText><span style="color: #d3d3d3;"><span style="color: #808080;"><![CDATA[  ]]></span></span><span style="color: #d3d3d3;"><span style="color: #808080;"> - ©  2007-2014 CAREL</span></span>
+        </p>
+    </body>
+</html>

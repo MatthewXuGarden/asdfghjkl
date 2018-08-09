@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="pl">
+
+  <file datatype="plaintext" original="VisualScheduler.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADD_EXCEPTION">
+        <source>Dodaj wyjątek</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ANALOG">
+        <source>Wartość analogowa</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APRIL">
+        <source>Kwiecień</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_AUGUST">
+        <source>Sierpień</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CANCEL">
+        <source>Anuluj</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CHECK_INTERVALS">
+        <source>Sprawdź odstępy zaznaczone na czerwono. Harmonogram danych nie został zapisany.</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CLEAR">
+        <source>Wyczyść</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_COMMAND">
+        <source>Polecenie</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_COPY">
+        <source>Kopia</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_DASHBOARD">
+        <source>Dashboard</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DECEMBER">
+        <source>Grudzień</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DIGITAL">
+        <source>Wartość cyfrowa</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DISABLE">
+        <source>Wyłącz Harmonogram</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_DISABLED">
+        <source>Wyłączony</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ENABLED">
+        <source>Aktywny</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_EXCEPTION_DATE">
+        <source>Data wyjątku</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_EXCEPTION_NOTE">
+        <source>Uwaga: data Wyjątku jest dla wszystkich kategorii.</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_EXCEPTIONS">
+        <source>Wyjątki</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FEBRUARY">
+        <source>Luty</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FRIDAY">
+        <source>Piątek</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROUP_NAME">
+        <source>Nazwa grupy</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INTERVAL_NO_ALERT">
+        <source>Tylko 10 działań dziennie !</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_JANUARY">
+        <source>Styczeń</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_JULY">
+        <source>Lipiec</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_JUNE">
+        <source>Czerwiec</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LOADING">
+        <source>Ładowanie danych</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MARCH">
+        <source>Marzec</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_MAY">
+        <source>Maj</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MONDAY">
+        <source>Poniedziałek</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEXT">
+        <source>Następny</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NO_CAT_DEF">
+        <source>Nie zdefiniowano kategorii</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NO_GROUP_DEF">
+        <source>Nie zdeniniowano grup</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NOVEMBER">
+        <source>Listopad</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_OCTOBER">
+        <source>Październik</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_OK">
+        <source>OK</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_PARAMETER">
+        <source>Konfiguracja parametrów</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_PASTE">
+        <source>Wklej</source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_PREVIOUS">
+        <source>Poprzedni</source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_REMOVE">
+        <source>Usuń</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_REPETITIVE">
+        <source>Powtarzające się</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_RUN_ONCE">
+        <source>Uruchom raz</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SATURDAY">
+        <source>Sobota</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_SAVING">
+        <source>Zpisuje dane..</source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_SCHEDULE">
+        <source>Harmonogram</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_SENDING">
+        <source>Wysyłanie polecenia..</source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_SEPTEMBER">
+        <source>Wrzesień</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_STANDARD">
+        <source>Standard</source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_START">
+        <source>Start</source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_STOP">
+        <source>Stop</source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_SUNDAY">
+        <source>Niedziela</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_THURSDAY">
+        <source>Czwartek</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_TUESDAY">
+        <source>Wtorek</source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_WEDNESDAY">
+        <source>Środa</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
